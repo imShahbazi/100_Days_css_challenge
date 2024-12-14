@@ -4,7 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AliShahbazi-css-challenge-day-01</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .frame{
+            margin-top: 50px;
+            width: 50%;
+            height: 700px;
+            background:linear-gradient(50deg,rgb(68, 68, 255),rgb(158, 158, 255));
+            border-radius: 20px;
+            font-family: 'Courier New', 'Courier', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            text-align: center;
+        }
+        .number-container{
+            height: 200px;
+            display: flex;
+        }
+        .char-one-p1{
+            background-color: white;
+            width: 40px;
+            height: 70px;
+            display: block;
+            position: absolute;
+            top: 15px;
+            border:1px solid rgba(128, 128, 128, 0.781);
+            right: 30px;
+            transform: rotate(55deg);
+            border-radius: 10px;
+        }
+        .char-one-p2{
+            background-color: white;
+            width: 40px;
+            height: 165px;
+            display: block;
+            position: absolute;
+            top: 15px;
+            border:1px solid rgba(128, 128, 128, 0.781);
+            right: 0px;
+            border-radius: 10px;
+        }
+        .char-1{
+            position: relative;
+            height: 100%;
+            width: 100px;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
+    <div class="frame">
+        <div>
+            <div class="number-container">
+                <div class="char-1">
+                    <span class="char-one-p1"></span>
+                    <span class="char-one-p2"></span>
+                </div>
+                <div class="ziro"></div>
+            </div>
+            <h1>Days Css Challengs</h1>
+        </div>
+    </div>
 </body>
 </html>
