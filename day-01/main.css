@@ -1,0 +1,111 @@
+/* this file create at 15 december 2024 by Ali Shahbazi 
+github : https://www.github.com/imShahbazi
+gitlab : https://wwww.gitlab.com/AliShahbazi */
+body {
+    display: flex;
+    justify-content: center;
+  }
+  .frame {
+    margin-top: 50px;
+    width: 50%;
+    height: 700px;
+    background: linear-gradient(
+      50deg,
+      rgb(68, 68, 255),
+      rgb(158, 158, 255)
+    );
+    border-radius: 20px;
+    font-family: "Courier New", "Courier", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .number-container {
+    height: 200px;
+    display: flex;
+  }
+  .char-one-p1 {
+    background-color: white;
+    width: 40px;
+    height: 70px;
+    display: block;
+    position: absolute;
+    top: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.781);
+    right: 30px;
+    transform: rotate(55deg);
+    border-radius: 10px;
+  }
+  .char-one-p2 {
+    background-color: white;
+    width: 40px;
+    height: 165px;
+    display: block;
+    position: absolute;
+    top: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.781);
+    right: 0px;
+    border-radius: 10px;
+  }
+  .char-1 {
+    position: relative;
+    height: 100%;
+    width: 100px;
+    overflow: hidden;
+    z-index: 11;
+  }
+  .ziro {
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 165px;
+    height: 165px;
+    margin-left: -20px;
+    border: 1px solid rgba(128, 128, 128, 0.781);
+    border-radius: 99999px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ziro div {
+    width: 50%;
+    height: 50%;
+    border-radius: 99999px;
+    background: linear-gradient(
+      50deg,
+      rgb(68, 68, 255),
+      rgb(158, 158, 255)
+    );
+    border: 1px solid rgba(128, 128, 128, 0.781);
+  }
+  h1 {
+    display: block;
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 6px;
+    padding-left: 60px;
+    letter-spacing: 10px;
+    color: white;
+    font-family: 'Courier New', 'Courier', sans-serif;
+    margin: 0;
+  }
+  p{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    padding-left: 60px;
+    text-transform: uppercase;
+    color: white;
+  }
+  @media(max-width:774px){
+    .frame{
+        width: 100%;
+    }
+  }
+  @media(max-width:384px){
+    .frame{
+        width: 100%;
+    }
+}
