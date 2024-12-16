@@ -11,6 +11,32 @@ gitlab : https://wwww.gitlab.com/AliShahbazi -->
 </head>
 <body>
     <div class="frame">
+        <div onclick="showAnimation()">
+            <div id="line1" class="line"></div>
+            <div id="line2" class="line"></div>
+            <div id="line3" class="line"></div>
+        </div>
     </div>
 </body>
+<script>
+    let show=false;
+    function showAnimation(){
+        if(!show){
+            document.getElementById("line2").style="margin-top:-20px;margin-bottom:-20px; animation-name:showLine2;animation-duration:0.5s;opacity:0";
+            setTimeout(()=>{
+                document.getElementById("line1").style="transform:rotate(50deg);animation-name:showLine1;animation-duration:0.5s;";
+                document.getElementById("line3").style="transform:rotate(130deg);animation-name:showLine3;animation-duration:0.5s;";
+            },500)
+            show=true;
+        }else{
+            document.getElementById("line1").style="transform:rotate(0deg);animation-name:showLine1-rev;animation-duration:0.5s;";
+            document.getElementById("line3").style="transform:rotate(0deg);animation-name:showLine3-rev;animation-duration:0.5s;";
+            
+            setTimeout(()=>{
+                document.getElementById("line2").style="margin-top:30px;margin-bottom:30px; animation-name:showLine2-rev;animation-duration:0.5s;opacity:1";
+            },500)
+            show=false;
+        }
+    }
+</script>
 </html>

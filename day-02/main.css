@@ -15,3 +15,76 @@ body{
     justify-content: center;
     align-items: center;
 }
+.line{
+    width: 50%;
+    height: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 4px 2px 10px black;
+}
+.line:nth-child(2){
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.frame > div{
+    width: 100%;
+    cursor: pointer;
+}
+@keyframes showLine2{
+    0%{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        opacity: 1;
+    }
+    100%{
+        margin-top: -20px;
+        margin-bottom: -20px;
+        opacity: 0;
+    }
+}
+@keyframes showLine2-rev{
+    0%{
+        margin-top: -20px;
+        margin-bottom: -20px;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        opacity: 1;
+    }
+}
+@keyframes showLine1{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(50deg);
+    }
+}
+@keyframes showLine1-rev{
+    0%{
+        transform: rotate(50deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes showLine3{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(130deg);
+    }
+}
+@keyframes showLine3-rev{
+    0%{
+        transform: rotate(130deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
