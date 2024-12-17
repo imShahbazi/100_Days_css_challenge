@@ -21,3 +21,31 @@ body{
     position: absolute;
     bottom: 0;
 }
+.whiteFrame{
+    position: absolute;
+    bottom: 130px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.white1{
+    width: 0;
+    height: 0;
+    border-left: 115px solid transparent;
+    border-bottom: 100px solid white;
+}
+.white2{
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(182, 182, 182);
+}
+.shadow{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    z-index: 1;
+    background-color: gray;
+    bottom: 40px;
+    clip-path: polygon(93px 0 , 308px 0,415px 0);
+}
