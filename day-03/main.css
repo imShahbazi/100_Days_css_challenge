@@ -45,7 +45,60 @@ body{
     width: 100%;
     height: 90px;
     z-index: 1;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.7);
     bottom: 40px;
     clip-path: polygon(93px 0 , 308px 0,415px 0);
+    animation-name: shadow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.sun-container{
+    width: 100%;
+    height: 100%;
+    left: -100px;
+    position: absolute;
+    animation-name: sun;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.sun{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    border-radius: 99999px;
+    position: absolute;
+    bottom: 130px;
+    left: 0;
+}
+@keyframes shadow {
+    0%{
+        clip-path: polygon(93px 0 , 308px 0,415px 0);
+    }
+    50%{
+        clip-path: polygon(93px 0 , 308px 0,415px 70px);
+    }
+    60%{
+        clip-path: polygon(93px 0 , 308px 0,415px 70px);
+    }
+    100%{
+        clip-path: polygon(93px 0 , 308px 0,0px 70px);
+    }
+}
+@keyframes sun{
+    0%{
+        left: -100px;
+        transform: rotate(0deg);
+    }
+    50%{
+        left: 0;
+        transform: rotate(60deg)
+    }
+    60%{
+        left: 0;
+        transform: rotate(60deg)
+    }
+    100%{
+        left: 100px;
+        transform: rotate(180deg)
+    }
 }
