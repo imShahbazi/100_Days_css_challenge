@@ -11,3 +11,15 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
     justify-content: center;
     align-items: center;
 }
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 99999px;
+    box-shadow: 10px 10px 20px black;
+}
+.circle1,.circle2,.circle3{
+    width: 50%;
+    height: 50%;
+}
