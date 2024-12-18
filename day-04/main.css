@@ -17,9 +17,70 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
     align-items: center;
     background-color: white;
     border-radius: 99999px;
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 10px 10px 20px rgb(90, 90, 90);
 }
 .circle1,.circle2,.circle3{
     width: 50%;
     height: 50%;
+    transform: scale(0);
+}
+
+.circle2,.circle3{
+    opacity: 0;
+}
+.circle1{
+    animation-name: showCircle1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.circle2{
+    animation-name: showCircle2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.circle3{
+    animation-name: showCircle3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes showCircle1{
+    0%{
+        transform: scale(0);
+    }
+    20%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(1);
+    }
+}
+@keyframes showCircle2{
+    19%{
+        opacity: 1;
+    }
+    20%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    40%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    70%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes showCircle3{
+    39%{
+        opacity: 1;
+    }
+    40%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    60%{
+        transform: scale(1);
+        opacity: 1;
+    }
 }
