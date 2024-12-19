@@ -55,3 +55,27 @@ p {
   margin-left: auto;
   width: fit-content;
 }
+.chart-data {
+  width: fit-content;
+  margin-left: auto;
+  height: 10px;
+  display: flex;
+  padding: 1rem;
+  padding-right: 0.5rem;
+  align-items: center;
+  gap: 1rem;
+}
+.line {
+  width: 20px;
+  height: 5px;
+  border-radius: 20px;
+}
+.chart-data-red-line {
+  background-color: red;
+}
+.chart-data-blue-line {
+  background-color: blue;
+}
+.chart-data p {
+  color: black;
+}
