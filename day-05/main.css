@@ -191,6 +191,7 @@ img {
   align-items: center;
   opacity: 0;
   transition: 1s;
+  border-radius: 10px;
 }
 .point-blue:hover div {
   opacity: 1;
@@ -198,6 +199,7 @@ img {
 }
 .point-blue div p {
   position: relative;
+  text-align: center;
   z-index: 1;
 }
 .point-blue div::after {
