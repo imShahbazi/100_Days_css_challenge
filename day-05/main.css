@@ -1,3 +1,57 @@
 /* this file create at 16 december 2024 by Ali Shahbazi 
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi */
+body {
+  display: flex;
+  justify-content: center;
+}
+* {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.frame {
+  width: 400px;
+  height: 400px;
+  background-color: #42a7a1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.base-1 {
+  width: 90%;
+  height: 80%;
+  background-color: white;
+  border-radius: 5px;
+}
+.data-base {
+  background-color: #f1ba64;
+  height: 10%;
+  padding: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  font-weight: bold;
+}
+h2 {
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+p {
+  color: white;
+  margin-top: 0.1rem;
+  font-size: 0.8rem;
+}
+.data-base > div {
+  width: 50%;
+}
+.data-base-p2 h2 {
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+.data-base-p2 > * {
+  margin-left: auto;
+  width: fit-content;
+}
