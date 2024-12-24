@@ -1,6 +1,10 @@
 /* this file create at 16 december 2024 by Ali Shahbazi 
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     display: flex;
     justify-content: center;
@@ -41,4 +45,15 @@ body{
 .circle2{
     border-color: #786450 #786450 #786450 transparent;
     border-radius: 99999px;
+}
+.account-info h2 , .account-info p{
+    color: #786450;
+    text-align: center;
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+.account-info h2{
+    margin-top: 20px;
+}
+.account-info p{
+    font-size: 12px;
 }
