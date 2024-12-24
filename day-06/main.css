@@ -19,3 +19,17 @@ body{
     height: 80%;
     border-radius: 5px;
 }
+.account-info img{
+    width: 100px;
+    height: 100px;
+    border-radius: 99999px;
+}
+.circle1,.circle1{
+    width: fit-content;
+}
+.circle1{
+    border-radius: 99999px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
