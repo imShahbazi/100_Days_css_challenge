@@ -52,6 +52,13 @@ body{
     width: 100px;
     height: 100px;
     top: 0;
+    transition: 2s;
+}
+.image:hover .circle1{
+    transform: rotate(360deg);
+}
+.image:hover .circle2{
+    transform: rotate(-360deg);
 }
 .circle2{
     border-color: #786450 #786450 #786450 transparent;
@@ -60,6 +67,7 @@ body{
     height: 90px;
     top: 5px;
     left: 5px;
+    transition: 2s;
 }
 .account-info h2 , .account-info p{
     color: #786450;
