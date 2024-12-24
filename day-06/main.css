@@ -23,13 +23,22 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 99999px;
+    display: block;
 }
-.circle1,.circle1{
+.circle1,.circle2{
     width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    border:2px solid;
 }
 .circle1{
     border-radius: 99999px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    border-color: #786450 transparent #786450 #786450;
+}
+.circle2{
+    border-color: #786450 #786450 #786450 transparent;
+    border-radius: 99999px;
 }
