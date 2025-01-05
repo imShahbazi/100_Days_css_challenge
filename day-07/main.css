@@ -70,3 +70,31 @@ body{
     display: block;
     text-align: center;
 }
+.search-icon{
+    position: relative;
+}
+.search-icon .circle{
+    border-radius: 9999px;
+    border:7px solid white;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    z-index: 1;
+}
+.circle div{
+    background-color: #5f98cd;
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+}
+.search-icon .line{
+    width: 70%;
+    height: 7px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -13px;
+    bottom: 0;
+    border-radius: 50px;
+    z-index: 0;
+}
