@@ -1,3 +1,18 @@
 /* this file create at 16 december 2024 by Ali Shahbazi 
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #264057;
+    display: flex;
+    justify-content: center;
+}
+.frame{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin-top: 20px;
+}
