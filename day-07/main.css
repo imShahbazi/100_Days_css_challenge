@@ -15,4 +15,10 @@ body{
     height: 400px;
     background-color: white;
     margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.blue{
+    background-color: #5f98cd;
+    height: 20%;
 }
