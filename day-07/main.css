@@ -68,16 +68,23 @@ body{
     font-size: 25px;
     font-weight: bold;
     display: block;
+    width: 70%;
     text-align: center;
 }
 .search-icon{
     position: relative;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.search-icon:hover{
+    opacity: 1;
+    transition: 0.5s;
 }
 .search-icon .circle{
     border-radius: 9999px;
-    border:7px solid white;
-    width: 25px;
-    height: 25px;
+    border:5px solid white;
+    width: 15px;
+    height: 15px;
     position: relative;
     z-index: 1;
 }
@@ -88,12 +95,12 @@ body{
     border-radius: 9999px;
 }
 .search-icon .line{
-    width: 70%;
-    height: 7px;
+    width: 60%;
+    height: 4px;
     background-color: white;
     transform: rotate(45deg);
     position: absolute;
-    right: -13px;
+    right: -6px;
     bottom: 0;
     border-radius: 50px;
     z-index: 0;
