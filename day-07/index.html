@@ -17,8 +17,11 @@ gitlab : https://wwww.gitlab.com/AliShahbazi -->
                 <div class="line"></div>
                 <div class="circle"></div>
             </div>
+            <div class="middle">
             <span>Notifications</span>
-            <div class="search-icon">
+            <input id="input" type="text" placeholder="search ..."/>
+            </div>
+            <div class="search-icon" onclick="showInput()">
                 <div class="circle">
                     <div></div>
                 </div>
@@ -27,4 +30,17 @@ gitlab : https://wwww.gitlab.com/AliShahbazi -->
         </div>
     </div>
 </body>
+<script>
+    let show = false
+    function showInput(){
+        if(!show){
+            document.getElementById("input").style="opacity:1;left:3%;z-index:1;";
+            show=true;
+        }else{
+            document.getElementById("input").style="";
+            show=false;
+        }
+        
+    }
+</script>
 </html>

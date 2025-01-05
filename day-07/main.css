@@ -24,6 +24,7 @@ body{
     height: 20%;
     display: flex;
     align-items: center;
+    position: relative;
     
 }
 .menueIcon{
@@ -63,13 +64,31 @@ body{
     opacity: 1;
     transition: 0.5s;
 }
-.blue>span{
+.middle{
+    width: 70%;
+}
+.middle >span{
     color: white;
     font-size: 25px;
     font-weight: bold;
     display: block;
-    width: 70%;
     text-align: center;
+}
+.middle input{
+    border:none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 100px;
+    width: 70%;
+    position: absolute;
+    padding: 20px;
+    left: 20%;
+    top: 50%;
+    bottom: 50%;
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: 0.5s;
 }
 .search-icon{
     position: relative;
