@@ -10,12 +10,12 @@ body{
     background-color: #264057;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 .frame{
     width: 400px;
     height: 400px;
     background-color: white;
-    margin-top: 20px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -123,4 +123,38 @@ body{
     bottom: 0;
     border-radius: 50px;
     z-index: 0;
+}
+.asideMenue{
+    background-color: #43627d;
+    height: 350px;
+    width: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.asideMenue div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px 20px 20px;
+}
+.asideMenue div img{
+    opacity: 0.5;
+    margin-right: auto;
+}
+.asideMenue div span{
+    display: block;
+    width: 50%;
+    padding-right: 20px;
+    text-align: left;
+}
+.asideMenue div:hover{
+    background-color: #385269;
 }

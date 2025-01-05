@@ -10,9 +10,26 @@ gitlab : https://wwww.gitlab.com/AliShahbazi -->
     <link rel="stylesheet" href="./main.css"/>
 </head>
 <body>
+    <div class="asideMenue" id="asideMenue">
+        <div>
+            <img src="./icons/dashboard.svg" alt="dashboard"/><span>Dashboard</span>
+        </div>
+        <div>
+            <img src="./icons/user.svg" alt="dashboard"/><span>Profile</span>
+        </div>
+        <div>
+            <img src="./icons/bell.svg" alt="dashboard"/><span>Notifications</span>
+        </div>
+        <div>
+            <img src="./icons/message.svg" alt="dashboard"/><span>Message</span>
+        </div>
+        <div>
+            <img src="./icons/settings.svg" alt="dashboard"/><span>Setting</span>
+        </div>
+    </div>
     <div class="frame">
         <div class="blue">
-            <div class="menueIcon">
+            <div class="menueIcon" onclick="showAsideMenue()">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="circle"></div>
@@ -31,16 +48,26 @@ gitlab : https://wwww.gitlab.com/AliShahbazi -->
     </div>
 </body>
 <script>
-    let show = false
+    let inputStatus = false;
+    let asideStatus = false;
     function showInput(){
-        if(!show){
+        if(!inputStatus){
             document.getElementById("input").style="opacity:1;left:3%;z-index:1;";
-            show=true;
+            inputStatus=true;
         }else{
             document.getElementById("input").style="";
-            show=false;
+            inputStatus=false;
         }
         
+    }
+    function showAsideMenue(){
+        if(!asideStatus){
+            document.getElementById("asideMenue").style="width:200px"
+            asideStatus=true;
+        }else{
+            document.getElementById("asideMenue").style=""
+            asideStatus=false;
+        }
     }
 </script>
 </html>
