@@ -94,6 +94,7 @@ body{
     position: relative;
     opacity: 0.5;
     transition: 0.5s;
+    cursor: pointer;
 }
 .search-icon:hover{
     opacity: 1;
@@ -171,18 +172,22 @@ body{
 .white div{
     position: relative;
     z-index: 1;
-    padding-left: 15px;
+    padding-left: 18px;
     left: -8.2px;
+    cursor: pointer;
 }
 .white div:before{
     position: absolute;
     width: 10px;
     height: 10px;
     background-color: white;
-    border: 1px solid blue;
+    border: 2px solid #5F98CD;
     left: 0;
     top: 0;
     border-radius: 999px;
     z-index: 100;
     content: '';
+}
+.white div:hover p{
+    color: #5F98CD;
 }
