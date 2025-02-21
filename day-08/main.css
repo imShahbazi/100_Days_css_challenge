@@ -104,45 +104,72 @@ body{
     width: 500px;
     height: 500px;
     bottom: -200px;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .frameCircle2{
     width: 400px;
     height: 400px;
     bottom: -200px;
     right: -200px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .frameCircle3{
     width: 200px;
     height: 200px;
     right: -150px;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .frameCircle4{
     width: 200px;
     height: 200px;
-    right: -150px;
+    right: -120px;
     top: -10px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .frameCircle5{
     width: 300px;
     height: 300px;
     top: -150px;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .frameCircle6{
     width: 300px;
     height: 300px;
     top: -150px;
     left: -150px;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .frameCircle7{
     width: 200px;
     height: 200px;
     left: -150px;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .frameCircle1::after{
     width: 50px;
     height: 50px;
     background-color: white;
-    filter: blur(0.9px);
     content: '';
     position: absolute;
     bottom: -25px;
@@ -153,7 +180,6 @@ body{
     width: 10px;
     height: 10px;
     background-color: white;
-    filter: blur(0.9px);
     content: '';
     position: absolute;
     right: -5px;
@@ -164,7 +190,6 @@ body{
     width: 75px;
     height: 75px;
     background-color: white;
-    filter: blur(0.9px);
     content: '';
     position: absolute;
     top: -37.5px;
@@ -175,7 +200,6 @@ body{
     width: 60px;
     height: 60px;
     background-color: white;
-    filter: blur(0.9px);
     content: '';
     position: absolute;
     left: -30px;
@@ -186,7 +210,6 @@ body{
     width: 40px;
     height: 40px;
     background-color: white;
-    filter: blur(0.9px);
     content: '';
     position: absolute;
     top: -20px;
@@ -196,20 +219,20 @@ body{
     width: 60px;
     height: 60px;
     background-color: white;
-    filter: blur(0.9px);
     content: '';
     position: absolute;
     right: -30px;
+    bottom: 20px;
     border-radius: 999px;
 }
 .frameCircle7::after{
     width: 30px;
     height: 30px;
     background-color: white;
-    filter: blur(0.9px);
     content: '';
     position: absolute;
     bottom: -15px;
+    right: 10px;
     border-radius: 999px;
 }
 @keyframes rotate{
