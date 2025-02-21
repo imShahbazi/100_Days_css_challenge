@@ -31,14 +31,13 @@ body{
     animation-name: rotate;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    animation-delay: 1s;
 }
 .blub1::after{
     width: 200px;
     height: 200px;
     content: '';
     position: absolute;
-    right: -45px;
+    right: -50px;
     background-color: white;
     border-radius: 9999px;
 }
@@ -53,7 +52,7 @@ body{
     height: 200px;
     content: '';
     position: absolute;
-    left: -50px;
+    left: -60px;
     background-color: white;
     border-radius: 9999px;
 }
@@ -72,9 +71,9 @@ body{
     background-color: white;
     border-radius: 9999px;
 }
+
 .blub4{
-    top: 20px;
-    right: 20px;
+    top: 0px;
     animation-name: rotate;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -84,24 +83,15 @@ body{
     height: 200px;
     content: '';
     position: absolute;
-    left: -20px;
+    bottom: -30px;
     background-color: white;
     border-radius: 9999px;
 }
-.blub5{
-    top: 0px;
-    animation-name: rotate;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+.temp{
+    animation-delay: 1.2s;
 }
-.blub5::after{
-    width: 200px;
-    height: 200px;
-    content: '';
-    position: absolute;
-    bottom: -20px;
-    background-color: white;
-    border-radius: 9999px;
+.temp2{
+    animation-delay: 2s;
 }
 @keyframes rotate{
     0%{
