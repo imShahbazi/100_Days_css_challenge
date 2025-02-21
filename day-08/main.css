@@ -14,4 +14,100 @@ body{
     height: 400px;
     border-radius: 999px;
     filter: blur(0.9px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.blub{
+    border-radius: 999px;
+    filter: blur(0.9px);
+    position: absolute;
+    width: 250px;
+    height: 250px;
+}
+.blub1{
+    left: 20px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.blub1::after{
+    width: 200px;
+    height: 200px;
+    content: '';
+    position: absolute;
+    right: -45px;
+    background-color: white;
+    border-radius: 9999px;
+}
+.blub2{
+    right: 20px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.blub2::after{
+    width: 200px;
+    height: 200px;
+    content: '';
+    position: absolute;
+    left: -50px;
+    background-color: white;
+    border-radius: 9999px;
+}
+.blub3{
+    bottom: 0;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.blub3::after{
+    width: 200px;
+    height: 200px;
+    content: '';
+    position: absolute;
+    top: -20px;
+    background-color: white;
+    border-radius: 9999px;
+}
+.blub4{
+    top: 20px;
+    right: 20px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.blub4::after{
+    width: 200px;
+    height: 200px;
+    content: '';
+    position: absolute;
+    left: -20px;
+    background-color: white;
+    border-radius: 9999px;
+}
+.blub5{
+    top: 0px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.blub5::after{
+    width: 200px;
+    height: 200px;
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    background-color: white;
+    border-radius: 9999px;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
