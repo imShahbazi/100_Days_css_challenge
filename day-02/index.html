@@ -3,40 +3,50 @@ github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AliShahbazi-css-challenge-day-02</title>
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
     <div class="frame">
-        <div onclick="showAnimation()">
+        <div id="menu" onclick="toggleAnimation()">
             <div id="line1" class="line"></div>
-            <div id="line2" class="line"></div>
+            <div id="line2" class="line line2"></div>
             <div id="line3" class="line"></div>
         </div>
     </div>
-</body>
-<script>
-    let show=false;
-    function showAnimation(){
-        if(!show){
-            document.getElementById("line2").style="margin-top:-20px;margin-bottom:-20px; animation-name:showLine2;animation-duration:0.5s;opacity:0";
-            setTimeout(()=>{
-                document.getElementById("line1").style="transform:rotate(50deg);animation-name:showLine1;animation-duration:0.5s;";
-                document.getElementById("line3").style="transform:rotate(130deg);animation-name:showLine3;animation-duration:0.5s;";
-            },500)
-            show=true;
-        }else{
-            document.getElementById("line1").style="transform:rotate(0deg);animation-name:showLine1-rev;animation-duration:0.5s;";
-            document.getElementById("line3").style="transform:rotate(0deg);animation-name:showLine3-rev;animation-duration:0.5s;";
-            
-            setTimeout(()=>{
-                document.getElementById("line2").style="margin-top:30px;margin-bottom:30px; animation-name:showLine2-rev;animation-duration:0.5s;opacity:1";
-            },500)
-            show=false;
+    <script>
+        let isOpen = false;
+        function toggleAnimation() {
+            const line1 = document.getElementById("line1");
+            const line2 = document.getElementById("line2");
+            const line3 = document.getElementById("line3");
+
+            if (!isOpen) {
+                line2.classList.remove("show-line2");
+                line2.classList.add("hide-line2");
+
+                setTimeout(() => {
+                    line1.classList.add("rotate-line1");
+                    line3.classList.add("rotate-line3");
+                }, 250);
+            } else {
+                line1.classList.remove("rotate-line1");
+                line3.classList.remove("rotate-line3");
+
+                setTimeout(() => {
+                    line2.classList.remove("hide-line2");
+                    line2.classList.add("show-line2");
+                }, 250);
+            }
+
+            isOpen = !isOpen;
         }
-    }
-</script>
+    </script>
+</body>
+
 </html>
