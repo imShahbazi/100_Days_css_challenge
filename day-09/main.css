@@ -1,3 +1,10 @@
 /* this file create at 27 february 2025 by Ali Shahbazi 
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi */
+.frame{
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+    margin-left: auto;
+    margin-right: auto;
+}
