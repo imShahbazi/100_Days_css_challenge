@@ -13,9 +13,50 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+    position: relative;
+    background-color: #1A2238;
 }
-.status{
+.info{
     width: 100%;
-    height: 78%;
-    background-color: #394568;
+    height: 25%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+.hill{
+    background-color: #303C5D;
+    border-radius: 999px;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    height: 90%;
+    z-index: 1;
+}
+.hill1{
+    bottom: -50%;
+    left: -40%;
+}
+.hill2{
+    bottom: -40%;
+    right: 0;
+}
+.hill3{
+    bottom: -48%;
+    right: -60%;
+}
+.hillBack{
+    background-color: #26314F;
+    width: 90%;
+    height: 90%;
+    border-radius: 999px;
+    position: absolute;
+}
+.hillBack1{
+    left: -20%;
+    bottom: -35%;
+}
+.hillBack2{
+    right: -20%;
+    bottom: -35%;
 }
