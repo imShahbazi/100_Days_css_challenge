@@ -48,6 +48,9 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
     background-color: #F6EDBD;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 0 50px 10px #F6EDBD;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .crater{
     background-color: #ECE1A8;
