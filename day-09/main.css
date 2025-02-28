@@ -41,6 +41,12 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
     bottom: -40%;
     right: 0;
 }
+.moon{
+    width: 20%;
+    aspect-ratio: 1/1;
+    border-radius: 999px;
+    background-color: #F6EDBD;
+}
 .hill3{
     bottom: -48%;
     right: -60%;
