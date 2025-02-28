@@ -96,10 +96,21 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     top: 73.5%;
+    opacity: 0;
 }
 .rainMedium{
     width: 2.5%;
     height: 2.5%;
+    animation-name: rain ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    top: 73.5%;
+    opacity: 0;
+}
+.rainSmall{
+    width: 1%;
+    height: 1%;
     animation-name: rain ;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -177,6 +188,60 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
 .rainMedium9{
     left: 95%;
     animation-delay: 1000ms;
+}
+.rainSmall1{
+    left: 5%;
+}
+.rainSmall2{
+    left: 10%;
+}
+.rainSmall3{
+    left: 15%;
+}
+.rainSmall4{
+    left: 20%;
+}
+.rainSmall5{
+    left: 25%;
+}
+.rainSmall6{
+    left: 30%;
+}
+.rainSmall7{
+    left: 35%;
+}
+.rainSmall8{
+    left: 40%;
+}
+.rainSmall9{
+    left: 45%;
+}
+.rainSmall10{
+    left: 50%;
+}
+.rainSmall11{
+    left: 55%;
+}
+.rainSmall12{
+    left: 60%;
+}
+.rainSmall13{
+    left: 65%;
+}
+.rainSmall14{
+    left: 70%;
+}
+.rainSmall15{
+    left: 75%;
+}
+.rainSmall16{
+    left: 80%;
+}
+.rainSmall17{
+    left: 85%;
+}
+.rainSmall18{
+    left: 90%;
 }
 @keyframes rain{
     0%{
