@@ -20,31 +20,24 @@ gitlab : https://wwww.gitlab.com/AliShahbazi -->
         </div>
     </div>
     <script>
-        let isOpen = false;
+        let show = false;
         function toggleAnimation() {
-            const line1 = document.getElementById("line1");
-            const line2 = document.getElementById("line2");
-            const line3 = document.getElementById("line3");
+            const [line1, line2, line3] = ["line1", "line2", "line3"].map(id => document.getElementById(id));
 
-            if (!isOpen) {
-                line2.classList.remove("show-line2");
-                line2.classList.add("hide-line2");
-
+            if (!show) {
+                line2.style.cssText = "margin-top:-20px; margin-bottom:-20px; animation:showLine2 0.5s; opacity:0;";
                 setTimeout(() => {
-                    line1.classList.add("rotate-line1");
-                    line3.classList.add("rotate-line3");
-                }, 250);
+                    line1.style.cssText = "transform:rotate(50deg); animation:showLine1 0.5s;";
+                    line3.style.cssText = "transform:rotate(130deg); animation:showLine3 0.5s;";
+                }, 500);
             } else {
-                line1.classList.remove("rotate-line1");
-                line3.classList.remove("rotate-line3");
-
+                line1.style.cssText = "transform:rotate(0deg); animation:showLine1-rev 0.5s;";
+                line3.style.cssText = "transform:rotate(0deg); animation:showLine3-rev 0.5s;";
                 setTimeout(() => {
-                    line2.classList.remove("hide-line2");
-                    line2.classList.add("show-line2");
-                }, 250);
+                    line2.style.cssText = "margin-top:30px; margin-bottom:30px; animation:showLine2-rev 0.5s; opacity:1;";
+                }, 500);
             }
-
-            isOpen = !isOpen;
+            show = !show;
         }
     </script>
 </body>
