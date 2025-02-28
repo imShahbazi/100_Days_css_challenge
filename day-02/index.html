@@ -3,40 +3,43 @@ github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AliShahbazi-css-challenge-day-02</title>
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
     <div class="frame">
-        <div onclick="showAnimation()">
+        <div id="menu" onclick="toggleAnimation()">
             <div id="line1" class="line"></div>
-            <div id="line2" class="line"></div>
+            <div id="line2" class="line line2"></div>
             <div id="line3" class="line"></div>
         </div>
     </div>
-</body>
-<script>
-    let show=false;
-    function showAnimation(){
-        if(!show){
-            document.getElementById("line2").style="margin-top:-20px;margin-bottom:-20px; animation-name:showLine2;animation-duration:0.5s;opacity:0";
-            setTimeout(()=>{
-                document.getElementById("line1").style="transform:rotate(50deg);animation-name:showLine1;animation-duration:0.5s;";
-                document.getElementById("line3").style="transform:rotate(130deg);animation-name:showLine3;animation-duration:0.5s;";
-            },500)
-            show=true;
-        }else{
-            document.getElementById("line1").style="transform:rotate(0deg);animation-name:showLine1-rev;animation-duration:0.5s;";
-            document.getElementById("line3").style="transform:rotate(0deg);animation-name:showLine3-rev;animation-duration:0.5s;";
-            
-            setTimeout(()=>{
-                document.getElementById("line2").style="margin-top:30px;margin-bottom:30px; animation-name:showLine2-rev;animation-duration:0.5s;opacity:1";
-            },500)
-            show=false;
+    <script>
+        let show = false;
+        function toggleAnimation() {
+            const [line1, line2, line3] = ["line1", "line2", "line3"].map(id => document.getElementById(id));
+
+            if (!show) {
+                line2.style.cssText = "margin-top:-20px; margin-bottom:-20px; animation:showLine2 0.5s; opacity:0;";
+                setTimeout(() => {
+                    line1.style.cssText = "transform:rotate(50deg); animation:showLine1 0.5s;";
+                    line3.style.cssText = "transform:rotate(130deg); animation:showLine3 0.5s;";
+                }, 500);
+            } else {
+                line1.style.cssText = "transform:rotate(0deg); animation:showLine1-rev 0.5s;";
+                line3.style.cssText = "transform:rotate(0deg); animation:showLine3-rev 0.5s;";
+                setTimeout(() => {
+                    line2.style.cssText = "margin-top:30px; margin-bottom:30px; animation:showLine2-rev 0.5s; opacity:1;";
+                }, 500);
+            }
+            show = !show;
         }
-    }
-</script>
+    </script>
+</body>
+
 </html>
