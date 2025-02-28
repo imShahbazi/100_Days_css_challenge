@@ -60,3 +60,52 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
     right: -20%;
     bottom: -35%;
 }
+.rain{
+    background-color: #7FC1F9;
+    border-radius: 999px;
+    position: absolute;
+    z-index: 9;
+}
+.rain::before{
+    content: '';
+    width: 40%;
+    height: 100%;
+    background-color: #7FC1F9;
+    position: absolute;
+    top: -70%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+}
+.rain::after{
+    content: '';
+    height: 70%;
+    width: 70%;
+    background-color: #7FC1F9;
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+}
+.rainBig{
+    width: 3%;
+    height: 3%;
+    animation-name: rain ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    left: 50%;
+    top: 73.5%;
+}
+@keyframes rain{
+    0%{
+        transform: translate(100px,-400px) rotate(18deg) scaleX(1) scaleY(1);
+    }
+    85%{
+        transform: translate(0,0) rotate(18deg) scaleX(1) scaleY(1);
+    }
+    100%{
+        transform: translate(0,0) rotate(18deg) scaleX(2) scaleY(0);
+    }
+}
