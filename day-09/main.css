@@ -96,7 +96,6 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     top: 73.5%;
-    opacity: 0;
 }
 .rainMedium{
     width: 2.5%;
@@ -106,7 +105,6 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     top: 73.5%;
-    opacity: 0;
 }
 .rainSmall{
     width: 1%;
@@ -191,57 +189,75 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
 }
 .rainSmall1{
     left: 5%;
+    animation-delay: 50ms;
 }
 .rainSmall2{
     left: 10%;
+    animation-delay: 600ms;
 }
 .rainSmall3{
     left: 15%;
+    animation-delay: 250ms;
 }
 .rainSmall4{
     left: 20%;
+    animation-delay: 800ms;
 }
 .rainSmall5{
     left: 25%;
+    animation-delay: 450ms;
 }
 .rainSmall6{
     left: 30%;
+    animation-delay: 1000ms;
 }
 .rainSmall7{
     left: 35%;
+    animation-delay: 650ms;
 }
 .rainSmall8{
     left: 40%;
+    animation-delay: 1200ms;
 }
 .rainSmall9{
     left: 45%;
+    animation-delay: 850ms;
 }
 .rainSmall10{
     left: 50%;
+    animation-delay: 1400ms;
 }
 .rainSmall11{
     left: 55%;
+    animation-delay: 1050ms;
 }
 .rainSmall12{
     left: 60%;
+    animation-delay: 1600ms;
 }
 .rainSmall13{
     left: 65%;
+    animation-delay: 1250ms;
 }
 .rainSmall14{
     left: 70%;
+    animation-delay: 1800ms;
 }
 .rainSmall15{
     left: 75%;
+    animation-delay: 1450ms;
 }
 .rainSmall16{
     left: 80%;
+    animation-delay: 2000ms;
 }
 .rainSmall17{
     left: 85%;
+    animation-delay: 1650ms;
 }
 .rainSmall18{
     left: 90%;
+    animation-delay: 2200ms;
 }
 @keyframes rain{
     0%{
