@@ -46,6 +46,64 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
     aspect-ratio: 1/1;
     border-radius: 999px;
     background-color: #F6EDBD;
+    position: relative;
+    overflow: hidden;
+}
+.crater{
+    background-color: #ECE1A8;
+    aspect-ratio: 1/1;
+    position: absolute;
+    border-radius: 999px;
+}
+.crater1{
+    width: 10%;
+    left: 20%;
+    top: 10%;
+}
+.crater2{
+    width: 15%;
+    left: 50%;
+    top: 10%;
+}
+.crater3{
+    width: 30%;
+    left: 60%;
+    top: 40%;
+}
+.crater4{
+    width: 20%;
+    left: 30%;
+    top: 35%;
+}
+.crater5{
+    width: 15%;
+    left: 60%;
+    top: 80%;
+}
+.crater6{
+    width: 25%;
+    left: 20%;
+    top: 70%;
+}
+.crater7{
+    width: 20%;
+    left: 0;
+    top: 50%;
+}
+.crater8{
+    width: 10%;
+    left: 75%;
+    top: 10%;
+}
+.crater9{
+    width: 15%;
+    left: 50%;
+    top: 27%;
+}
+.crater10{
+    width: 20%;
+    left: 7%;
+    top: 27%;
 }
 .hill3{
     bottom: -48%;
