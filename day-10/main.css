@@ -6,4 +6,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+}
+.frame{
+    background-color: #242424;
+    border-radius: 999px;
+    width: 400px;
+    height: 400px;
+    border:15px solid #3A3A3A;
 }
