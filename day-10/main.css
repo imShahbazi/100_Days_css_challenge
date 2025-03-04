@@ -1,6 +1,13 @@
 /* this file create at 4 March 2025 by Ali Shahbazi 
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi */
+@font-face {
+    font-family: openSans;
+    src: url("./fonts/openSans.ttf");
+}
+*{
+    font-family: openSans;
+}
 body{
     background-color: #4C4C4C;
     display: flex;
