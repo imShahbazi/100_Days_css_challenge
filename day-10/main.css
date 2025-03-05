@@ -22,3 +22,28 @@ body{
     height: 400px;
     border:15px solid #3A3A3A;
 }
+.frame svg circle{
+    stroke-dasharray: 625;
+    animation-name:circle ;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: center center;
+}
+@keyframes circle{
+    0%{
+        stroke-dashoffset: 625;
+        transform: rotate(-90deg) scaleY(1);
+    }
+    50%{
+        stroke-dashoffset: 0;
+        transform: rotate(-90deg) scaleY(1);
+    }
+    50.001%{
+        transform: scaleY(-1) rotate(90deg);
+    }
+    100%{
+        stroke-dashoffset: 625;
+        transform: scaleY(-1) rotate(90deg);
+    }
+}
