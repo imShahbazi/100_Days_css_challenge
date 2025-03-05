@@ -21,6 +21,14 @@ body{
     width: 400px;
     height: 400px;
     border:15px solid #3A3A3A;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.frame svg{
+    position: absolute;
 }
 .frame svg circle{
     stroke-dasharray: 625;
