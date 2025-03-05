@@ -62,6 +62,13 @@ body{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+.whiteDots{
+    position: absolute;
+    border: 3px dotted white;
+    width: 93%;
+    height: 93%;
+    border-radius: 999px;
+}
 @keyframes beat{
     0%{
         transform: scale(1);
