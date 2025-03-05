@@ -42,14 +42,21 @@ body{
     margin: 0;
     padding: 0;
 }
-.data p:nth-child(1){
+.data >p:nth-child(1){
     text-transform: uppercase;
-    font-weight: bold;
 }
-.data p:nth-child(2){
+.data > p:nth-child(2){
     font-weight: bold;
     font-size: 60px;
     text-align: center;
+}
+.personal{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.personal i{
+    color: #F85B5B;
 }
 @keyframes circle{
     0%{
