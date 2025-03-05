@@ -57,6 +57,18 @@ body{
 }
 .personal i{
     color: #F85B5B;
+    animation-name: beat;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes beat{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
 }
 @keyframes circle{
     0%{
@@ -67,7 +79,7 @@ body{
         stroke-dashoffset: 0;
         transform: rotate(-90deg) scaleY(1);
     }
-    50.001%{
+    50.0001%{
         transform: scaleY(-1) rotate(90deg);
     }
     100%{
