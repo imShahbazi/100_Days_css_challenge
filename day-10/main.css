@@ -38,6 +38,19 @@ body{
     animation-iteration-count: infinite;
     transform-origin: center center;
 }
+.data p{
+    margin: 0;
+    padding: 0;
+}
+.data p:nth-child(1){
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.data p:nth-child(2){
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
 @keyframes circle{
     0%{
         stroke-dashoffset: 625;
