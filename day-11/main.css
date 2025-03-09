@@ -19,3 +19,8 @@ body{
     width: 100%;
     height: 35%;
 }
+.footContainer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
