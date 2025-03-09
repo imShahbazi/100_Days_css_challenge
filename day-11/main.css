@@ -8,3 +8,14 @@ body{
     padding: 0;
     margin: 0;
 }
+.frame{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.black{
+    background-color: black;
+    width: 100%;
+    height: 35%;
+}
