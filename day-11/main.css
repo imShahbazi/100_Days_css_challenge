@@ -8,6 +8,10 @@ body{
     padding: 0;
     margin: 0;
 }
+img{
+    display: block;
+    margin-top: auto;
+}
 .frame{
     width: 100%;
     height: 100%;
@@ -22,5 +26,39 @@ body{
 .footContainer{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    position: relative;
+}
+.foot1{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    animation-name: walk;
+    animation-duration: 2s;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.foot2{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    animation-name: walk;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes walk{
+0%{
+    transform: rotate(0);
+}
+33.3333333333%{
+    transform: rotate(50deg);
+}
+66.6666666666%{
+    transform: translate(100px,-20px) rotate(-40deg);
+}
+100%{
+    transform: rotate(0) translate(0,0);
+}
 }
