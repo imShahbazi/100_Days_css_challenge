@@ -1,3 +1,10 @@
 /* this file create at 9 March 2025 by Ali Shahbazi 
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi */
+body{
+    background-image: radial-gradient(ellipse at center, #f6e8d7 0%, #dabe9b 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
