@@ -50,3 +50,8 @@ body{
 .content p{
     text-align: center;
 }
+span{
+    cursor: pointer;
+    background-color: #286F8A;
+    padding: 4px;
+}
