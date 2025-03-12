@@ -22,3 +22,19 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
     font-family: Arial;
     opacity: 0.5;
 }
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+.content p{
+    text-align: center;
+}
