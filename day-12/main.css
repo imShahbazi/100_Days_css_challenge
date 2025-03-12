@@ -1,12 +1,18 @@
 /* this file create at 12 March 2025 by Ali Shahbazi 
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi */
+@font-face {
+    font-family: yekan;
+    src: url("./fonts/Yekan.ttf");
+}
 *{
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 .frame{
     display: flex;
+    flex-direction: column;
     margin-inline: auto;
     width: 500px;
     height: 500px;
@@ -15,12 +21,12 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
 }
 .quot{
     position: absolute;
-    top: 5%;
-    right: 10%;
+    top: 17%;
+    right: 1%;
     font-size: 250px;
     color: white;
     font-family: Arial;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 .container{
     width: 100%;
@@ -31,9 +37,13 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
     color: white;
 }
 .content{
-    width: 90%;
+    width: 95%;
     display: grid;
     grid-template-columns: 45% 45%;
+    gap:50px;
+    font-family: yekan;
+    font-size: 20px;
+    font-weight: bold;
 }
 .content p{
     text-align: center;
