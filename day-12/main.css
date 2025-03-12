@@ -50,14 +50,47 @@ body{
 .content div{
     text-align: center;
 }
-.popover{
-    display: block;
-    position: absolute;
-    top: -20%;
-}
 .content>div>div{
-    display: inline;
+    display: inline-block;
     cursor: pointer;
     background-color: #286F8A;
     padding: 4px;
+    position: relative;
+}
+.popover{
+    display: block;
+    position: absolute;
+    top: -69px;
+    width: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #286F8A;
+}
+.popover::after{
+    width: 7px;
+    height: 7px;
+    background-color: #286F8A;
+    position: absolute;
+    content: '';
+    bottom: -3.5px;
+    transform: rotate(45deg);
+}
+.popover .white{
+    background-color: white;
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    padding: 4px 0 4px 0;
+}
+.popover .white p{
+    width: fit-content;
+    margin-right: 4px;
+}
+.popover>p{
+    width: 100%;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+    padding: 8px 0 8px 0;
+    margin-right: 4px;
 }
