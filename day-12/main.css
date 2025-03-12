@@ -47,10 +47,16 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
-.content p{
+.content div{
     text-align: center;
 }
-span{
+.popover{
+    display: block;
+    position: absolute;
+    top: -20%;
+}
+.content>div>div{
+    display: inline;
     cursor: pointer;
     background-color: #286F8A;
     padding: 4px;
