@@ -60,11 +60,13 @@ body{
 .popover{
     display: block;
     position: absolute;
-    top: -69px;
+    top: -50px;
     width: 150px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #286F8A;
+    opacity: 0;
+    transition: 400ms;
 }
 .popover::after{
     width: 7px;
@@ -93,4 +95,8 @@ body{
     text-align: right;
     padding: 8px 0 8px 0;
     margin-right: 4px;
+}
+.selection:hover .popover{
+    top: -69px;
+    opacity: 1;
 }
