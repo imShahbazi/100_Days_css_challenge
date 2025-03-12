@@ -10,13 +10,15 @@ gitlab : https://wwww.gitlab.com/AliShahbazi */
     padding: 0;
     user-select: none;
 }
+body{
+    background-color: #4CB6DE;
+}
 .frame{
     display: flex;
     flex-direction: column;
     margin-inline: auto;
     width: 500px;
     height: 500px;
-    background-color: #4CB6DE;
     position: relative;
 }
 .quot{
