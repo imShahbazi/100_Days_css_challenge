@@ -3,42 +3,70 @@ github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AliShahbazi-css-challenge-day-13</title>
-    <link rel="stylesheet" href="./main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./fonts/font_awesome/css/all.css">
+  </head>
+  <body>
     <div class="frame">
-        <div>
-            <div class="plus-circle">
-                <div class="line1"></div>
-                <div class="line2"></div>
+      <div id="showInfo" class="showInfo">
+        <img class="header" src="./img/handler.jpg">
+        <img class="profile" src="./img/profile.png">
+        <div class="contact">
+            <p>Ali Shahbazi</p>
+            <div class="info">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-message"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-heart"></i>
+                </div>
             </div>
-            <img src="./img/image1.jpg"/>
+        </div>
+      </div>
+      <div class="galery">
+        <div>
+          <div class="plus-circle">
+            <div class="line1"></div>
+            <div class="line2"></div>
+          </div>
+          <img src="./img/image1.jpg" />
         </div>
         <div>
-            <div class="plus-circle">
-                <div class="line1"></div>
-                <div class="line2"></div>
-            </div>
-            <img src="./img/image2.jpg"/>
+          <div class="plus-circle">
+            <div class="line1"></div>
+            <div class="line2"></div>
+          </div>
+          <img src="./img/image2.jpg" />
         </div>
         <div>
-            <div class="plus-circle">
-                <div class="line1"></div>
-                <div class="line2"></div>
-            </div>
-            <img src="./img/image3.jpg"/>
+          <div class="plus-circle">
+            <div class="line1"></div>
+            <div class="line2"></div>
+          </div>
+          <img src="./img/image3.jpg" />
         </div>
         <div>
-            <div class="plus-circle">
-                <div class="line1"></div>
-                <div class="line2"></div>
-            </div>
-            <img src="./img/image4.jpg"/>
+          <div class="plus-circle">
+            <div class="line1"></div>
+            <div class="line2"></div>
+          </div>
+          <img src="./img/image4.jpg" />
         </div>
+      </div>
     </div>
-</body>
+    <script>
+        document.querySelectorAll(".galery>div").forEach((tag)=>{
+            tag.addEventListener("click",()=>{
+                document.getElementById("showInfo").classList.add("active")
+            })
+        })
+    </script>
+  </body>
 </html>
