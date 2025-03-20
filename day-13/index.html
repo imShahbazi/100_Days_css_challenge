@@ -14,6 +14,10 @@ gitlab : https://wwww.gitlab.com/AliShahbazi -->
     <div class="frame">
       <div id="showInfo" class="showInfo">
         <img class="header" src="./img/handler.jpg">
+        <div class="close">
+            <div class="close-line1"></div>
+            <div class="close-line2"></div>
+        </div>
         <img class="profile" src="./img/profile.png">
         <div class="contact">
             <p>Ali Shahbazi</p>
@@ -66,6 +70,9 @@ gitlab : https://wwww.gitlab.com/AliShahbazi -->
             tag.addEventListener("click",()=>{
                 document.getElementById("showInfo").classList.add("active")
             })
+        })
+        document.querySelector(".close").addEventListener("click",()=>{
+            document.getElementById("showInfo").classList.remove("active")
         })
     </script>
   </body>

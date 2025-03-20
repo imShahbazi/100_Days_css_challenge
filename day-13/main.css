@@ -99,7 +99,18 @@ img{
     border:3px solid white;
     aspect-ratio: 1/1;
     z-index: 52;
-    transition: 1.5s;
+    transition: 0.5s;
+    
+}
+.showInfo .close{
+    width: 40px;
+    height: 40px;
+    background-color: #EC6565;
+    border-radius: 999px;
+    position: absolute;
+    right: 2%;
+    top:-20%;
+    z-index: 53;
 }
 .contact .info{
     display: flex;
@@ -127,6 +138,10 @@ img{
     flex-direction: column;
     pointer-events: all;
 }
+.active .close{
+    top:-8%;
+    transition:0.5s;
+}
 .active .header{
     transform: translateY(0);
     transition:0.5s ease-out;
@@ -137,4 +152,33 @@ img{
 }
 .active .profile{
     top: 50%;
+    transition: 1.5s;
+}
+.close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.close:hover{
+    background-color: white;
+}
+.close:hover div{
+    background-color: #EC6565;
+}
+.close-line1{
+    width: 40%;
+    background-color: white;
+    border-radius: 999px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+.close-line2{
+    width: 40%;
+    background-color: white;
+    border-radius: 999px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-45deg);
 }
