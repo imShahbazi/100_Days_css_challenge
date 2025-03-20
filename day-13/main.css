@@ -14,3 +14,46 @@ img{
     height: 100%;
     aspect-ratio: 1/1;
 }
+.frame > div img{
+    transition: 0.5s;
+}
+.frame > div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.frame > div:hover .plus-circle{
+    transform:scale(1);
+    opacity: 1;
+}
+.frame > div:hover img{
+    opacity: 0.5;
+}
+.plus-circle{
+    background-color: #EC6565;
+    width: 25%;
+    height: 25%;
+    border-radius: 999px;
+    position: absolute;
+    transform: scale(3);
+    opacity: 0;
+    z-index: 50;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line1{
+    position: absolute;
+    background-color: white;
+    width: 40%;
+    height: 2px;
+}
+.line2{
+    background-color: white;
+    width: 40%;
+    height: 2px;
+    transform: rotate(-90deg);
+}
