@@ -152,7 +152,7 @@ img{
 }
 .active .profile{
     top: 50%;
-    transition: 1.5s;
+    transition: 1s;
 }
 .close{
     display: flex;
