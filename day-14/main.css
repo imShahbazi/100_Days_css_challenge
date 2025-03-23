@@ -15,6 +15,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 1.5s ease-in-out;
+    perspective: 800px;
+    transform-style: preserve-3d;
+}
+.container{
+    perspective: 500px;
+}
+.container:hover .frame{
+    transform: rotateX(180deg) translate3d(0,0,0);
 }
 .frame >div{
     display: flex;
