@@ -15,15 +15,25 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 1.5s ease-in-out;
+    transition: 1.5s ease-in-out;
     perspective: 800px;
     transform-style: preserve-3d;
+    position: relative;
 }
 .container{
     perspective: 500px;
 }
 .container:hover .frame{
-    transform: rotateX(180deg) translate3d(0,0,0);
+    transform: rotateX(180deg);
+}
+.container:hover .frame .back{
+    transform:rotate(-180deg) scaleX(-1);
+}
+.container:hover .frontSide{
+    transform: scale(0);
+}
+.frontSide{
+    transition-delay: 0.75s;
 }
 .frame >div{
     display: flex;
@@ -94,4 +104,15 @@ body{
     50%{
         transform: scaleY(1.04);
     }
+}
+
+/* back */
+
+.container .frame .back{
+    position: absolute;
+    transform: scaleX(0);
+    transition-delay: 0.75s;
+}
+.airLine1{
+    width: 20px;
 }
