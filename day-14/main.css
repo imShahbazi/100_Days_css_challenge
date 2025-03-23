@@ -105,14 +105,80 @@ body{
         transform: scaleY(1.04);
     }
 }
-
 /* back */
-
 .container .frame .back{
     position: absolute;
     transform: scaleX(0);
     transition-delay: 0.75s;
+    width:70%;
+    height: 100%;
+    overflow: hidden;
+}
+.back img{
+    animation: helicopter infinite 1s linear;
+    position: relative;
+    z-index: 50;
 }
 .airLine1{
     width: 20px;
+    animation-duration: 0.7s;
+}
+.airLine2{
+    width: 10px;
+    top: 10%;
+    animation-duration: 0.7s;
+    animation-delay: 0.1s;
+}
+.airLine3{
+    width: 15px;
+    top: 20%;
+    animation-duration: 0.7s;
+    animation-delay: 0.2s;
+}
+.airLine4{
+    width: 5px;
+    top: 30%;
+    animation-duration: 0.7s;
+    animation-delay: 0.15s;
+}
+.airLine5{
+    width: 10px;
+    top: 40%;
+    animation-duration: 0.7s;
+    animation-delay: 0.3s;
+}
+.airLine6{
+    width: 7px;
+    top: 60%;
+    animation-duration: 0.7s;
+    animation-delay: 0.4s;
+}
+.airLine7{
+    width: 10px;
+    top: 70%;
+    animation-duration: 0.7s;
+    animation-delay: 0.2s;
+}
+.airLine8{
+    width: 4px;
+    top: 80%;
+    animation-duration: 0.7s;
+    animation-delay: 0.25s;
+}
+.airLine9{
+    width: 8px;
+    top: 90%;
+    animation-duration: 0.7s;
+    animation-delay: 0.5s;
+}
+@keyframes helicopter{
+    0%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: translateY(5px);
+    }
+    80%{
+        transform: translateY(-5px);
+    }
 }
