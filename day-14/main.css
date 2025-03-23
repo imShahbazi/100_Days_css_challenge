@@ -1,3 +1,24 @@
 /* this file create at 23 March 2025 by Ali Shahbazi 
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi */
+body{
+    background-color: #4B4841;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame{
+    background-color: #FFCE4E;
+    width: 320px;
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
