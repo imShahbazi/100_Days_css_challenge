@@ -6,6 +6,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .frame{
     background-color: #FFCE4E;
@@ -19,6 +20,7 @@ body{
     perspective: 800px;
     transform-style: preserve-3d;
     position: relative;
+    box-shadow: 0 0 10px 1px black;
 }
 .container{
     perspective: 500px;
