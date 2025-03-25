@@ -35,7 +35,26 @@ h2{
     color: #676767;
     font-size: 20px;
     padding: 15px 20px 15px 20px;
-    border-bottom: 1px solid #D8D8D8;
+}
+.underLine{
+    height: 5px;
+    width: 100%;
+    position: relative;
+}
+.underLine div{
+    background-color: #6ECE3B;
+    height: 100%;
+    position: relative;
+    z-index: 50;
+    width: 0;
+}
+.underLine::before{
+    background-color: #D8D8D8;
+    content: '';
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 .uploadFrame{
     display: flex;
