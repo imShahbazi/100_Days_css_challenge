@@ -22,13 +22,15 @@ gitlab : https://wwww.gitlab.com/AliShahbazi
                 <img id="uploadSvg" src="./svg/upload.svg" alt="upload icon">
             </div>
         </div>
-        <div class="uploadButton">
+        <div class="uploadButton" onclick="startUpload()">
             <button>upload file</button>
         </div>
     </div>
     <script>
+        let upload = false;
         const uploadFrame=document.querySelector(".uploadFrame");
         const SvgArea = document.getElementById("uploadSvg");
+        const container = document.getElementById("container");
         uploadFrame.addEventListener("dragover",(e)=>{
             e.preventDefault();
             SvgArea.style="background-color:#eee"
@@ -38,9 +40,24 @@ gitlab : https://wwww.gitlab.com/AliShahbazi
         })
         uploadFrame.addEventListener("drop",(file)=>{
             file.preventDefault();
+            upload = true;
             SvgArea.style="background-color:white"
-            document.getElementById("container").innerHTML=`<p>${file.dataTransfer.files[0].name}</p>`
+            container.innerHTML=`<p>${file.dataTransfer.files[0].name}</p>`
         })
+        function startUpload(){
+            let progressBarWidth=0;
+            if(upload){
+                container.innerHTML = `<img id="uploadSvg" src="./svg/syncing.svg" alt="upload icon">`;
+                container.style="border:none;animation:rotate 1.4s infinite linear";
+                const progressAnimation=setInterval(()=>{
+                    progressBarWidth +=5;
+                    document.getElementById("progressBar").style=`width:${progressBarWidth}%`
+                    if(progressBarWidth==100){
+                        clearInterval(progressAnimation);
+                    }
+                },500)
+            }
+        }
     </script>
 </body>
 </html>
