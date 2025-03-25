@@ -19,29 +19,28 @@ gitlab : https://wwww.gitlab.com/AliShahbazi
         </div>
         <div class="uploadFrame">
             <div id="container">
-                <img id="uploadSvg" src="./svg/upload.svg" alt="upload icon">
+                <img src="./svg/upload.svg" alt="upload icon">
             </div>
         </div>
         <div class="uploadButton" onclick="startUpload()">
-            <button>upload file</button>
+            <button id="uploadButton">upload file</button>
         </div>
     </div>
     <script>
         let upload = false;
         const uploadFrame=document.querySelector(".uploadFrame");
-        const SvgArea = document.getElementById("uploadSvg");
         const container = document.getElementById("container");
         uploadFrame.addEventListener("dragover",(e)=>{
             e.preventDefault();
-            SvgArea.style="background-color:#eee"
+            container.style="background-color:#dbdbdb"
         })
         uploadFrame.addEventListener("dragleave",(e)=>{
-            SvgArea.style="background-color:white"
+            container.style="background-color:white"
         })
         uploadFrame.addEventListener("drop",(file)=>{
             file.preventDefault();
             upload = true;
-            SvgArea.style="background-color:white"
+            container.style="background-color:white"
             container.innerHTML=`<p>${file.dataTransfer.files[0].name}</p>`
         })
         function startUpload(){
@@ -54,6 +53,12 @@ gitlab : https://wwww.gitlab.com/AliShahbazi
                     document.getElementById("progressBar").style=`width:${progressBarWidth}%`
                     if(progressBarWidth==100){
                         clearInterval(progressAnimation);
+                        container.innerHTML=`<img id="checkmark.svg" src="./svg/checkmark.svg" alt="upload icon">`;
+                        container.style="animation:none;border:none";
+                        document.getElementById("uploadButton").innerText="Done !";
+                        document.getElementById("uploadButton").addEventListener("click",()=>{
+                            location.reload();
+                        })
                     }
                 },500)
             }
