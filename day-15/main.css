@@ -34,3 +34,15 @@ h2{
     padding: 15px 20px 15px 20px;
     border-bottom: 1px solid #D8D8D8;
 }
+.uploadFrame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+.uploadFrame img{
+    border: 1px dashed gray;
+    padding: 30px;
+    border-radius: 5px;
+    width: 50%;
+}
