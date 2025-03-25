@@ -43,11 +43,17 @@ h2{
     align-items: center;
     height: 65%;
 }
-.uploadFrame img{
+.uploadFrame div{
     border: 1px dashed gray;
     padding: 30px;
     border-radius: 5px;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uploadFrame img{
+    width: 100%;
 }
 .uploadButton{
     margin-bottom: auto;

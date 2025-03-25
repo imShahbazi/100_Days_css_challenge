@@ -15,11 +15,29 @@ gitlab : https://wwww.gitlab.com/AliShahbazi
     <div class="frame">
         <h2>Drop File to Upload</h2>
         <div class="uploadFrame">
-            <img src="./svg/upload.svg" alt="upload icon">
+            <div id="container">
+                <img id="uploadSvg" src="./svg/upload.svg" alt="upload icon">
+            </div>
         </div>
         <div class="uploadButton">
             <button>upload file</button>
         </div>
     </div>
+    <script>
+        const uploadFrame=document.querySelector(".uploadFrame");
+        const SvgArea = document.getElementById("uploadSvg");
+        uploadFrame.addEventListener("dragover",(e)=>{
+            e.preventDefault();
+            SvgArea.style="background-color:#eee"
+        })
+        uploadFrame.addEventListener("dragleave",(e)=>{
+            SvgArea.style="background-color:white"
+        })
+        uploadFrame.addEventListener("drop",(file)=>{
+            file.preventDefault();
+            SvgArea.style="background-color:white"
+            document.getElementById("container").innerHTML=`<p>${file.dataTransfer.files[0].name}</p>`
+        })
+    </script>
 </body>
 </html>
