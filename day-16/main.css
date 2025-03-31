@@ -3,3 +3,9 @@ this file create at 31 March 2025 by Ali Shahbazi
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi 
 */
+.frame{
+    margin-inline: auto;
+    background-color: #46A6DA;
+    width: 400px;
+    height: 400px;
+}
