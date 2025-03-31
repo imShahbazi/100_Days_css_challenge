@@ -60,7 +60,7 @@ gitlab : https://wwww.gitlab.com/AliShahbazi
     transform: scale(0);
     position: relative;
     opacity: 0;
-    animation: ocLines 1s linear;
+    animation: Lines 1s linear;
 }
 .line{
     background-color: white;
@@ -109,7 +109,7 @@ gitlab : https://wwww.gitlab.com/AliShahbazi
     transform: translateX(-50%) rotate(90deg);
     bottom:27px ;
 }
-@keyframes ocLines{
+@keyframes Lines{
     0%{
         transform: scale(0);
         opacity: 1;
@@ -121,4 +121,37 @@ gitlab : https://wwww.gitlab.com/AliShahbazi
         transform: scale(1);
         opacity: 0;
     }
+}
+.triangle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.triangle svg{
+    position: absolute;
+    z-index: 50;
+}
+.triangleContainer{
+    width: 260px;
+    height: 260px;
+    position: relative;
+    opacity: 0;
+    transform: scale(0);
+    animation: Lines 1s linear;
+}
+.trLine1{
+    bottom: 27.5%;
+    left: 8%;
+    transform: rotate(-38deg);
+}
+.trLine2{
+    left: 50%;
+    top: 13%;
+    transform: translateX(-55%) rotate(90deg);
+}
+.trLine3{
+    bottom: 27%;
+    right: 8%;
+    transform: rotate(38deg);
 }
