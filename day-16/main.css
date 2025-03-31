@@ -9,8 +9,10 @@ gitlab : https://wwww.gitlab.com/AliShahbazi
     width: 400px;
     height: 400px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .circle{
     width: 90px;
@@ -38,5 +40,85 @@ gitlab : https://wwww.gitlab.com/AliShahbazi
     }
     100%{
         transform: scale(0);
+    }
+}
+
+.octagon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.octagon svg{
+    position: absolute;
+    transform: rotate(22.5deg);
+    z-index: 50;
+}
+.ocContainer{
+    width: 250px;
+    height: 250px;
+    transform: scale(0);
+    position: relative;
+    opacity: 0;
+    animation: ocLines 1s linear;
+}
+.line{
+    background-color: white;
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    border-radius: 999px;
+}
+.ocLine1{
+    left: 30px;
+    bottom: 52px;
+    transform: rotate(-44deg);
+}
+.ocLine2{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+}
+.ocLine3{
+    left: 30px;
+    top: 55px;
+    transform: rotate(44deg);
+}
+.ocLine4{
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+    top:27px ;
+}
+.ocLine5{
+    right: 30px;
+    top: 55px;
+    transform: rotate(-44deg);
+}
+.ocLine6{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+}
+.ocLine7{
+    right: 30px;
+    bottom: 52px;
+    transform: rotate(44deg);
+}
+.ocLine8{
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+    bottom:27px ;
+}
+@keyframes ocLines{
+    0%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
     }
 }
