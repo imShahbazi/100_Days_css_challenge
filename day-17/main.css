@@ -3,3 +3,119 @@ this file created at 3 April 2025 by Ali Shahbazi
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi 
 */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.frame{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.line{
+    background-color: #353535;
+    width: 3px;
+    height: 150%;
+    transform: rotate(-45deg);
+    position: absolute;
+}
+.line1{
+    bottom: -270px;
+}
+.line2{
+    bottom: -240px;
+}
+.line3{
+    bottom: -210px;
+}
+.line4{
+    bottom: -180px;
+}
+.line5{
+    bottom: -150px;
+}
+.line6{
+    bottom: -120px;
+}
+.line7{
+    bottom: -90px;
+}
+.line8{
+    bottom: -90px;
+    left: 30px;
+}
+.line9{
+    bottom: -90px;
+    left: 60px;
+}
+.line10{
+    bottom: -90px;
+    left: 90px;
+}
+.line11{
+    bottom: -90px;
+    left: 120px;
+}
+.line12{
+    bottom: -90px;
+    left: 150px;
+}
+.line13{
+    bottom: -90px;
+    left: 180px;
+}
+.line14{
+    bottom: -90px;
+    left: 210px;
+}
+.line15{
+    bottom: -90px;
+    left: 240px;
+}
+.line16{
+    bottom: -90px;
+    left: 270px;
+}
+.line17{
+    bottom: -90px;
+    left: 300px;
+}
+.line18{
+    bottom: -90px;
+    left: 330px;
+}
+.line19{
+    bottom: -90px;
+    left: 360px;
+}
+.line20{
+    bottom: -90px;
+    left: 390px;
+}
+.line21{
+    bottom: -90px;
+    left: 420px;
+}
+.line22{
+    bottom: -90px;
+    left: 450px;
+}
+.line23{
+    bottom: -90px;
+    left: 480px;
+}
+.line24{
+    bottom: -90px;
+    left: 510px;
+}
+.line25{
+    bottom: -90px;
+    left: 540px;
+}
+.line26{
+    bottom: -90px;
+    left: 570px;
+}
