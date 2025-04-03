@@ -132,3 +132,17 @@ body{
     justify-content: center;
     align-items: center;
 }
+svg polygon{
+    transition: 0.5s;
+}
+
+
+svg:hover .light {
+    fill: #aaa;
+}
+svg:hover .middle {
+    fill: #eee;
+}
+svg:hover .dark {
+    fill: #ccc;
+}
