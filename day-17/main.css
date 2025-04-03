@@ -119,3 +119,16 @@ body{
     bottom: -90px;
     left: 570px;
 }
+.container{
+    position: absolute;
+    z-index: 10;
+    width: 70%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
