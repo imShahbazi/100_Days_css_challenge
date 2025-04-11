@@ -143,4 +143,105 @@ body{
         background-color: #37D493;
         height: 0;
     }
+    49.1%{
+        background-color: #444;
+    }
+    /* gray animation */
+    64%{
+        height: 80%;
+        background-color: #444;
+    }
+    66%{
+        background-color: #444;
+        height: 0;
+    }
+    66.1%{
+        background-color: #37D493;
+    }
+    68%{
+        background-color: #37D493;
+        height: 80%;
+    }
+    70%{
+        background-color: #37D493;
+        height: 0;
+    }
+    70.1%{
+        background-color: #444;
+    }
+    72%{
+        height: 60%;
+        background-color: #444;
+    }
+    74%{
+        background-color: #444;
+        height: 0;
+    }
+    74.1%{
+        background-color: #37D493;
+    }
+    76%{
+        height: 60%;
+        background-color:#37D493 ;
+    }
+    78%{
+        height: 0%;
+        background-color: #37D493;
+    }
+    78.1%{
+        background-color: #444;
+    }
+    80%{
+        height: 40%;
+        background-color: #444;
+    }
+    82%{
+        background-color: #444;
+        height: 0;
+    }
+    82.1%{
+        background-color: #37D493;
+    }
+    84%{
+        height: 40%;
+        background-color:#37D493 ;
+    }
+    86%{
+        height: 0%;
+        background-color: #37D493;
+    }
+    86.1%{
+        background-color: #444;
+    }
+    88%{
+        height: 20%;
+        background-color: #444;
+    }
+    90%{
+        background-color: #444;
+        height: 0;
+    }
+    90.1%{
+        background-color: #37D493;
+    }
+    92%{
+        height: 20%;
+        background-color: #37D493;
+    }
+    94%{
+        height: 0%;
+        background-color: #37D493;
+    }
+    94.1%{
+        background-color: #444;
+    }
+    96%{
+        height: 5%;
+        background-color: #444;
+    }
+    98%{
+        background-color: #444;
+        height: 0;
+    }
+
 }
