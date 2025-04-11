@@ -13,3 +13,17 @@ body{
     align-items: center;
     height: 100vh;
 }
+.frame{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.topBackground , .bottomBackground{
+    height: 50%;
+}
+.topBackground{
+    background-color: #444;
+}
+.bottomBackground{
+    background-color: #37D493;
+}
