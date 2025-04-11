@@ -17,13 +17,27 @@ body{
     width: 500px;
     height: 500px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .topBackground , .bottomBackground{
     height: 50%;
+    width: 100%;
+    position: absolute;
 }
 .topBackground{
     background-color: #444;
+    top: 0;
+    left: 0;
 }
 .bottomBackground{
     background-color: #37D493;
+    bottom: 0;
+    left: 0;
+}
+.head{
+    width: 100%;
+    z-index: 10;
+    border-radius: 50%;
 }
