@@ -39,5 +39,75 @@ body{
 .head{
     width: 100%;
     z-index: 10;
-    border-radius: 50%;
+    border-radius: 100%;
+    background-color: #37D493;
+    animation: head 7s linear;
+}
+@keyframes head{
+    0%{
+        height: 0;
+    }
+    15%{
+        height: 90%;
+        background-color: #37D493;
+    }
+    20%{
+        background-color: #37D493;
+        height: 0;
+    }
+    20.1%{
+        background-color: #444;
+    }
+    25%{
+        background-color: #444;
+        height: 90%;
+    }
+    30%{
+        background-color: #444;
+        height: 0;
+    }
+    30.1%{
+        background-color: #37D493;
+    }
+    35%{
+        height: 50%;
+        background-color: #37D493;
+    }
+    40%{
+        background-color: #37D493;
+        height: 0;
+    }
+    40.1%{
+        background-color: #444;
+    }
+    45%{
+        height: 50%;
+        background-color: #444;
+    }
+    50%{
+        height: 0%;
+        background-color: #444;
+    }
+    50.1%{
+        background-color: #37D493;
+    }
+    55%{
+        height: 10%;
+        background-color: #37D493;
+    }
+    60%{
+        background-color: #37D493;
+        height: 0;
+    }
+    60.1%{
+        background-color: #444;
+    }
+    65%{
+        height: 10%;
+        background-color: #444;
+    }
+    70%{
+        height: 0%;
+        background-color: #444;
+    }
 }
