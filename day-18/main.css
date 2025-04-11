@@ -48,66 +48,99 @@ body{
         height: 0;
     }
     15%{
-        height: 90%;
+        height: 80%;
         background-color: #37D493;
     }
-    20%{
+    17%{
         background-color: #37D493;
         height: 0;
     }
-    20.1%{
+    17.1%{
         background-color: #444;
+    }
+    19%{
+        background-color: #444;
+        height: 80%;
+    }
+    21%{
+        background-color: #444;
+        height: 0;
+    }
+    21.1%{
+        background-color: #37D493;
+    }
+    23%{
+        height: 60%;
+        background-color: #37D493;
     }
     25%{
-        background-color: #444;
-        height: 90%;
-    }
-    30%{
-        background-color: #444;
+        background-color: #37D493;
         height: 0;
     }
-    30.1%{
+    25.1%{
+        background-color: #444;
+    }
+    27%{
+        height: 60%;
+        background-color: #444;
+    }
+    29%{
+        height: 0%;
+        background-color: #444;
+    }
+    29.1%{
         background-color: #37D493;
+    }
+    31%{
+        height: 40%;
+        background-color: #37D493;
+    }
+    33%{
+        background-color: #37D493;
+        height: 0;
+    }
+    33.1%{
+        background-color: #444;
     }
     35%{
-        height: 50%;
+        height: 40%;
+        background-color: #444;
+    }
+    37%{
+        height: 0%;
+        background-color: #444;
+    }
+    37.1%{
         background-color: #37D493;
     }
-    40%{
+    39%{
+        height: 20%;
+        background-color: #37D493;
+    }
+    41%{
         background-color: #37D493;
         height: 0;
     }
-    40.1%{
+    41.1%{
+        background-color: #444;
+    }
+    43%{
+        height: 20%;
         background-color: #444;
     }
     45%{
-        height: 50%;
-        background-color: #444;
-    }
-    50%{
         height: 0%;
         background-color: #444;
     }
-    50.1%{
+    45.1%{
         background-color: #37D493;
     }
-    55%{
-        height: 10%;
+    47%{
+        height: 5%;
         background-color: #37D493;
     }
-    60%{
+    49%{
         background-color: #37D493;
         height: 0;
-    }
-    60.1%{
-        background-color: #444;
-    }
-    65%{
-        height: 10%;
-        background-color: #444;
-    }
-    70%{
-        height: 0%;
-        background-color: #444;
     }
 }
