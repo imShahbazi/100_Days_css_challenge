@@ -64,3 +64,30 @@ input{
 #radio3:checked ~ .bg{
     left: -200%;
 }
+.circleContainer{
+    width: 62%;
+    height: 20%;
+    position: absolute;
+    z-index: 49;
+    display: flex;
+    align-items: center;
+}
+.circle{
+    background-color: white;
+    border-radius: 100%;
+    width: 23.5%;
+    aspect-ratio: 1/1;
+    position: absolute;
+    left: 2.5%;
+    transition: 0.5s;
+}
+#radio1:checked ~ .circleContainer .circle{
+    left: 2.5%;
+}
+#radio2:checked ~ .circleContainer .circle{
+    left: 50%;
+    transform: translateX(-50%);
+}
+#radio3:checked ~ .circleContainer .circle{
+    left: 74.3%;
+}
