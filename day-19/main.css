@@ -9,3 +9,31 @@ body{
     align-items: center;
     height: 100vh;
 }
+.frame{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #9b59b6;
+}
+.bg::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #3498db;
+    content: '';
+    left: 100%;
+}
+.bg::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1abc9c;
+    content: '';
+    left: 200%;
+}
