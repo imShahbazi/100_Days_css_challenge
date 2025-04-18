@@ -14,12 +14,30 @@ body{
     height: 500px;
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    display: none;
+}
+.radio{
+    border: 3px solid white;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    width: 17%;
+    position: relative;
+    z-index: 50;
 }
 .bg{
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: #9b59b6;
+    left: 0;
+    transition: 0.5s;
 }
 .bg::before{
     position: absolute;
@@ -36,4 +54,13 @@ body{
     background-color: #1abc9c;
     content: '';
     left: 200%;
+}
+#radio1:checked ~ .bg{
+    left: 0;
+}
+#radio2:checked ~ .bg{
+    left: -100%;
+}
+#radio3:checked ~ .bg{
+    left: -200%;
 }
