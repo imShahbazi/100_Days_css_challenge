@@ -73,22 +73,6 @@ input:checked ~ label{
     animation-timing-function: ease-in-out;
     display: none;
 }
-@keyframes labelFinish{
-    0%,50%{
-        width: 35%;
-        display: block;
-        transform: scale(1) ;
-    }
-    75%{
-        width: 8.5%;
-        transform: scale(1);
-    }
-    100%{
-        width: 8.5%;
-        transform: scale(0);
-        display: none;
-    }
-}
 .mailSvg{
     stroke-dasharray: 350;
     stroke-dashoffset: 0;
@@ -100,6 +84,30 @@ input:checked ~ .circle .mailSvg{
 input:checked ~ .circle{
     transform: scale(0);
     animation: circle 5s;
+}
+.plane{
+    position: absolute;
+    stroke-dasharray: 325;
+    stroke-dashoffset: 325;
+    transition: 1s;
+    transform: translate(0,0);
+}
+input:checked ~ .plane{
+    animation: planeSend 2s;
+}
+@keyframes planeSend {
+    0%,30%{
+        transform: translate(0,0);
+        stroke-dashoffset: 325;
+    }
+    70%{
+        transform: translate(0,0);
+        stroke-dashoffset: 0;
+    }
+    100%{
+        transform: translate(300%,-300%);
+        stroke-dashoffset: 0;
+    }
 }
 @keyframes circle{
     0%{
@@ -118,5 +126,21 @@ input:checked ~ .circle{
         outline: 10px solid #354A5F;
         border: 10px solid #2c3e50;
         transform: scale(0);
+    }
+}
+@keyframes labelFinish{
+    0%,50%{
+        width: 35%;
+        display: block;
+        transform: scale(1) ;
+    }
+    75%{
+        width: 8.5%;
+        transform: scale(1);
+    }
+    100%{
+        width: 8.5%;
+        transform: scale(0);
+        display: none;
     }
 }
