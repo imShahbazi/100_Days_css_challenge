@@ -89,3 +89,34 @@ input:checked ~ label{
         display: none;
     }
 }
+.mailSvg{
+    stroke-dasharray: 350;
+    stroke-dashoffset: 0;
+    transition: 1s;
+}
+input:checked ~ .circle .mailSvg{
+    stroke-dashoffset: 350;
+}
+input:checked ~ .circle{
+    transform: scale(0);
+    animation: circle 5s;
+}
+@keyframes circle{
+    0%{
+        transform: scale(1);
+        padding: 0;
+    }
+    20%{
+        transform: scale(1.3);
+    }
+    21%{
+        padding: 1rem;
+        outline: 10px solid #354A5F;
+        border:10px solid #2c3e50;
+    }
+    100%{
+        outline: 10px solid #354A5F;
+        border: 10px solid #2c3e50;
+        transform: scale(0);
+    }
+}
