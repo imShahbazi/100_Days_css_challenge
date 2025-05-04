@@ -8,7 +8,6 @@ gitlab : https://wwww.gitlab.com/AliShahbazi
     margin: 0;
 }
 body{
-    background-color: #393837;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,16 +16,27 @@ body{
 .pacMan{
     position: relative;
 }
+.frame{
+    width: 900px;
+    height: 900px;
+    max-width: 3000px;
+    background-color: #393837;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
 .eye{
-    width: 54px;
-    height: 54px;
+    width: 34px;
+    height: 34px;
     position: absolute;
     top: 12%;
     right: 31%;
     background-color: black;
     border-radius: 100%;
 }
-svg{
+.pacMan svg{
     stroke-dasharray: 158;
     stroke-dashoffset:0;
     border-radius: 100%;
@@ -41,5 +51,27 @@ svg{
     50%{
         stroke-dashoffset: 37;
         transform: rotate(45deg);
+    }
+}
+.dotsContainer{
+    width: 45%;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 3.5rem;
+}
+.dotsContainer svg{
+    stroke-linecap: round;
+    stroke-dasharray: 0 180px;
+    width: 600px;
+    animation: dots 1s linear infinite;
+}
+@keyframes dots{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dashoffset: 180;
     }
 }
