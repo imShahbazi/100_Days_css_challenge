@@ -17,3 +17,19 @@ body{
 .pacMan{
     position: relative;
 }
+.eye{
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top: 12%;
+    right: 31%;
+    background-color: black;
+    border-radius: 100%;
+}
+svg{
+    stroke-dasharray: 157;
+    stroke-dashoffset:0;
+    border-radius: 100%;
+    overflow: hidden;
+    transform: rotate(45deg);
+}
