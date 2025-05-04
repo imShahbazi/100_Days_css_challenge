@@ -27,9 +27,19 @@ body{
     border-radius: 100%;
 }
 svg{
-    stroke-dasharray: 157;
+    stroke-dasharray: 158;
     stroke-dashoffset:0;
     border-radius: 100%;
     overflow: hidden;
-    transform: rotate(45deg);
+    animation: mouth 1s infinite;
+}
+@keyframes mouth{
+    0%,100%{
+        stroke-dashoffset: 0;
+        transform: rotate(0deg);
+    }
+    50%{
+        stroke-dashoffset: 37;
+        transform: rotate(45deg);
+    }
 }
