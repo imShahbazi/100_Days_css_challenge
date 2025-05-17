@@ -3,3 +3,9 @@ this file created at 17 May 2025 by Ali Shahbazi
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi 
 */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28404E;
+}
