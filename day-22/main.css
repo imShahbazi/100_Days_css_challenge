@@ -3,9 +3,30 @@ this file created at 17 May 2025 by Ali Shahbazi
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi 
 */
+@font-face {
+    font-family: openSans;
+    src: url("./font/openSans.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: openSans;
+}
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #28404E;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+h1 *{
+    display: block;
+    font-weight: normal;
+    font-size: 3rem;
+    text-transform: lowercase;
 }
