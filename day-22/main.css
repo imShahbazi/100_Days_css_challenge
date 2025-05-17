@@ -34,7 +34,7 @@ h1 *{
 svg{
     position: absolute;
 }
-.firstProgress{
+.Progress{
     margin-top: 0.5rem;
     display: flex;
     justify-content: center;
@@ -49,4 +49,8 @@ h4{
     text-align: center;
     opacity: 0.4;
     font-size: 1.5rem;
+}
+.progressbarContainer{
+    display: flex;
+    justify-content: space-between;
 }
