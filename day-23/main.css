@@ -3,14 +3,20 @@ this file created at 18 May 2025 by Ali Shahbazi
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi 
 */
+@font-face {
+  font-family: openSans;
+  src: url('./font/openSans.ttf');
+}
 * {
   margin: 0;
   padding: 0;
+  font-family: openSans;
 }
 body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
   background-color: #e16d6c;
   position: relative;
@@ -24,17 +30,8 @@ body {
   animation: circle 1s linear;
   position: absolute;
 }
-@keyframes circle {
-  0%,
-  50% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0);
-  }
-}
 .line {
-  width: 50%;
+  width: 100%;
   display: flex;
   position: absolute;
 }
@@ -68,46 +65,19 @@ body {
   animation-duration: 3s;
   animation-timing-function: linear;
 }
-@keyframes line1 {
-  0% {
-    transform: translateX(100%);
-  }
-  50%,
-  70% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-@keyframes line2 {
-  0% {
-    transform: translateX(-100%);
-  }
-  50%,
-  70% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
 .container {
-  width: 50%;
-  height: 50%;
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .verticalLine1 {
   position: absolute;
-  width: 20%;
+  width: 10%;
   height: 100%;
   left: 0;
   transform: scaleY(1);
   border-left: 10px solid white;
-  animation-name: verticalLine1;
-  animation-duration: 6s;
 }
 .verticalLine1::before {
   width: 100%;
@@ -127,6 +97,83 @@ body {
   bottom: 0;
   animation: verticalLineY 6.6s linear;
 }
+
+.verticalLine2 {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  right: 0;
+  transform: scaleY(1);
+  border-right: 10px solid white;
+  overflow: hidden;
+}
+.verticalLine2::before {
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  content: '';
+  position: absolute;
+  top: 0;
+  animation: verticalLine2Y 6.6s linear;
+}
+.verticalLine2::after {
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  animation: verticalLine2Y 6.6s linear;
+}
+h2 {
+  color: white;
+  font-weight: 100;
+  font-size: 5.2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+h1 {
+  color: white;
+  font-size: 11rem;
+  text-transform: uppercase;
+  margin-inline: 5rem;
+}
+.contentContainer {
+  animation-name: verticalLine;
+  animation-duration: 6s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topH2 {
+  animation: topH2 7.6s linear;
+}
+.bottomH2 {
+  animation: bottomH2 7.6s linear;
+}
+@keyframes topH2 {
+  0%,
+  86.842105263157894736842105263158% {
+    transform: translateX(-20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes bottomH2 {
+  0%,
+  86.842105263157894736842105263158% {
+    transform: translateX(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 @keyframes verticalLineY {
   0%,
   86.714285714285714285714285714286% {
@@ -136,12 +183,54 @@ body {
     width: 100%;
   }
 }
-@keyframes verticalLine1 {
+@keyframes verticalLine2Y {
+  0%,
+  86.714285714285714285714285714286% {
+    right: -100%;
+  }
+  100% {
+    right: 0;
+  }
+}
+@keyframes verticalLine {
   0%,
   66.666666666666666666666666666667% {
     transform: scaleY(0);
   }
   100% {
     transform: scaleY(1);
+  }
+}
+@keyframes line2 {
+  0% {
+    transform: translateX(-100%);
+  }
+  50%,
+  70% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes line1 {
+  0% {
+    transform: translateX(100%);
+  }
+  50%,
+  70% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes circle {
+  0%,
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
   }
 }
