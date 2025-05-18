@@ -13,4 +13,81 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #e16d6c;
+  position: relative;
+}
+.circle {
+  background-color: white;
+  width: 30%;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  transform: scale(0);
+  animation: circle 1s linear;
+  position: absolute;
+}
+@keyframes circle {
+  0%,
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+.line {
+  width: 50%;
+  display: flex;
+}
+.line div {
+  width: 50%;
+  height: 7px;
+  overflow: hidden;
+  position: relative;
+}
+.line1::before {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: '';
+  transform: translateX(-105%);
+  animation-delay: 1s;
+  animation-name: line1;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+.line2::before {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: '';
+  transform: translateX(100%);
+  animation-delay: 1s;
+  animation-name: line2;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+@keyframes line1 {
+  0% {
+    transform: translateX(100%);
+  }
+  50%,
+  70% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes line2 {
+  0% {
+    transform: translateX(-100%);
+  }
+  50%,
+  70% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
