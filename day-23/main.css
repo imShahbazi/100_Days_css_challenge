@@ -36,6 +36,7 @@ body {
 .line {
   width: 50%;
   display: flex;
+  position: absolute;
 }
 .line div {
   width: 50%;
@@ -89,5 +90,58 @@ body {
   }
   100% {
     transform: translateX(100%);
+  }
+}
+.container {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.verticalLine1 {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  left: 0;
+  transform: scaleY(1);
+  border-left: 10px solid white;
+  animation-name: verticalLine1;
+  animation-duration: 6s;
+}
+.verticalLine1::before {
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  content: '';
+  position: absolute;
+  top: 0;
+  animation: verticalLineY 6.6s linear;
+}
+.verticalLine1::after {
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  animation: verticalLineY 6.6s linear;
+}
+@keyframes verticalLineY {
+  0%,
+  86.714285714285714285714285714286% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes verticalLine1 {
+  0%,
+  66.666666666666666666666666666667% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
   }
 }
