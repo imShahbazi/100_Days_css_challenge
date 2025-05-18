@@ -3,3 +3,14 @@ this file created at 18 May 2025 by Ali Shahbazi
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi 
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e16d6c;
+}
