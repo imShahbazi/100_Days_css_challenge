@@ -31,4 +31,68 @@ label{
     height: 97px;
     border: 3px solid white;
     border-radius: 999px;
+    position: relative;
+    transition: 1s;
+}
+label:hover{
+    background: #37BE77;
+}
+.progress{
+    position: absolute;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    transform: rotate(-90deg);
+}
+input:checked ~ label .progress{
+    stroke: white;
+    stroke-width: 3;
+    stroke-dashoffset: 0;
+    animation: progress 3s linear;
+    scale: 1.5;
+    opacity: 0;
+}
+input:checked ~ label{
+    width: 97px;
+    color: transparent;
+    border: 3px solid #37BE77;
+}
+.checkmark{
+    width: 98px;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0;
+    z-index: 100;
+}
+input:checked ~ label .checkmark{
+    animation: checkmark 3s linear;
+    opacity: 1;
+}
+@keyframes checkmark{
+    0%,70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes progress{
+    0%,33.333333333%{
+        stroke-dashoffset: 500;
+        scale: 1;
+        opacity: 1;
+    }
+    66%{
+        stroke-dashoffset: 0;
+        scale: 1;
+        opacity: 1;
+    }
+    100%{
+        scale: 2;
+        opacity: 0;
+    }
 }
