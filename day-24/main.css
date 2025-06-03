@@ -19,3 +19,16 @@ body{
     background-color: #57D895;
     height: 100vh;
 }
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1rem;
+    font-size: 2rem;
+    width: 800px;
+    height: 97px;
+    border: 3px solid white;
+    border-radius: 999px;
+}
