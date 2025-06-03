@@ -3,3 +3,10 @@ this file created at 3 June 2025 by Ali Shahbazi
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi 
 */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #57D895;
+    height: 100vh;
+}
