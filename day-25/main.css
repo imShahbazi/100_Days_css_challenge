@@ -50,9 +50,42 @@ body{
     border-radius: 10px;
     transform: perspective(600px) rotateY(90deg);
     transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    text-align: center;
+}
+.card p:not(.LocationName){
+    font-size: 0.75rem;
+}
+.LocationName{
+    margin-bottom: 0.25rem;
 }
 .cardHover{
     transform: perspective(600px) rotateY(0deg);
+}
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    color: #1F8DE4;
+    width: 50%;
+}
+.buttonContainer{
+    display: flex;
+    width: 80%;
+    padding-bottom: 0.5rem;
+}
+.buttonContainer button:first-child{
+    border-right: 1px solid #91CCFB;
 }
 @keyframes marke{
     0%{
