@@ -18,8 +18,17 @@ body{
     justify-content: center;
     align-items: center;
 }
+.mark{
+    cursor: pointer;
+    transform: perspective(600px) rotateY(0);
+    transition: 0.5s;
+}
 .mark svg{
     animation: marke 2s infinite;
+}
+.markHover{
+    transform: perspective(600px) rotateY(-90deg);
+    
 }
 .mark div{
     width: 30%;
