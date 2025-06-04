@@ -3,9 +3,14 @@ this file created at 4 June 2025 by Ali Shahbazi
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi 
 */
+@font-face{
+    font-family: openSans;
+    src: url("./font/openSans.ttf");
+}
 *{
     padding: 0;
     margin: 0;
+    font-family:openSans ;
 }
 body{
     display: flex;
@@ -63,9 +68,11 @@ body{
     text-align: center;
 }
 .card p:not(.LocationName){
-    font-size: 0.75rem;
+    font-size: 0.65rem;
+    font-weight: lighter;
 }
 .LocationName{
+    font-size: 0.75rem;
     margin-bottom: 0.25rem;
 }
 .cardHover{
