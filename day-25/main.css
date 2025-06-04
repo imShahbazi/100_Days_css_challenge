@@ -12,4 +12,9 @@ body{
 .frame{
     width: 400px;
     height: 400px;
+    background-color: #2196F3;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
