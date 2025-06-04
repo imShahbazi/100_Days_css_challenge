@@ -3,3 +3,13 @@ this file created at 4 June 2025 by Ali Shahbazi
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi 
 */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.frame{
+    width: 400px;
+    height: 400px;
+}
