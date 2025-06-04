@@ -3,6 +3,10 @@ this file created at 4 June 2025 by Ali Shahbazi
 github : https://www.github.com/imShahbazi
 gitlab : https://wwww.gitlab.com/AliShahbazi 
 */
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     display: flex;
     justify-content: center;
@@ -37,6 +41,18 @@ body{
     background-color: #1B7AC7;
     margin-inline: auto;
     animation: shadow 2s infinite;
+}
+.card{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    transform: perspective(600px) rotateY(90deg);
+    transition: 0.5s;
+}
+.cardHover{
+    transform: perspective(600px) rotateY(0deg);
 }
 @keyframes marke{
     0%{
