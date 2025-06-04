@@ -18,10 +18,36 @@ body{
     justify-content: center;
     align-items: center;
 }
+.mark svg{
+    animation: marke 2s infinite;
+}
 .mark div{
     width: 30%;
     height: 3px;
     border-radius: 100%;
     background-color: #1B7AC7;
     margin-inline: auto;
+    animation: shadow 2s infinite;
+}
+@keyframes marke{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-7px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes shadow{
+    0%{
+        width: 30%;
+    }
+    50%{
+        width: 50%;
+    }
+    100%{
+        width: 30%;
+    }
 }
