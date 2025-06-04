@@ -18,3 +18,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+.mark div{
+    width: 30%;
+    height: 3px;
+    border-radius: 100%;
+    background-color: #1B7AC7;
+    margin-inline: auto;
+}
