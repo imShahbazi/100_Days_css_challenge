@@ -26,12 +26,21 @@ github: https://www.github.com/imShahbazi
         ["Failing is learning","Pick yourself up, dust yourself off,and start again."],
         ["Flowers and rainbows","Always be yourself,unless you can be a unicorn."]
     ]
+    let counter = 1;
         document.getElementById("btn").addEventListener("click",()=>{
+            if(counter>2){
+                counter=0;
+            }
             document.getElementById("frame").style="animation:hide 0.5s linear;opacity:0";
-            document.getElementById("number").innerText="2";
+            setTimeout(()=>{
+            document.getElementById("number").innerText=counter+1;
+            document.getElementById("head").innerText=data[counter][0];
+            document.getElementById("desc").innerText=data[counter][1];
+            },500);
             setTimeout(()=>{
                 document.getElementById("frame").style="animation:show 0.5s linear;opacity:1";
-            },500)
+                counter++;
+            },600);
         })
   </script>
 </html>
