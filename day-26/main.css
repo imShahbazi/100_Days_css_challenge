@@ -65,6 +65,7 @@ button{
     outline: none;
     background-color: #3CA7FB;
     color: white;
+    cursor: pointer;
 }
 @keyframes hide{
     0%{
