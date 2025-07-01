@@ -12,12 +12,26 @@ github: https://www.github.com/imShahbazi
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <div class="frame">
+    <div id="frame" class="frame">
       <div class="numberContainer"></div>
-      <div class="number">1</div>
-      <h1>The couch</h1>
-      <p>If you want to grow, get outside your comfort zone.</p>
-      <button>OK</button>
+      <div id="number" class="number">1</div>
+      <h1 id="head">The couch</h1>
+      <p id="desc">If you want to grow, get outside your comfort zone.</p>
+      <button id="btn">OK</button>
     </div>
   </body>
+  <script>
+    const data=[
+        ["The couch","If you want to grow, get outside your comfort zone."],
+        ["Failing is learning","Pick yourself up, dust yourself off,and start again."],
+        ["Flowers and rainbows","Always be yourself,unless you can be a unicorn."]
+    ]
+        document.getElementById("btn").addEventListener("click",()=>{
+            document.getElementById("frame").style="animation:hide 0.5s linear;opacity:0";
+            document.getElementById("number").innerText="2";
+            setTimeout(()=>{
+                document.getElementById("frame").style="animation:show 0.5s linear;opacity:1";
+            },500)
+        })
+  </script>
 </html>

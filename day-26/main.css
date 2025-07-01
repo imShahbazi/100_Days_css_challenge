@@ -66,3 +66,23 @@ button{
     background-color: #3CA7FB;
     color: white;
 }
+@keyframes hide{
+    0%{
+        scale: 1;
+        opacity: 1;
+    }
+    100%{
+        scale: 1.5;
+        opacity: 0;
+    }
+}
+@keyframes show{
+    0%{
+        scale: 0;
+        opacity: 0;
+    }
+    100%{
+        scale: 1;
+        opacity: 1;
+    }
+}
