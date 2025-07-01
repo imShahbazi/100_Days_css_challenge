@@ -25,6 +25,10 @@ body{
     background-color: white;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .numberContainer{
     position: absolute;
@@ -41,4 +45,13 @@ body{
     right: 25px;
     top: 5px;
     font-size: 40px;
+}
+h1{
+    font-size: 50px;
+}
+.frame p {
+    color: #8391A1;
+    margin-top: 1rem;
+    font-size: 20px;
+    text-align: center;
 }
