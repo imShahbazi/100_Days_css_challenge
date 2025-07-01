@@ -19,4 +19,14 @@ body{
     height: 400px;
     background-color: white;
     position: relative;
+    overflow: hidden;
+}
+.numberContainer{
+    position: absolute;
+    background-color: #8391A1;
+    width: 170px;
+    height: 100px;
+    rotate: 45deg;
+    top: -25px;
+    right: -60px;
 }
