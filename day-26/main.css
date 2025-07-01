@@ -12,4 +12,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+}
+.frame{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    position: relative;
 }
