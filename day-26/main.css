@@ -3,9 +3,14 @@ date:1 July 2025
 author:Ali Shahbazi
 github: https://www.github.com/imShahbazi 
 */
+@font-face {
+    font-family: openSans;
+    src: url("./font/openSans.ttf");
+}
 *{
     padding: 0;
     margin: 0;
+    font-family: openSans;
 }
 body{
     background-color: #C7D6E1;
@@ -29,4 +34,11 @@ body{
     rotate: 45deg;
     top: -25px;
     right: -60px;
+}
+.number{
+    color: white;
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    font-size: 40px;
 }
