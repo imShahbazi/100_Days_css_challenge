@@ -46,6 +46,7 @@ body{
     transition: 0.5s;
     opacity: 1;
     align-items: center;
+    cursor: pointer;
 }
 .listContainer h2{
     font-weight: normal;
@@ -67,6 +68,9 @@ body{
 .list{
     margin-top: 2.75rem;
 }
+.listContainer:not(.list > label:nth-child(2)){
+    margin-top: 1.5rem;
+}
 #in1:checked ~ .listContainer1{
     opacity: 0.5;
 }
@@ -77,6 +81,43 @@ body{
 #in1:checked ~ .listContainer1 svg{
     width: 24px;
 }
-.listContainer:not(.list > label:nth-child(2)){
-    margin-top: 1.5rem;
+#in2:checked ~ .listContainer2{
+    opacity: 0.5;
+}
+#in2:checked ~ .listContainer2 .circle{
+    transform: scale(1.5);
+    opacity: 0;
+}
+#in2:checked ~ .listContainer2 svg{
+    width: 24px;
+}
+#in3:checked ~ .listContainer3{
+    opacity: 0.5;
+}
+#in3:checked ~ .listContainer3 .circle{
+    transform: scale(1.5);
+    opacity: 0;
+}
+#in3:checked ~ .listContainer3 svg{
+    width: 24px;
+}
+#in4:checked ~ .listContainer4{
+    opacity: 0.5;
+}
+#in4:checked ~ .listContainer4 .circle{
+    transform: scale(1.5);
+    opacity: 0;
+}
+#in4:checked ~ .listContainer4 svg{
+    width: 24px;
+}
+#in5:checked ~ .listContainer5{
+    opacity: 0.5;
+}
+#in5:checked ~ .listContainer5 .circle{
+    transform: scale(1.5);
+    opacity: 0;
+}
+#in5:checked ~ .listContainer5 svg{
+    width: 24px;
 }
