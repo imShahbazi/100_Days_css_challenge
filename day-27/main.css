@@ -42,16 +42,38 @@ body{
 .listContainer{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    transition: 0.5s;
+    opacity: 1;
+    align-items: center;
 }
 .listContainer h2{
     font-weight: normal;
 }
-label{
+.listContainer svg{
+    position: absolute;
+    left: 0;
+    width: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+.circle{
     width: 24px;
     height: 24px;
     border: 1px solid #497081;
     border-radius: 100%;
+    transition: 0.5s;
 }
 .list{
     margin-top: 2.75rem;
+}
+#in1:checked ~ .listContainer1{
+    opacity: 0.5;
+}
+#in1:checked ~ .listContainer1 .circle{
+    transform: scale(1.5);
+    opacity: 0;
+}
+#in1:checked ~ .listContainer1 svg{
+    width: 24px;
 }
