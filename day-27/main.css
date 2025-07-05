@@ -77,3 +77,6 @@ body{
 #in1:checked ~ .listContainer1 svg{
     width: 24px;
 }
+.listContainer:not(.list > label:nth-child(2)){
+    margin-top: 1.5rem;
+}
