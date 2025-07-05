@@ -1,6 +1,10 @@
 /* date:5 July 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     display: flex;
     justify-content: center;
