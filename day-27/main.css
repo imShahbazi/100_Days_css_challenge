@@ -8,3 +8,9 @@ body{
     height: 100vh;
     background-image: linear-gradient(to top right, #FDA231 0%, #FDCA31 100%);
 }
+.frame{
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 30%;
+    height: 70%;
+}
