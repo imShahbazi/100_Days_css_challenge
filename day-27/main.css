@@ -9,6 +9,7 @@ github: https://www.github.com/imShahbazi */
     margin: 0;
     padding: 0;
     font-family: bN;
+    color: #497081;
 }
 body{
     display: flex;
@@ -27,7 +28,6 @@ body{
     direction: rtl;
 }
 .frame h1,.date{
-    color: #497081;
     font-size: 4rem;
     text-align: center;
 }
@@ -38,4 +38,17 @@ body{
 .header{
     padding-bottom: 3rem;
     border-bottom: 1px solid #d1d2d3;
+}
+.listContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.listContainer h2{
+    font-weight: normal;
+}
+label{
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 100%;
 }
