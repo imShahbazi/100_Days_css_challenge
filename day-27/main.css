@@ -49,6 +49,9 @@ body{
 label{
     width: 24px;
     height: 24px;
-    border: 1px solid black;
+    border: 1px solid #497081;
     border-radius: 100%;
+}
+.list{
+    margin-top: 2.75rem;
 }
