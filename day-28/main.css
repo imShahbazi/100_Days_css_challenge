@@ -3,3 +3,14 @@ date:7 July 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi 
 */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DD3C54;
+    height: 100vh;
+}
