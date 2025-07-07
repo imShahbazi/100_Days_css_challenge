@@ -27,8 +27,31 @@ body{
     transform-origin: center 0;
     animation: bell 1.5s linear;
 }
+.lineR,.lineL{
+    opacity: 0;
+}
 .lineR{
-    right: -150px;
+    right: -100px;
+    animation: lineR 1s;
+}
+.lineR2{
+    animation-delay: 0.5s;
+}
+.lineR3{
+    animation-delay: 1s;
+}
+@keyframes lineR{
+    0%{
+        opacity: 0;
+        transform: scale(1) translateX(0);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: scale(5) translateX(50px);
+    }
 }
 @keyframes bell{
     0%,100%{
