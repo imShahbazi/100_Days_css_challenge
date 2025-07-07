@@ -30,17 +30,22 @@ body{
 .lineR,.lineL{
     opacity: 0;
 }
+.lineL{
+    left: -100px;
+    scale: -1;
+    animation: line 1s;
+}
 .lineR{
     right: -100px;
-    animation: lineR 1s;
+    animation: line 1s;
 }
-.lineR2{
+.lineR2,.lineL2{
     animation-delay: 0.5s;
 }
-.lineR3{
+.lineR3,.lineL3{
     animation-delay: 1s;
 }
-@keyframes lineR{
+@keyframes line{
     0%{
         opacity: 0;
         transform: scale(1) translateX(0);
