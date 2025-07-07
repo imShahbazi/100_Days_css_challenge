@@ -14,3 +14,15 @@ body{
     background-color: #DD3C54;
     height: 100vh;
 }
+.frame{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame svg{
+    position: absolute;
+}
+.lineR{
+    right: -150px;
+}
