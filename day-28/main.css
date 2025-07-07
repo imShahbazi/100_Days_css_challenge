@@ -23,6 +23,51 @@ body{
 .frame svg{
     position: absolute;
 }
+.bell{
+    transform-origin: center 0;
+    animation: bell 1.5s linear;
+}
 .lineR{
     right: -150px;
+}
+@keyframes bell{
+    0%,100%{
+        transform: rotate(0);
+    }
+    7.692307692%{
+        transform: rotate(10deg);
+    }
+    15.384615384%{
+        transform: rotate(-10deg);
+    }
+    23.076923076%{
+        transform: rotate(10deg);
+    }
+    30.769230768%{
+        transform: rotate(-10deg);
+    }
+    38.46153846%{
+        transform: rotate(10deg);
+    }
+    46.153846152%{
+        transform: rotate(-10deg);
+    }
+    53.846153844%{
+        transform: rotate(10deg);
+    }
+    61.538461536%{
+        transform: rotate(-10deg);
+    }
+    69.230769228%{
+        transform: rotate(10deg);
+    }
+    76.92307692%{
+        transform: rotate(-10deg);
+    }
+    84.615384612%{
+        transform: rotate(10deg);
+    }
+    92.307692304%{
+        transform: rotate(-10deg);
+    }
 }
