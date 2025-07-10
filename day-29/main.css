@@ -42,3 +42,8 @@ input::placeholder{
     text-align: center;
     font-size: 2rem;
 }
+.resualtContainer a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
