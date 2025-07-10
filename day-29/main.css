@@ -14,3 +14,19 @@ body{
     align-items: center;
     height: 100vh;
 }
+.frame{
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+input{
+    outline: none;
+    border: none;
+    font-size: 3rem;
+    color: #4D8DCB;
+}
+input::placeholder{
+    color: #A4B9CE;
+}
