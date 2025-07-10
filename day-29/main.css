@@ -26,6 +26,7 @@ body{
     align-items: center;
     gap: 1rem;
     position: relative;
+    box-shadow: -3px 5px 10px #d1d2d3;
 }
 input{
     outline: none;
@@ -45,7 +46,9 @@ input::placeholder{
     top:105%;
     left: 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    box-shadow: -3px 5px 10px #d1d2d3;
+    color: #6e6e6e;
 }
 .resualtContainer a{
     display: block;
