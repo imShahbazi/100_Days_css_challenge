@@ -13,7 +13,12 @@ github: https://www.github.com/imShahbazi
   </head>
   <body>
     <div class="frame">
-      <input placeholder="start typing ..." type="text" id="input" />
+      <input
+        onkeyup="process()"
+        placeholder="start typing ..."
+        type="text"
+        id="input"
+      />
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="44"
@@ -29,9 +34,20 @@ github: https://www.github.com/imShahbazi
         <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
         <path d="M21 21l-6 -6" />
       </svg>
-      <div id="resualt" class="resualtContainer">
-        test
-      </div>
+      <div id="resualt" class="resualtContainer">test</div>
     </div>
   </body>
+  <script>
+    let container = document.getElementById("resualt");
+    let input = document.getElementById("input");
+    function process() {
+      if (input.value) {
+        container.style = "display:block";
+        container.innerText = `No results were found for the phrase "${input.value}".`;
+        container.innerHTML+=`<a href="https://www.google.com">Search for the phrase "${input.value}" on Google</a>`
+      } else {
+        container.style = "display:none";
+      }
+    }
+  </script>
 </html>
