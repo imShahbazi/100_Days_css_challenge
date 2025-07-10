@@ -20,6 +20,7 @@ body{
     display: flex;
     align-items: center;
     gap: 1rem;
+    position: relative;
 }
 input{
     outline: none;
@@ -29,4 +30,15 @@ input{
 }
 input::placeholder{
     color: #A4B9CE;
+}
+.resualtContainer{
+    display: none;
+    background-color: white;
+    position: absolute;
+    width: 95.5%;
+    padding: 1rem;
+    top:105%;
+    left: 0;
+    text-align: center;
+    font-size: 2rem;
 }
