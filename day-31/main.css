@@ -12,6 +12,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap:15px;
     height: 100vh;
     background-color:#4C4BA2;
+}
+.dot{
+    background-color: white;
+    border-radius: 100%;
+    width: 1.5%;
+    aspect-ratio: 1/1;
 }
