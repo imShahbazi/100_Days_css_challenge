@@ -1,0 +1,99 @@
+/* 
+date:13 July 2025
+author: Ali Shahbazi
+github: https://www.github.com/imShahbazi  
+*/
+/* 
+--------
+duration(60)/( oscillations(40)+numberOfDots(20)-c ) 
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    height: 100vh;
+    background-color:#4C4BA2;
+}
+.dot{
+    background-color: white;
+    border-radius: 100%;
+    width: 1.5%;
+    aspect-ratio: 1/1;
+}
+.dot1{
+    animation: dot 1.016949153s ease-in-out infinite;
+}
+.dot2{
+    animation: dot 1.034482759s ease-in-out infinite;
+}
+.dot3{
+    animation: dot 1.052631579s ease-in-out infinite;
+}
+.dot4{
+    animation: dot 1.071428571s ease-in-out infinite;
+}
+.dot5{
+    animation: dot 1.090909091s ease-in-out infinite;
+}
+.dot6{
+    animation: dot 1.111111111s ease-in-out infinite;
+}
+.dot7{
+    animation: dot 1.132075472s ease-in-out infinite;
+}
+.dot8{
+    animation: dot 1.153846154s ease-in-out infinite;
+}
+.dot9{
+    animation: dot 1.176470588s ease-in-out infinite;
+}
+.dot10{
+    animation: dot 1.2s ease-in-out infinite;
+}
+.dot11{
+    animation: dot 1.224489796s ease-in-out infinite;
+}
+.dot12{
+    animation: dot 1.25s ease-in-out infinite;
+}
+.dot13{
+    animation: dot 1.276595745s ease-in-out infinite;
+}
+.dot14{
+    animation: dot 1.304347826s ease-in-out infinite;
+}
+.dot15{
+    animation: dot 1.333333333s ease-in-out infinite;
+}
+.dot16{
+    animation: dot 1.363636364s ease-in-out infinite;
+}
+.dot17{
+    animation: dot 1.395348837s ease-in-out infinite;
+}
+.dot18{
+    animation: dot 1.428571429s ease-in-out infinite;
+}
+.dot19{
+    animation: dot 1.463414634s ease-in-out infinite;
+}
+.dot20{
+    animation: dot 1.5s ease-in-out infinite;
+}
+@keyframes dot{
+    0%{
+        transform: translateX(300px);
+    }
+    50%{
+        transform: translateX(-300px);
+    }
+    100%{
+        transform: translateX(300px);
+    }
+}
