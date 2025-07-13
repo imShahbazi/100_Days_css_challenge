@@ -5,17 +5,29 @@ github: https://www.github.com/imShahbazi
 -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AliShahbazi-css-challenge-day-32</title>
-    <link rel="stylesheet" href="./main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
     <div class="frame">
-        <div class="negetive"></div>
-        <p>0</p>
-        <div class="positive"></div>
+      <div onclick="negetive()" class="negetive"></div>
+      <p>0</p>
+      <div onclick="postive()" class="positive"></div>
     </div>
-</body>
+  </body>
+  <script>
+    let p = document.querySelector("p");
+    let number = 0;
+    function negetive() {
+      number--;
+      p.innerText = number;
+    }
+    function postive() {
+      number++;
+      p.innerText = number;
+    }
+  </script>
 </html>
