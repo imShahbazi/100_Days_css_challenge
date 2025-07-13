@@ -22,3 +22,14 @@ body{
     width: 1.5%;
     aspect-ratio: 1/1;
 }
+@keyframes dot{
+    0%{
+        transform: translateX(300px);
+    }
+    50%{
+        transform: translateX(-300px);
+    }
+    100%{
+        transform: translateX(300px);
+    }
+}
