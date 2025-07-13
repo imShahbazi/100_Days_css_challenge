@@ -3,6 +3,10 @@ date:13 July 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi  
 */
+/* 
+--------
+duration(60)/( oscillations(40)+numberOfDots(20)-c ) 
+*/
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +25,12 @@ body{
     border-radius: 100%;
     width: 1.5%;
     aspect-ratio: 1/1;
+}
+.dot1{
+    animation: dot 1.016949153s ease-in-out infinite;
+}
+.dot2{
+    animation: dot 1.034482759s ease-in-out infinite;
 }
 @keyframes dot{
     0%{
