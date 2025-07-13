@@ -62,6 +62,18 @@ body{
 .dot12{
     animation: dot 1.25s ease-in-out infinite;
 }
+.dot13{
+    animation: dot 1.276595745s ease-in-out infinite;
+}
+.dot14{
+    animation: dot 1.304347826s ease-in-out infinite;
+}
+.dot15{
+    animation: dot 1.333333333s ease-in-out infinite;
+}
+.dot16{
+    animation: dot 1.363636364s ease-in-out infinite;
+}
 @keyframes dot{
     0%{
         transform: translateX(300px);
