@@ -26,3 +26,8 @@ body{
     border-radius: 999px;
     padding: 1rem;
 }
+p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #6A85A0;
+}
