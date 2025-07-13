@@ -32,7 +32,7 @@ p{
     font-weight: bold;
     color: #6A85A0;
 }
-.negetive{
+.negetive,.positive{
     width: 54px;
     aspect-ratio: 1/1;
     border-radius: 100%;
@@ -54,5 +54,36 @@ p{
     background-color: #E26E6E;
 }
 .negetive:hover::before{
+    background-color: white;
+}
+.positive:hover{
+    background-color: #8ED273;
+}
+.positive::before{
+    content: '';
+    width: 60%;
+    height: 5px;
+    background-color: #8ED273;
+    position: absolute;
+    border-radius: 999px;
+    left: 50%;
+    top: 50%;
+    translate:-50% -50%;
+    transition: 0.3s;
+}
+.positive::after{
+    content: '';
+    width: 60%;
+    height: 5px;
+    background-color: #8ED273;
+    position: absolute;
+    border-radius: 999px;
+    left: 50%;
+    top: 50%;
+    translate:-50% -50%;
+    rotate:90deg;
+    transition: 0.3s;
+}
+.positive:hover::before,.positive:hover::after{
     background-color: white;
 }
