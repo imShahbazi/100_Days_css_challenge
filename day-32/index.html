@@ -22,8 +22,9 @@ github: https://www.github.com/imShahbazi
     let p = document.querySelector("p");
     let number = 0;
     let negetiveR = true;
+    let positiveR=true;
     function negetive() {
-      if (negetiveR) {
+      if (negetiveR&&positiveR) {
         number--;
         p.style = "animation:negetive 0.3s linear";
         p.innerText = number;
@@ -35,8 +36,16 @@ github: https://www.github.com/imShahbazi
       }
     }
     function postive() {
-      number++;
-      p.innerText = number;
+      if (positiveR&&negetiveR) {
+        number++;
+        p.style = "animation:positive 0.3s linear";
+        p.innerText = number;
+        positiveR=false;
+        setTimeout(() => {
+          p.style = "";
+          positiveR=true;
+        }, 300);
+      }
     }
   </script>
 </html>
