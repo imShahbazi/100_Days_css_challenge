@@ -88,3 +88,13 @@ p{
 .positive:hover::before,.positive:hover::after{
     background-color: white;
 }
+@keyframes negetive{
+    0%{
+        opacity: 0;
+        transform: scale(1.5);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
