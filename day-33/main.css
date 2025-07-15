@@ -3,41 +3,71 @@ date:15 July 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi   
 */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: #75C1E8;
-    padding-left: 20%;
-    padding-top: 50px;
-    height: 100vh;
-    overflow: hidden;
+body {
+  background-color: #75c1e8;
+  padding-left: 20%;
+  padding-top: 50px;
+  height: 100vh;
+  overflow: hidden;
 }
-.sun{
-    border-radius: 100%;
-    width: 15%;
-    aspect-ratio: 1/1;
-    background-color: #FFD93C;
+.sun {
+  border-radius: 100%;
+  width: 15%;
+  aspect-ratio: 1/1;
+  background-color: #ffd93c;
 }
-svg{
-    position: absolute;
+svg {
+  position: absolute;
 }
-.cloud3{
-    width: 15%;
-    height: 15%;
-    top: 10%;
-    right: 25%;
+.cloud3 {
+  width: 15%;
+  height: 15%;
+  top: 10%;
+  right: 25%;
+  animation: cloud3 50s linear infinite;
 }
-.cloud2{
-    width: 25%;
-    height: 25%;
-    top: 25%;
-    right: 50%;
+.cloud2 {
+  width: 25%;
+  height: 25%;
+  top: 25%;
+  right: 50%;
+  animation: cloud2 50s linear infinite;
 }
-.cloud1{
-    width: 35%;
-    height: 35%;
-    top: 55%;
+.cloud1 {
+  width: 35%;
+  height: 35%;
+  top: 55%;
+  right: 0;
+  animation: cloud1 50s linear infinite;
+}
+@keyframes cloud1 {
+  0%,
+  100% {
     right: 0;
+  }
+  50% {
+    right: 110%;
+  }
+}
+@keyframes cloud2 {
+  0%,
+  100% {
+    right: 50%;
+  }
+  50% {
+    right: 110%;
+  }
+}
+@keyframes cloud3 {
+  0%,
+  100% {
+    right: 25%;
+  }
+  50% {
+    right: 110%;
+  }
 }
