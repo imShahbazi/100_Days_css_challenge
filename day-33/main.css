@@ -10,5 +10,12 @@ github: https://www.github.com/imShahbazi
 body{
     background-color: #75C1E8;
     padding-left: 20%;
+    padding-top: 50px;
     height: 100vh;
+}
+.sun{
+    border-radius: 100%;
+    width: 15%;
+    aspect-ratio: 1/1;
+    background-color: #FFD93C;
 }
