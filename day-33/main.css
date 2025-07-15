@@ -20,3 +20,24 @@ body{
     aspect-ratio: 1/1;
     background-color: #FFD93C;
 }
+svg{
+    position: absolute;
+}
+.cloud3{
+    width: 15%;
+    height: 15%;
+    top: 10%;
+    right: 25%;
+}
+.cloud2{
+    width: 25%;
+    height: 25%;
+    top: 25%;
+    right: 50%;
+}
+.cloud1{
+    width: 35%;
+    height: 35%;
+    top: 55%;
+    right: 0;
+}
