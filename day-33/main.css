@@ -12,6 +12,7 @@ body{
     padding-left: 20%;
     padding-top: 50px;
     height: 100vh;
+    overflow: hidden;
 }
 .sun{
     border-radius: 100%;
