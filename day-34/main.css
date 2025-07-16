@@ -22,4 +22,13 @@ body{
     border-radius: 999px;
     background-color: white;
     height: 3px;
+    animation: line 1s linear;
+}
+@keyframes line{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
 }
