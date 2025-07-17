@@ -15,8 +15,19 @@ body{
     height: 100vh;
 }
 svg{
-    rotate: -87deg;
 }
 svg circle{
     stroke-dasharray: 289;
+}
+.loader{
+    animation: line 4s ease-out infinite;
+    stroke-linecap: round;
+}
+@keyframes line{
+    0%,100%{
+        stroke-dashoffset: 1156;
+    }
+    50%{
+        stroke-dashoffset: 578;
+    }
 }
