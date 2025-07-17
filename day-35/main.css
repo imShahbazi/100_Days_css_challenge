@@ -14,3 +14,9 @@ body{
     background-color: #1BBE9E;
     height: 100vh;
 }
+svg{
+    rotate: -87deg;
+}
+svg circle{
+    stroke-dasharray: 289;
+}
