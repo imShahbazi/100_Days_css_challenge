@@ -29,3 +29,10 @@ body{
 .menu > div{
     padding: 0.5rem;
 }
+svg{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.menu > div:hover svg{
+    stroke: white;
+}
