@@ -14,3 +14,8 @@ body{
     height: 100vh;
     background-color: #2B3642;
 }
+.frame{
+    min-width: 300px;
+    width: 40%;
+    background-color: white;
+}
