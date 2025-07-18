@@ -23,7 +23,9 @@ body{
     background-color: #3D4D5E;
     display: flex;
     justify-content: center;
-    gap:50px;
+    gap:30px;
     align-items: center;
-    padding-block: 0.5rem;
+}
+.menu > div{
+    padding: 0.5rem;
 }
