@@ -69,3 +69,21 @@ form{
     background-color: white;
     padding: 2rem;
 }
+h2{
+    margin-bottom: 1rem;
+}
+.line{
+    width: 100%;
+    height: 4px;
+    background-color: #d7d8d9;
+    margin-top: 0.5rem;
+}
+.line30{
+    width: 30%;
+}
+.lineBr{
+    margin-top: 1rem;
+}
+.line50{
+    width: 50%;
+}
