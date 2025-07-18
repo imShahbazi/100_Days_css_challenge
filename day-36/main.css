@@ -68,6 +68,8 @@ form{
 .container{
     background-color: white;
     padding: 2rem;
+    position: relative;
+    overflow: hidden;
 }
 h2{
     margin-bottom: 1rem;
@@ -86,4 +88,16 @@ h2{
 }
 .line50{
     width: 50%;
+}
+.info{
+    transform: translateY(20%);
+    opacity: 0;
+    transition: 0.5s;
+}
+.infoContainer{
+    position: relative;
+}
+#in1:checked ~ .container .info1{
+    transform: translateY(0%);
+    opacity: 1;
 }
