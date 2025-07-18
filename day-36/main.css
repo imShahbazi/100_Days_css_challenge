@@ -16,6 +16,13 @@ body{
 }
 .frame{
     min-width: 300px;
-    width: 40%;
+    width: 50%;
     background-color: white;
+}
+.menu{
+    background-color: #3D4D5E;
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    align-items: center;
 }
