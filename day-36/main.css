@@ -114,3 +114,13 @@ h2 {
   opacity: 1;
   transition: 0.5s ease-in 0.5s;
 }
+#in3:checked ~ .container .info3 {
+  top: 0;
+  opacity: 1;
+  transition: 0.5s ease-in 0.5s;
+}
+#in4:checked ~ .container .info4 {
+  top: 0;
+  opacity: 1;
+  transition: 0.5s ease-in 0.5s;
+}
