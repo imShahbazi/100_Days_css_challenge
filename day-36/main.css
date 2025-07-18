@@ -26,13 +26,23 @@ body{
     gap:30px;
     align-items: center;
 }
-.menu > div{
+.menu > label{
     padding: 0.5rem;
 }
 svg{
     cursor: pointer;
     transition: 0.5s;
 }
-.menu > div:hover svg{
+.menu > label:hover svg{
     stroke: white;
+}
+form{
+    position: absolute;
+    top: 0;
+}
+#in1:checked ~ .menu .label1{
+    background-color: #5DA2ED;
+}
+#in1:checked ~ .menu .label1 svg{
+    stroke:white;
 }
