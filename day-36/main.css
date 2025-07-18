@@ -65,3 +65,7 @@ form{
 #in4:checked ~ .menu .label4 svg{
     stroke:white;
 }
+.container{
+    background-color: white;
+    padding: 0.5rem;
+}
