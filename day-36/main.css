@@ -28,6 +28,7 @@ body{
 }
 .menu > label{
     padding: 0.5rem;
+    transition: 0.5s;
 }
 svg{
     cursor: pointer;
