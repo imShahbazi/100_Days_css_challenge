@@ -52,3 +52,15 @@ form{
 #in2:checked ~ .menu .label2 svg{
     stroke:white;
 }
+#in3:checked ~ .menu .label3{
+    background-color: #5DA2ED;
+}
+#in3:checked ~ .menu .label3 svg{
+    stroke:white;
+}
+#in4:checked ~ .menu .label4{
+    background-color: #5DA2ED;
+}
+#in4:checked ~ .menu .label4 svg{
+    stroke:white;
+}
