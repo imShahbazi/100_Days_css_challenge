@@ -3,59 +3,83 @@ date:19 July 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi  
 */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #5A717B;
-    height: 100vh;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5a717b;
+  height: 100vh;
 }
-.card{
+.card {
+  width: 400px;
+  height: 200px;
+  min-width: 350px;
+}
+.menu {
+  background-color: #ff9800;
+  width: 100%;
+  height: 70px;
+}
+.container {
+  background-color: white;
+  padding-top: 1rem;
+  padding-inline: 2rem;
+  height: 100%;
+}
+.line {
+  width: 100%;
+  height: 5px;
+  background-color: #d7d8d9;
+  margin-top: 1rem;
+}
+.line50 {
+  width: 50%;
+}
+.card1,
+.card3 {
+  position: absolute;
+}
+.card1 {
+  left: -400px;
+  animation: card1 5s infinite;
+}
+.card3 {
+  left: 700px;
+}
+.card2 {
+  width: 700px;
+  height: 350px;
+}
+.frame {
+  width: 700px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+@keyframes card1 {
+  0%,10% {
     width: 400px;
     height: 200px;
-    min-width: 350px;
-}
-.menu{
-    background-color: #FF9800;
-    width: 100%;
-    height: 70px;
-}
-.container{
-    background-color: white;
-    padding-top: 1rem;
-    padding-inline: 2rem;
-    height: 100%;
-}
-.line{
-    width: 100%;
-    height: 5px;
-    background-color: #d7d8d9;
-    margin-top: 1rem;
-}
-.line50{
-    width: 50%;
-}
-.card1,.card3{
-    position: absolute;
-}
-.card1{
     left: -400px;
-}
-.card3{
+  }
+  33.3333333333%,44% {
+    width: 700px;
+    height: 350px;
+    left: 0;
+  }
+  66.666666667%,77% {
+    width: 400px;
+    height: 200px;
     left: 700px;
-}
-.card2{
-    width: 700px;
-    height: 350px;
-}
-.frame{
-    width: 700px;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    position: relative;
+  }
+  100% {
+    width: 400px;
+    height: 200px;
+    left: -400px;
+  }
 }
