@@ -18,6 +18,7 @@ body {
   width: 400px;
   height: 200px;
   min-width: 350px;
+  position: absolute;
 }
 .menu {
   background-color: #ff9800;
@@ -39,10 +40,6 @@ body {
 .line50 {
   width: 50%;
 }
-.card1,
-.card3 {
-  position: absolute;
-}
 .card1 {
   left: -400px;
   animation: card1 5s infinite;
@@ -53,6 +50,8 @@ body {
 .card2 {
   width: 700px;
   height: 350px;
+  left: 700px;
+  animation: card2 5s infinite;
 }
 .frame {
   width: 700px;
@@ -62,22 +61,40 @@ body {
   position: relative;
 }
 @keyframes card1 {
-  0%,10% {
+  0%,
+  10%,100% {
     width: 400px;
     height: 200px;
     left: -400px;
   }
-  33.3333333333%,44% {
+  33.3333333333%,
+  44% {
     width: 700px;
     height: 350px;
     left: 0;
   }
-  66.666666667%,77% {
+  66.666666667%,
+  77% {
     width: 400px;
     height: 200px;
     left: 700px;
   }
-  100% {
+}
+@keyframes card2 {
+  0%,
+  10%,100%{
+    width: 700px;
+    height: 350px;
+    left: 0;
+  }
+  33.3333333333%,
+  44% {
+    width: 400px;
+    height: 200px;
+    left: 700px;
+  }
+  66.666666667%,
+  77% {
     width: 400px;
     height: 200px;
     left: -400px;
