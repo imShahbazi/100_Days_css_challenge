@@ -15,7 +15,7 @@ body{
     height: 100vh;
 }
 .card{
-    width: 27%;
+    width: 20%;
     min-width: 350px;
 }
 .menu{
@@ -26,7 +26,7 @@ body{
 .container{
     background-color: white;
     padding-top: 1rem;
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
     padding-inline: 2rem;
 }
 .line{
@@ -37,4 +37,10 @@ body{
 }
 .line50{
     width: 50%;
+}
+.card1,.card3{
+    transform: scale(0.7);
+}
+.card2{
+    transform: scale(1.3);
 }
