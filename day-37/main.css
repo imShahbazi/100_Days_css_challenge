@@ -41,17 +41,12 @@ body {
   width: 50%;
 }
 .card1 {
-  left: -400px;
   animation: card1 5s infinite;
 }
 .card3 {
-  left: 700px;
   animation: card3 5s infinite;
 }
 .card2 {
-  width: 700px;
-  height: 350px;
-  left: 700px;
   animation: card2 5s infinite;
 }
 .frame {
@@ -68,18 +63,21 @@ body {
     width: 400px;
     height: 200px;
     left: -400px;
+    z-index: 0;
   }
   33.3333333333%,
   44% {
     width: 700px;
     height: 350px;
     left: 0;
+    z-index: 10;
   }
   66.666666667%,
   77% {
     width: 400px;
     height: 200px;
     left: 700px;
+    z-index: 0;
   }
 }
 @keyframes card2 {
@@ -89,18 +87,21 @@ body {
     width: 700px;
     height: 350px;
     left: 0;
+    z-index: 10;
   }
   33.3333333333%,
   44% {
     width: 400px;
     height: 200px;
     left: 700px;
+    z-index: 0;
   }
   66.666666667%,
   77% {
     width: 400px;
     height: 200px;
     left: -400px;
+    z-index: 0;
   }
 }
 @keyframes card3 {
@@ -110,17 +111,20 @@ body {
     width: 400px;
     height: 200px;
     left: 700px;
+    z-index: 0;
   }
   33.3333333333%,
   44% {
     width: 400px;
     height: 200px;
     left: -400px;
+    z-index: 0;
   }
   66.666666667%,
   77% {
     width: 700px;
     height: 350px;
     left: 0;
+    z-index: 10;
   }
 }
