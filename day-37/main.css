@@ -46,6 +46,7 @@ body {
 }
 .card3 {
   left: 700px;
+  animation: card3 5s infinite;
 }
 .card2 {
   width: 700px;
@@ -62,7 +63,8 @@ body {
 }
 @keyframes card1 {
   0%,
-  10%,100% {
+  10%,
+  100% {
     width: 400px;
     height: 200px;
     left: -400px;
@@ -82,7 +84,8 @@ body {
 }
 @keyframes card2 {
   0%,
-  10%,100%{
+  10%,
+  100% {
     width: 700px;
     height: 350px;
     left: 0;
@@ -98,5 +101,26 @@ body {
     width: 400px;
     height: 200px;
     left: -400px;
+  }
+}
+@keyframes card3 {
+  0%,
+  10%,
+  100% {
+    width: 400px;
+    height: 200px;
+    left: 700px;
+  }
+  33.3333333333%,
+  44% {
+    width: 400px;
+    height: 200px;
+    left: -400px;
+  }
+  66.666666667%,
+  77% {
+    width: 700px;
+    height: 350px;
+    left: 0;
   }
 }
