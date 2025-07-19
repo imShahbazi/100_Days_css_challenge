@@ -16,6 +16,7 @@ body{
 }
 .card{
     width: 27%;
+    min-width: 350px;
 }
 .menu{
     background-color: #FF9800;
@@ -24,5 +25,16 @@ body{
 }
 .container{
     background-color: white;
-    padding: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+    padding-inline: 2rem;
+}
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: #d7d8d9;
+    margin-top: 1rem;
+}
+.line50{
+    width: 50%;
 }
