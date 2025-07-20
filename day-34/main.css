@@ -1,0 +1,50 @@
+/* 
+date:16 July 2025
+author: Ali Shahbazi
+github: https://www.github.com/imShahbazi   
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EA4C89;
+}
+.frame{
+    width: 40%;
+    min-width: 600px;
+}
+.line{
+    width: 100%;
+    border-radius: 999px;
+    background-color: white;
+    height: 3px;
+    animation: line 1s linear;
+}
+svg{
+    display: block;
+    margin-inline: auto;
+    stroke-dasharray: 270;
+    stroke-dashoffset: 270;
+    animation:  svg 4s linear;
+}
+@keyframes svg{
+    0%,25%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dashoffset: 270;
+    }
+}
+@keyframes line{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
