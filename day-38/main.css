@@ -14,3 +14,8 @@ body{
     height: 100vh;
     background-color: #9B59B6;
 }
+.logo1{
+    width: 30%;
+    height: 30%;
+    cursor: pointer;
+}
