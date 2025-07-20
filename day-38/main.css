@@ -13,11 +13,12 @@ body{
     align-items: center;
     height: 100vh;
     background-color: #9B59B6;
+    overflow: hidden;
 }
 .logo1{
     width: 30%;
     height: 30%;
-    cursor: pointer;
+    transition: 2s linear;
 }
 .logo2{
     position: absolute;
