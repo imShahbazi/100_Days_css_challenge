@@ -19,3 +19,7 @@ body{
     height: 30%;
     cursor: pointer;
 }
+.logo2{
+    position: absolute;
+    transform: scale(0);
+}
