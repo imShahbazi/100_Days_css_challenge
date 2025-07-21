@@ -14,3 +14,11 @@ body{
     background-color: #4A627A;
     height: 100vh;
 }
+.frame{
+    width: 40%;
+    min-width: 300px;
+    height: 10%;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    transform: scalex(0.5);
+}
