@@ -21,4 +21,5 @@ body{
     border-bottom: 10px solid white;
     transform: scalex(0.15);
     transition: 0.5s;
+    overflow: hidden;
 }
