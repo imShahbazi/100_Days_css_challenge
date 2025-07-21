@@ -5,13 +5,31 @@ github: https://www.github.com/imShahbazi
 -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AliShahbazi-css-challenge-day-39</title>
-    <link rel="stylesheet" href="./main.css">
-</head>
-<body>
-    <div class="frame"></div>
-</body>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div onclick="frame(this)" class="frame"></div>
+  </body>
+  <script>
+    let show = false;
+    function frame(session) {
+      if (!show) {
+        session.style = "height:50%";
+        setTimeout(() => {
+          session.style = "transform:scaleX(1);height:50%";
+        }, 500);
+        show = true;
+      } else {
+        session.style = "transform:scaleX(0.15);height:50%";
+        setTimeout(() => {
+          session.style = "transform:scaleX(0.15);height:10%";
+        }, 500);
+        show=false;
+      }
+    }
+  </script>
 </html>

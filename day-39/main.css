@@ -15,10 +15,10 @@ body{
     height: 100vh;
 }
 .frame{
-    width: 40%;
-    min-width: 300px;
+    width: 90%;
     height: 10%;
     border-top: 10px solid white;
     border-bottom: 10px solid white;
-    transform: scalex(0.5);
+    transform: scalex(0.15);
+    transition: 0.5s;
 }
