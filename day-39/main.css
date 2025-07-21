@@ -22,4 +22,8 @@ body{
     transform: scalex(0.15);
     transition: 0.5s;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap:10rem;
+    align-items: center;
 }
