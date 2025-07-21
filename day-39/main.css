@@ -27,3 +27,10 @@ body{
     gap:10rem;
     align-items: center;
 }
+.frame p {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    opacity: 0;
+    transition: 0.5s;
+}

@@ -13,27 +13,36 @@ github: https://www.github.com/imShahbazi
   </head>
   <body>
     <div onclick="frame(this)" class="frame">
-        <p>Home</p>
-        <p>Work</p>
-        <p>Life</p>
-        <p>Spirit</p>
+      <p>Home</p>
+      <p>Work</p>
+      <p>Life</p>
+      <p>Spirit</p>
     </div>
   </body>
   <script>
     let show = false;
+    let p = document.querySelectorAll("p");
     function frame(session) {
       if (!show) {
         session.style = "height:50%";
         setTimeout(() => {
           session.style = "transform:scaleX(1);height:50%";
+          p.forEach((value) => {
+            value.style = "opacity:1";
+          });
         }, 500);
         show = true;
       } else {
-        session.style = "transform:scaleX(0.15);height:50%";
+        p.forEach((value) => {
+          value.style = "opacity:0;transition:0";
+        });
+        setTimeout(() => {
+          session.style = "transform:scaleX(0.15);height:50%";
+        }, 500);
         setTimeout(() => {
           session.style = "transform:scaleX(0.15);height:10%";
-        }, 500);
-        show=false;
+        }, 1000);
+        show = false;
       }
     }
   </script>
