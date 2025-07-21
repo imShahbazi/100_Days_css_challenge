@@ -3,9 +3,14 @@ date:21 July 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi  
 */
+@font-face {
+    font-family: openSans;
+    src: url("./font/openSans.ttf");
+}
 *{
     margin: 0;
     padding: 0;
+    font-family: openSans;
 }
 body{
     display: flex;
@@ -33,4 +38,5 @@ body{
     font-weight: bold;
     opacity: 0;
     transition: 0.5s;
+    text-transform: uppercase;
 }
