@@ -59,10 +59,13 @@ img{
 }
 .right1{
     top: 0;
+    transform-origin: right 0;
 }
 .right2{
-    top:270px
+    top:270px;
+    transform-origin: right center;
 }
 .right3{
     top: 540px;
+    transform-origin: right bottom;
 }
