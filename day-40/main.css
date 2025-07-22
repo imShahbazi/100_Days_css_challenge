@@ -26,6 +26,10 @@ img{
 .left{
     left: 0;
 }
+.center{
+    left: 50%;
+    transform: translateX(-50%);
+}
 .left1{
     top: 0;
 }
@@ -33,5 +37,14 @@ img{
     top: 270px;
 }
 .left3{
+    top: 540px;
+}
+.center1{
+    top: 0;
+}
+.center2{
+    top: 270px;
+}
+.center3{
     top: 540px;
 }
