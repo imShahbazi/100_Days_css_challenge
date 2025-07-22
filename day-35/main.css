@@ -1,0 +1,42 @@
+/* 
+date:17 July 2025
+author: Ali Shahbazi
+github: https://www.github.com/imShahbazi 
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1BBE9E;
+    height: 100vh;
+}
+svg{
+    animation: rotate 3s infinite linear;
+}
+svg circle{
+    stroke-dasharray: 289;
+}
+.loader{
+    animation: line 4s ease-out infinite;
+    stroke-linecap: round;
+}
+@keyframes line{
+    0%,100%{
+        stroke-dashoffset: 1156;
+    }
+    50%{
+        stroke-dashoffset: 578;
+    }
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
