@@ -29,7 +29,7 @@ img{
 }
 .center{
     left: 50%;
-    transform: translateX(-50%);
+    translate: -50% 0;
 }
 .right{
     right: 0;
@@ -48,12 +48,14 @@ img{
 }
 .center1{
     top: 0;
+    transform-origin: center 0;
 }
 .center2{
     top: 270px;
 }
 .center3{
     top: 540px;
+    transform-origin: center bottom;
 }
 .right1{
     top: 0;
