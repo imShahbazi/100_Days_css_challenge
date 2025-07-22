@@ -23,3 +23,15 @@ img{
     height: 260px;
     position: absolute;
 }
+.left{
+    left: 0;
+}
+.left1{
+    top: 0;
+}
+.left2{
+    top: 270px;
+}
+.left3{
+    top: 540px;
+}
