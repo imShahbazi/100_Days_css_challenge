@@ -40,9 +40,11 @@ img{
 }
 .left2{
     top: 270px;
+    transform-origin: 0 center;
 }
 .left3{
     top: 540px;
+    transform-origin: 0 bottom;
 }
 .center1{
     top: 0;
