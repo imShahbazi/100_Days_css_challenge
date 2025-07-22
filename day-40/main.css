@@ -13,3 +13,8 @@ body{
     align-items: center;
     height: 100vh;
 }
+.frame{
+    width: 800px;
+    height: 800px;
+    position: relative;
+}
