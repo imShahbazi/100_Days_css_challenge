@@ -13,7 +13,7 @@ github: https://www.github.com/imShahbazi
 </head>
 <body>
     <div class="frame">
-        <img class="left left1" src="./img/1.jpg"/>
+        <img onclick="size(this)" class="left left1" src="./img/1.jpg"/>
         <img class="center center1" src="./img/2.jpg"/>
         <img class="right right1" src="./img/3.jpg"/>
         <img class="left left2" src="./img/4.jpg"/>
@@ -24,4 +24,16 @@ github: https://www.github.com/imShahbazi
         <img class="right right3" src="./img/9.jpg"/>
     </div>
 </body>
+<script>
+    let big=true;
+    function size(session){
+        if(big){
+            session.style="transform:scale(3.08);z-index:5";
+            big=false;
+        }else{
+            session.style="transform:scale(1);z-index:1";
+            big=true;
+        }
+    }
+</script>
 </html>

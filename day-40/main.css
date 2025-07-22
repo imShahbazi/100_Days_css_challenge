@@ -22,6 +22,7 @@ img{
     width: 260px;
     height: 260px;
     position: absolute;
+    transition: 1s;
 }
 .left{
     left: 0;
@@ -35,6 +36,7 @@ img{
 }
 .left1{
     top: 0;
+    transform-origin: 0 0;
 }
 .left2{
     top: 270px;
