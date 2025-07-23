@@ -19,5 +19,11 @@ body{
     height: 50%;
     background-color: white;
     border-radius: 5px;
-    padding-top: 5rem;
+    padding-top: 3rem;
+}
+svg{
+    margin-inline: auto;
+    display: block;
+    width: 40%;
+    height: 40%;
 }
