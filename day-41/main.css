@@ -24,11 +24,15 @@ body{
     height: 50%;
     background-color: white;
     border-radius: 5px;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 svg{
     margin-inline: auto;
     display: block;
     width: 40%;
     height: 40%;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
 }
