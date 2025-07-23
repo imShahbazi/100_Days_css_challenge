@@ -3,9 +3,14 @@ date:23 July 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi
 */
+@font-face{
+    font-family: openSans;
+    src: url("./font/openSans.ttf");
+}
 *{
     margin: 0;
     padding: 0;
+    font-family: openSans;
 }
 body{
     background-color: #3F3F3F;
