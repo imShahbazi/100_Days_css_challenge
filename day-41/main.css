@@ -25,6 +25,7 @@ body{
     background-color: white;
     border-radius: 5px;
     padding-top: 2rem;
+    position: relative;
 }
 svg{
     margin-inline: auto;
@@ -38,4 +39,18 @@ h1{
 }
 p{
     text-align: center;
+}
+button{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #F65656;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #EC3434;
 }
