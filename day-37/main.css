@@ -1,0 +1,131 @@
+/* 
+date:19 July 2025
+author: Ali Shahbazi
+github: https://www.github.com/imShahbazi  
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5a717b;
+  height: 100vh;
+}
+.card {
+  width: 400px;
+  height: 200px;
+  min-width: 350px;
+  position: absolute;
+}
+.menu {
+  background-color: #ff9800;
+  width: 100%;
+  height: 70px;
+}
+.container {
+  background-color: white;
+  padding-top: 1rem;
+  padding-inline: 2rem;
+  height: 100%;
+}
+.line {
+  width: 100%;
+  height: 5px;
+  background-color: #d7d8d9;
+  margin-top: 1rem;
+}
+.line50 {
+  width: 50%;
+}
+.card1 {
+  animation: card1 5s infinite;
+}
+.card2 {
+  animation: card2 5s infinite;
+}
+.card3 {
+  animation: card3 5s infinite;
+}
+.frame {
+  width: 40%;
+  height: 40%;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+@keyframes card1 {
+  0%,
+  10%,
+  100% {
+    left: -60%;
+    width: 60%;
+    height: 60%;
+    z-index: 0;
+  }
+  33.3333333333%,
+  44% {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+  66.666666667%,
+  77% {
+    left: 100%;
+    width: 60%;
+    height: 60%;
+    z-index: 0;
+  }
+}
+@keyframes card2 {
+  0%,
+  10%,
+  100% {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+  33.3333333333%,
+  44% {
+    left: 100%;
+    width: 60%;
+    height: 60%;
+    z-index: 0;
+  }
+  66.666666667%,
+  77% {
+    left: -60%;
+    width: 60%;
+    height: 60%;
+    z-index: 0;
+  }
+}
+@keyframes card3 {
+  0%,
+  10%,
+  100% {
+    left: 100%;
+    width: 60%;
+    height: 60%;
+    z-index: 0;
+  }
+  33.3333333333%,
+  44% {
+    left: -60%;
+    width: 60%;
+    height: 60%;
+    z-index: 0;
+  }
+  66.666666667%,
+  77% {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+}
