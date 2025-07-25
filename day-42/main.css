@@ -18,4 +18,30 @@ body {
   width: 500px;
   height: 500px;
   border-radius: 100%;
+  position: relative;
+}
+.star{
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100%;
+}
+.star::before,.star::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    width: 2px;
+    height: 2px;
+}
+.star1{
+    top: 10%;
+    left: 30%;
+}
+.star1::before{
+    left: 30px;
+}
+.star1::after{
+    left: 30px;
+    top: 10px;
 }
