@@ -52,6 +52,12 @@ body {
   animation: star ((random(5)+40)/10)+s infinite ((random(5)+random(60))/10)+s;
 }
 }
+img{
+    rotate: 25deg;
+    position: absolute;
+    left: -220px;
+    top: 0;
+}
 @keyframes star{
     0%,100%{
         opacity: 1;
