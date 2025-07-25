@@ -53,10 +53,33 @@ body {
 }
 }
 img{
-    rotate: 25deg;
+    rotate: 20deg;
     position: absolute;
-    left: -220px;
-    top: 0;
+    left: -500px;
+}
+.shotingStar1{
+        top: 0;
+        animation: shotingStar 10s linear 2s infinite;
+}
+.shotingStar2{
+        top: 100px;
+        animation: shotingStar 13s linear 5s infinite;
+}
+.shotingStar3{
+        top: 50px;
+        animation: shotingStar 12s linear 3.5s infinite;
+}
+.shotingStar4{
+        top: 130px;
+        animation: shotingStar 10s linear 2.5s infinite;
+}
+.shotingStar5{
+        top: 70px;
+        animation: shotingStar 16s linear 1s infinite;
+}
+.shotingStar5{
+        top: 10px;
+        animation: shotingStar 30s linear 7s infinite;
 }
 @keyframes star{
     0%,100%{
@@ -64,5 +87,13 @@ img{
     }
     50%{
         opacity: 0.2;
+    }
+}
+@keyframes shotingStar{
+    0%{
+        transform: translateX(0);
+    }
+    10%,100%{
+        transform: translateX(1100px);
     }
 }
