@@ -41,438 +41,753 @@ body {
 }
 
 .star1 {
-  top: 278px;
-  left: 102px;
+  top: 142px;
+  left: 87px;
 }
 
 .star1::before {
-  left: 144px;
-  top: 193px;
+  left: 48px;
+  top: 166px;
 }
 
 .star1::after {
-  left: 278px;
-  top: 104px;
+  left: 264px;
+  top: 99px;
 }
 
 .star2 {
-  top: 17px;
-  left: 211px;
+  top: 12px;
+  left: 234px;
 }
 
 .star2::before {
-  left: 143px;
-  top: 262px;
+  left: 193px;
+  top: 127px;
 }
 
 .star2::after {
-  left: 215px;
-  top: 217px;
+  left: 34px;
+  top: 195px;
 }
 
 .star3 {
-  top: 248px;
-  left: 206px;
+  top: 140px;
+  left: 211px;
 }
 
 .star3::before {
-  left: 232px;
-  top: 216px;
+  left: 120px;
+  top: 229px;
 }
 
 .star3::after {
-  left: 158px;
-  top: 256px;
+  left: 166px;
+  top: 225px;
 }
 
 .star4 {
-  top: 60px;
-  left: 133px;
+  top: 144px;
+  left: 148px;
 }
 
 .star4::before {
-  left: 162px;
-  top: 124px;
+  left: 145px;
+  top: 189px;
 }
 
 .star4::after {
-  left: 261px;
-  top: 84px;
+  left: 160px;
+  top: 91px;
 }
 
 .star5 {
-  top: 203px;
-  left: 280px;
+  top: 134px;
+  left: 128px;
 }
 
 .star5::before {
-  left: 89px;
-  top: 241px;
+  left: 121px;
+  top: 109px;
 }
 
 .star5::after {
-  left: 273px;
-  top: 175px;
+  left: 48px;
+  top: 222px;
 }
 
 .star6 {
-  top: 32px;
-  left: 259px;
+  top: 42px;
+  left: 12px;
 }
 
 .star6::before {
-  left: 96px;
-  top: 30px;
+  left: 278px;
+  top: 80px;
 }
 
 .star6::after {
-  left: 202px;
-  top: 217px;
-}
-
-.star7 {
-  top: 248px;
-  left: 48px;
-}
-
-.star7::before {
-  left: 31px;
-  top: 235px;
-}
-
-.star7::after {
-  left: 177px;
-  top: 261px;
-}
-
-.star8 {
-  top: 4px;
-  left: 149px;
-}
-
-.star8::before {
-  left: 25px;
-  top: 262px;
-}
-
-.star8::after {
-  left: 169px;
-  top: 224px;
-}
-
-.star9 {
-  top: 84px;
-  left: 266px;
-}
-
-.star9::before {
-  left: 37px;
-  top: 105px;
-}
-
-.star9::after {
-  left: 89px;
-  top: 97px;
-}
-
-.star10 {
-  top: 107px;
-  left: 245px;
-}
-
-.star10::before {
-  left: 51px;
-  top: 190px;
-}
-
-.star10::after {
-  left: 31px;
-  top: 6px;
-}
-
-.star11 {
-  top: 66px;
-  left: 46px;
-}
-
-.star11::before {
-  left: 52px;
-  top: 274px;
-}
-
-.star11::after {
-  left: 67px;
-  top: 168px;
-}
-
-.star12 {
-  top: 193px;
-  left: 6px;
-}
-
-.star12::before {
-  left: 3px;
-  top: 11px;
-}
-
-.star12::after {
-  left: 143px;
-  top: 167px;
-}
-
-.star13 {
-  top: 84px;
-  left: 58px;
-}
-
-.star13::before {
-  left: 49px;
-  top: 215px;
-}
-
-.star13::after {
-  left: 124px;
-  top: 69px;
-}
-
-.star14 {
-  top: 157px;
-  left: 241px;
-}
-
-.star14::before {
-  left: 59px;
-  top: 56px;
-}
-
-.star14::after {
-  left: 257px;
-  top: 8px;
-}
-
-.star15 {
-  top: 96px;
-  left: 165px;
-}
-
-.star15::before {
-  left: 124px;
-  top: 50px;
-}
-
-.star15::after {
-  left: 260px;
-  top: 173px;
-}
-
-.star16 {
-  top: 56px;
-  left: 97px;
-}
-
-.star16::before {
-  left: 74px;
-  top: 59px;
-}
-
-.star16::after {
-  left: 191px;
+  left: 194px;
   top: 252px;
 }
 
-.star17 {
-  top: 251px;
-  left: 237px;
+.star7 {
+  top: 42px;
+  left: 12px;
 }
 
-.star17::before {
-  left: 100px;
-  top: 264px;
+.star7::before {
+  left: 44px;
+  top: 254px;
 }
 
-.star17::after {
-  left: 41px;
-  top: 57px;
+.star7::after {
+  left: 115px;
+  top: 115px;
 }
 
-.star18 {
-  top: 99px;
-  left: 37px;
+.star8 {
+  top: 5px;
+  left: 226px;
 }
 
-.star18::before {
-  left: 121px;
-  top: 158px;
+.star8::before {
+  left: 98px;
+  top: 259px;
 }
 
-.star18::after {
-  left: 225px;
-  top: 158px;
+.star8::after {
+  left: 47px;
+  top: 121px;
 }
 
-.star19 {
-  top: 56px;
-  left: 218px;
+.star9 {
+  top: 16px;
+  left: 17px;
 }
 
-.star19::before {
-  left: 191px;
-  top: 44px;
+.star9::before {
+  left: 141px;
+  top: 240px;
 }
 
-.star19::after {
-  left: 62px;
-  top: 166px;
-}
-
-.star20 {
-  top: 190px;
-  left: 16px;
-}
-
-.star20::before {
-  left: 155px;
-  top: 168px;
-}
-
-.star20::after {
-  left: 234px;
-  top: 204px;
-}
-
-.star21 {
-  top: 140px;
-  left: 109px;
-}
-
-.star21::before {
-  left: 70px;
+.star9::after {
+  left: 103px;
   top: 155px;
 }
 
-.star21::after {
-  left: 149px;
-  top: 85px;
+.star10 {
+  top: 97px;
+  left: 89px;
 }
 
-.star22 {
-  top: 44px;
-  left: 10px;
+.star10::before {
+  left: 169px;
+  top: 123px;
 }
 
-.star22::before {
-  left: 140px;
+.star10::after {
+  left: 197px;
+  top: 3px;
+}
+
+.star11 {
+  top: 64px;
+  left: 59px;
+}
+
+.star11::before {
+  left: 69px;
+  top: 187px;
+}
+
+.star11::after {
+  left: 27px;
+  top: 13px;
+}
+
+.star12 {
+  top: 196px;
+  left: 87px;
+}
+
+.star12::before {
+  left: 258px;
+  top: 275px;
+}
+
+.star12::after {
+  left: 83px;
+  top: 117px;
+}
+
+.star13 {
   top: 118px;
+  left: 6px;
 }
 
-.star22::after {
-  left: 186px;
-  top: 148px;
+.star13::before {
+  left: 254px;
+  top: 198px;
 }
 
-.star23 {
-  top: 35px;
+.star13::after {
+  left: 104px;
+  top: 47px;
+}
+
+.star14 {
+  top: 195px;
+  left: 265px;
+}
+
+.star14::before {
+  left: 238px;
+  top: 72px;
+}
+
+.star14::after {
+  left: 193px;
+  top: 206px;
+}
+
+.star15 {
+  top: 116px;
+  left: 113px;
+}
+
+.star15::before {
+  left: 98px;
+  top: 273px;
+}
+
+.star15::after {
+  left: 165px;
+  top: 122px;
+}
+
+.star16 {
+  top: 243px;
+  left: 32px;
+}
+
+.star16::before {
+  left: 38px;
+  top: 276px;
+}
+
+.star16::after {
+  left: 217px;
+  top: 174px;
+}
+
+.star17 {
+  top: 164px;
   left: 145px;
 }
 
-.star23::before {
-  left: 152px;
-  top: 210px;
+.star17::before {
+  left: 3px;
+  top: 245px;
 }
 
-.star23::after {
-  left: 104px;
-  top: 126px;
+.star17::after {
+  left: 137px;
+  top: 29px;
 }
 
-.star24 {
-  top: 32px;
-  left: 136px;
+.star18 {
+  top: 88px;
+  left: 29px;
 }
 
-.star24::before {
-  left: 55px;
-  top: 276px;
-}
-
-.star24::after {
-  left: 211px;
-  top: 184px;
-}
-
-.star25 {
-  top: 253px;
-  left: 31px;
-}
-
-.star25::before {
-  left: 236px;
-  top: 181px;
-}
-
-.star25::after {
-  left: 77px;
-  top: 166px;
-}
-
-.star26 {
+.star18::before {
+  left: 122px;
   top: 6px;
-  left: 79px;
 }
 
-.star26::before {
-  left: 166px;
+.star18::after {
+  left: 56px;
+  top: 136px;
+}
+
+.star19 {
+  top: 236px;
+  left: 102px;
+}
+
+.star19::before {
+  left: 148px;
+  top: 156px;
+}
+
+.star19::after {
+  left: 251px;
+  top: 51px;
+}
+
+.star20 {
+  top: 214px;
+  left: 169px;
+}
+
+.star20::before {
+  left: 167px;
+  top: 185px;
+}
+
+.star20::after {
+  left: 176px;
+  top: 39px;
+}
+
+.star21 {
+  top: 14px;
+  left: 219px;
+}
+
+.star21::before {
+  left: 254px;
+  top: 274px;
+}
+
+.star21::after {
+  left: 165px;
   top: 132px;
 }
 
-.star26::after {
-  left: 56px;
-  top: 196px;
+.star22 {
+  top: 229px;
+  left: 100px;
 }
 
-.star27 {
-  top: 62px;
-  left: 212px;
+.star22::before {
+  left: 237px;
+  top: 106px;
 }
 
-.star27::before {
-  left: 247px;
-  top: 173px;
+.star22::after {
+  left: 184px;
+  top: 252px;
 }
 
-.star27::after {
-  left: 150px;
-  top: 276px;
+.star23 {
+  top: 270px;
+  left: 83px;
 }
 
-.star28 {
-  top: 54px;
-  left: 62px;
+.star23::before {
+  left: 75px;
+  top: 188px;
 }
 
-.star28::before {
+.star23::after {
+  left: 162px;
+  top: 17px;
+}
+
+.star24 {
+  top: 222px;
+  left: 182px;
+}
+
+.star24::before {
   left: 169px;
-  top: 168px;
+  top: 232px;
 }
 
-.star28::after {
-  left: 127px;
-  top: 197px;
+.star24::after {
+  left: 9px;
+  top: 5px;
 }
 
-.star29 {
-  top: 94px;
-  left: 6px;
+.star25 {
+  top: 224px;
+  left: 152px;
 }
 
-.star29::before {
-  left: 88px;
+.star25::before {
+  left: 115px;
+  top: 50px;
+}
+
+.star25::after {
+  left: 147px;
+  top: 1px;
+}
+
+.star26 {
+  top: 158px;
+  left: 148px;
+}
+
+.star26::before {
+  left: 122px;
   top: 83px;
 }
 
+.star26::after {
+  left: 160px;
+  top: 209px;
+}
+
+.star27 {
+  top: 231px;
+  left: 57px;
+}
+
+.star27::before {
+  left: 116px;
+  top: 213px;
+}
+
+.star27::after {
+  left: 49px;
+  top: 239px;
+}
+
+.star28 {
+  top: 127px;
+  left: 237px;
+}
+
+.star28::before {
+  left: 106px;
+  top: 178px;
+}
+
+.star28::after {
+  left: 275px;
+  top: 221px;
+}
+
+.star29 {
+  top: 262px;
+  left: 259px;
+}
+
+.star29::before {
+  left: 130px;
+  top: 174px;
+}
+
 .star29::after {
+  left: 178px;
+  top: 27px;
+}
+
+.star30 {
+  top: 174px;
+  left: 80px;
+}
+
+.star30::before {
+  left: 45px;
+  top: 225px;
+}
+
+.star30::after {
+  left: 3px;
+  top: 22px;
+}
+
+.star31 {
+  top: 33px;
+  left: 15px;
+}
+
+.star31::before {
+  left: 214px;
+  top: 192px;
+}
+
+.star31::after {
+  left: 196px;
+  top: 185px;
+}
+
+.star32 {
+  top: 226px;
+  left: 70px;
+}
+
+.star32::before {
+  left: 20px;
+  top: 264px;
+}
+
+.star32::after {
+  left: 134px;
+  top: 74px;
+}
+
+.star33 {
+  top: 69px;
+  left: 83px;
+}
+
+.star33::before {
+  left: 155px;
+  top: 18px;
+}
+
+.star33::after {
+  left: 166px;
+  top: 275px;
+}
+
+.star34 {
+  top: 103px;
+  left: 187px;
+}
+
+.star34::before {
+  left: 158px;
+  top: 144px;
+}
+
+.star34::after {
+  left: 212px;
+  top: 6px;
+}
+
+.star35 {
+  top: 235px;
+  left: 274px;
+}
+
+.star35::before {
   left: 6px;
-  top: 269px;
+  top: 21px;
+}
+
+.star35::after {
+  left: 197px;
+  top: 103px;
+}
+
+.star36 {
+  top: 84px;
+  left: 194px;
+}
+
+.star36::before {
+  left: 86px;
+  top: 242px;
+}
+
+.star36::after {
+  left: 219px;
+  top: 111px;
+}
+
+.star37 {
+  top: 151px;
+  left: 21px;
+}
+
+.star37::before {
+  left: 261px;
+  top: 116px;
+}
+
+.star37::after {
+  left: 115px;
+  top: 183px;
+}
+
+.star38 {
+  top: 223px;
+  left: 25px;
+}
+
+.star38::before {
+  left: 53px;
+  top: 244px;
+}
+
+.star38::after {
+  left: 180px;
+  top: 68px;
+}
+
+.star39 {
+  top: 83px;
+  left: 213px;
+}
+
+.star39::before {
+  left: 10px;
+  top: 232px;
+}
+
+.star39::after {
+  left: 169px;
+  top: 17px;
+}
+
+.star40 {
+  top: 69px;
+  left: 272px;
+}
+
+.star40::before {
+  left: 8px;
+  top: 18px;
+}
+
+.star40::after {
+  left: 30px;
+  top: 148px;
+}
+
+.star41 {
+  top: 243px;
+  left: 227px;
+}
+
+.star41::before {
+  left: 195px;
+  top: 126px;
+}
+
+.star41::after {
+  left: 109px;
+  top: 112px;
+}
+
+.star42 {
+  top: 27px;
+  left: 245px;
+}
+
+.star42::before {
+  left: 147px;
+  top: 171px;
+}
+
+.star42::after {
+  left: 105px;
+  top: 273px;
+}
+
+.star43 {
+  top: 56px;
+  left: 73px;
+}
+
+.star43::before {
+  left: 229px;
+  top: 94px;
+}
+
+.star43::after {
+  left: 77px;
+  top: 7px;
+}
+
+.star44 {
+  top: 159px;
+  left: 120px;
+}
+
+.star44::before {
+  left: 92px;
+  top: 14px;
+}
+
+.star44::after {
+  left: 177px;
+  top: 89px;
+}
+
+.star45 {
+  top: 215px;
+  left: 159px;
+}
+
+.star45::before {
+  left: 239px;
+  top: 6px;
+}
+
+.star45::after {
+  left: 119px;
+  top: 276px;
+}
+
+.star46 {
+  top: 145px;
+  left: 28px;
+}
+
+.star46::before {
+  left: 8px;
+  top: 13px;
+}
+
+.star46::after {
+  left: 187px;
+  top: 37px;
+}
+
+.star47 {
+  top: 163px;
+  left: 196px;
+}
+
+.star47::before {
+  left: 265px;
+  top: 177px;
+}
+
+.star47::after {
+  left: 254px;
+  top: 56px;
+}
+
+.star48 {
+  top: 200px;
+  left: 208px;
+}
+
+.star48::before {
+  left: 90px;
+  top: 206px;
+}
+
+.star48::after {
+  left: 95px;
+  top: 50px;
+}
+
+.star49 {
+  top: 31px;
+  left: 182px;
+}
+
+.star49::before {
+  left: 7px;
+  top: 125px;
+}
+
+.star49::after {
+  left: 88px;
+  top: 129px;
+}
+
+.star50 {
+  top: 149px;
+  left: 88px;
+}
+
+.star50::before {
+  left: 279px;
+  top: 261px;
+}
+
+.star50::after {
+  left: 181px;
+  top: 276px;
 }
 
 /*# sourceMappingURL=main.css.map */
