@@ -3,13 +3,19 @@ date:25 July 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi   
 */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.frame {
+  background-image: linear-gradient(to bottom, #1d4253 0%, #6bb5c4 100%);
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
 }
