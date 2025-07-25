@@ -41,17 +41,48 @@ body {
 }
 
 .star1 {
-  top: 10%;
-  left: 30%;
+  top: 15px;
+  left: 117px;
 }
 
 .star1::before {
-  left: 30px;
+  left: 215px;
+  top: 17px;
 }
 
 .star1::after {
-  left: 30px;
-  top: 20px;
+  left: 56px;
+  top: 107px;
+}
+
+.star2 {
+  top: 119px;
+  left: 232px;
+}
+
+.star2::before {
+  left: 268px;
+  top: 148px;
+}
+
+.star2::after {
+  left: 257px;
+  top: 186px;
+}
+
+.star3 {
+  top: 126px;
+  left: 156px;
+}
+
+.star3::before {
+  left: 170px;
+  top: 146px;
+}
+
+.star3::after {
+  left: 186px;
+  top: 210px;
 }
 
 /*# sourceMappingURL=main.css.map */

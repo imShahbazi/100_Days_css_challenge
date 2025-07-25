@@ -35,14 +35,17 @@ body {
   width: 2px;
   height: 2px;
 }
-.star1 {
-  top: 10%;
-  left: 30%;
+@for $i from 1 through 3{
+.star#{$i} {
+  top: random(280)+px;
+  left: random(280)+px;
 }
-.star1::before {
-  left: 30px;
+.star#{$i}::before {
+  left: random(280)+px;
+  top:random(280)+px;
 }
-.star1::after {
-  left: 30px;
-  top: 20px;
+.star#{$i}::after {
+  left: random(280)+px;
+  top: random(280)+px;
+}
 }
