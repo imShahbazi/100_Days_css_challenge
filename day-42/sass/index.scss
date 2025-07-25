@@ -35,7 +35,7 @@ body {
   width: 2px;
   height: 2px;
 }
-@for $i from 1 through 50{
+@for $i from 1 through 70{
 .star#{$i} {
   top: random(280)+px;
   left: random(280)+px;
