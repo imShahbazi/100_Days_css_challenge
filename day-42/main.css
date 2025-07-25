@@ -41,2268 +41,2730 @@ body {
 }
 
 .star1 {
-  top: 33px;
-  left: 96px;
+  top: 186px;
+  left: 9px;
+  animation: star 4.5s infinite 4.5s;
 }
 
 .star1::before {
-  left: 31px;
-  top: 161px;
+  left: 247px;
+  top: 205px;
+  animation: star 4.1s infinite 2.6s;
 }
 
 .star1::after {
-  left: 131px;
-  top: 186px;
+  left: 138px;
+  top: 270px;
+  animation: star 4.4s infinite 5.1s;
 }
 
 .star2 {
-  top: 203px;
-  left: 146px;
+  top: 84px;
+  left: 15px;
+  animation: star 4.5s infinite 2.5s;
 }
 
 .star2::before {
-  left: 208px;
-  top: 19px;
+  left: 63px;
+  top: 275px;
+  animation: star 4.1s infinite 2.5s;
 }
 
 .star2::after {
-  left: 25px;
-  top: 163px;
+  left: 248px;
+  top: 102px;
+  animation: star 4.1s infinite 4.6s;
 }
 
 .star3 {
-  top: 209px;
-  left: 205px;
+  top: 104px;
+  left: 228px;
+  animation: star 4.2s infinite 5s;
 }
 
 .star3::before {
-  left: 231px;
-  top: 146px;
+  left: 269px;
+  top: 52px;
+  animation: star 4.4s infinite 3.7s;
 }
 
 .star3::after {
-  left: 219px;
-  top: 198px;
+  left: 256px;
+  top: 103px;
+  animation: star 4.1s infinite 5.9s;
 }
 
 .star4 {
-  top: 77px;
-  left: 278px;
+  top: 49px;
+  left: 203px;
+  animation: star 4.2s infinite 4.8s;
 }
 
 .star4::before {
-  left: 277px;
-  top: 148px;
+  left: 76px;
+  top: 49px;
+  animation: star 4.4s infinite 0.8s;
 }
 
 .star4::after {
-  left: 254px;
-  top: 142px;
+  left: 217px;
+  top: 231px;
+  animation: star 4.5s infinite 0.5s;
 }
 
 .star5 {
-  top: 120px;
-  left: 250px;
+  top: 138px;
+  left: 8px;
+  animation: star 4.1s infinite 3.9s;
 }
 
 .star5::before {
-  left: 150px;
-  top: 170px;
+  left: 201px;
+  top: 173px;
+  animation: star 4.4s infinite 3.9s;
 }
 
 .star5::after {
-  left: 182px;
-  top: 253px;
+  left: 102px;
+  top: 155px;
+  animation: star 4.5s infinite 2.9s;
 }
 
 .star6 {
-  top: 60px;
-  left: 86px;
+  top: 231px;
+  left: 224px;
+  animation: star 4.5s infinite 5.9s;
 }
 
 .star6::before {
-  left: 200px;
-  top: 89px;
+  left: 190px;
+  top: 115px;
+  animation: star 4.4s infinite 5.5s;
 }
 
 .star6::after {
-  left: 66px;
-  top: 2px;
+  left: 156px;
+  top: 9px;
+  animation: star 4.5s infinite 3.4s;
 }
 
 .star7 {
-  top: 116px;
-  left: 240px;
+  top: 236px;
+  left: 93px;
+  animation: star 4.5s infinite 4.2s;
 }
 
 .star7::before {
-  left: 153px;
-  top: 2px;
+  left: 234px;
+  top: 242px;
+  animation: star 4.2s infinite 3.7s;
 }
 
 .star7::after {
-  left: 35px;
-  top: 266px;
+  left: 92px;
+  top: 234px;
+  animation: star 4.3s infinite 3.4s;
 }
 
 .star8 {
-  top: 23px;
-  left: 228px;
+  top: 153px;
+  left: 27px;
+  animation: star 4.1s infinite 2.3s;
 }
 
 .star8::before {
-  left: 32px;
-  top: 160px;
+  left: 128px;
+  top: 97px;
+  animation: star 4.2s infinite 5.1s;
 }
 
 .star8::after {
-  left: 233px;
-  top: 132px;
+  left: 48px;
+  top: 183px;
+  animation: star 4.3s infinite 3.1s;
 }
 
 .star9 {
-  top: 238px;
-  left: 132px;
+  top: 108px;
+  left: 45px;
+  animation: star 4.3s infinite 5.4s;
 }
 
 .star9::before {
-  left: 275px;
-  top: 87px;
+  left: 175px;
+  top: 58px;
+  animation: star 4.1s infinite 6.2s;
 }
 
 .star9::after {
-  left: 47px;
-  top: 255px;
+  left: 159px;
+  top: 226px;
+  animation: star 4.4s infinite 2.6s;
 }
 
 .star10 {
-  top: 76px;
-  left: 218px;
+  top: 182px;
+  left: 43px;
+  animation: star 4.1s infinite 5.5s;
 }
 
 .star10::before {
-  left: 23px;
-  top: 137px;
+  left: 174px;
+  top: 218px;
+  animation: star 4.5s infinite 2.2s;
 }
 
 .star10::after {
-  left: 248px;
-  top: 190px;
+  left: 247px;
+  top: 174px;
+  animation: star 4.1s infinite 2.8s;
 }
 
 .star11 {
-  top: 190px;
-  left: 195px;
+  top: 17px;
+  left: 223px;
+  animation: star 4.1s infinite 4.6s;
 }
 
 .star11::before {
-  left: 231px;
-  top: 208px;
+  left: 151px;
+  top: 81px;
+  animation: star 4.5s infinite 6.1s;
 }
 
 .star11::after {
-  left: 110px;
-  top: 103px;
+  left: 169px;
+  top: 200px;
+  animation: star 4.2s infinite 4.2s;
 }
 
 .star12 {
-  top: 155px;
-  left: 220px;
+  top: 149px;
+  left: 52px;
+  animation: star 4.2s infinite 3.2s;
 }
 
 .star12::before {
-  left: 63px;
-  top: 192px;
+  left: 117px;
+  top: 57px;
+  animation: star 4.4s infinite 2.1s;
 }
 
 .star12::after {
-  left: 245px;
-  top: 202px;
+  left: 114px;
+  top: 274px;
+  animation: star 4.3s infinite 5.9s;
 }
 
 .star13 {
-  top: 186px;
-  left: 243px;
+  top: 123px;
+  left: 225px;
+  animation: star 4.5s infinite 5.2s;
 }
 
 .star13::before {
-  left: 260px;
-  top: 125px;
+  left: 247px;
+  top: 35px;
+  animation: star 4.3s infinite 5.4s;
 }
 
 .star13::after {
-  left: 109px;
-  top: 5px;
+  left: 91px;
+  top: 162px;
+  animation: star 4.1s infinite 4.2s;
 }
 
 .star14 {
-  top: 194px;
-  left: 148px;
+  top: 43px;
+  left: 182px;
+  animation: star 4.3s infinite 5.7s;
 }
 
 .star14::before {
-  left: 17px;
-  top: 46px;
+  left: 35px;
+  top: 65px;
+  animation: star 4.1s infinite 5.4s;
 }
 
 .star14::after {
-  left: 36px;
-  top: 135px;
+  left: 187px;
+  top: 119px;
+  animation: star 4.1s infinite 4.7s;
 }
 
 .star15 {
-  top: 9px;
-  left: 161px;
+  top: 185px;
+  left: 70px;
+  animation: star 4.3s infinite 6.3s;
 }
 
 .star15::before {
-  left: 89px;
-  top: 267px;
+  left: 99px;
+  top: 131px;
+  animation: star 4.1s infinite 1.7s;
 }
 
 .star15::after {
-  left: 255px;
-  top: 1px;
+  left: 62px;
+  top: 203px;
+  animation: star 4.3s infinite 3.9s;
 }
 
 .star16 {
-  top: 127px;
-  left: 12px;
+  top: 3px;
+  left: 203px;
+  animation: star 4.3s infinite 1s;
 }
 
 .star16::before {
-  left: 25px;
-  top: 151px;
+  left: 119px;
+  top: 160px;
+  animation: star 4.5s infinite 4.2s;
 }
 
 .star16::after {
-  left: 85px;
-  top: 242px;
+  left: 50px;
+  top: 237px;
+  animation: star 4.1s infinite 0.4s;
 }
 
 .star17 {
-  top: 200px;
-  left: 161px;
+  top: 14px;
+  left: 4px;
+  animation: star 4.3s infinite 4.8s;
 }
 
 .star17::before {
-  left: 266px;
-  top: 186px;
+  left: 153px;
+  top: 163px;
+  animation: star 4.1s infinite 1.8s;
 }
 
 .star17::after {
-  left: 10px;
-  top: 25px;
+  left: 145px;
+  top: 193px;
+  animation: star 4.2s infinite 1.8s;
 }
 
 .star18 {
-  top: 101px;
-  left: 264px;
+  top: 155px;
+  left: 51px;
+  animation: star 4.2s infinite 3s;
 }
 
 .star18::before {
-  left: 60px;
-  top: 70px;
+  left: 183px;
+  top: 277px;
+  animation: star 4.3s infinite 5s;
 }
 
 .star18::after {
-  left: 105px;
-  top: 62px;
+  left: 191px;
+  top: 270px;
+  animation: star 4.5s infinite 4.3s;
 }
 
 .star19 {
-  top: 206px;
-  left: 25px;
+  top: 233px;
+  left: 102px;
+  animation: star 4.3s infinite 4.4s;
 }
 
 .star19::before {
-  left: 268px;
-  top: 201px;
+  left: 248px;
+  top: 144px;
+  animation: star 4.5s infinite 3.6s;
 }
 
 .star19::after {
-  left: 95px;
-  top: 66px;
+  left: 146px;
+  top: 258px;
+  animation: star 4.4s infinite 4.2s;
 }
 
 .star20 {
-  top: 232px;
-  left: 221px;
+  top: 92px;
+  left: 152px;
+  animation: star 4.1s infinite 1.8s;
 }
 
 .star20::before {
-  left: 167px;
-  top: 33px;
+  left: 90px;
+  top: 193px;
+  animation: star 4.5s infinite 4.7s;
 }
 
 .star20::after {
-  left: 118px;
-  top: 25px;
+  left: 214px;
+  top: 100px;
+  animation: star 4.1s infinite 2.2s;
 }
 
 .star21 {
-  top: 38px;
-  left: 187px;
+  top: 131px;
+  left: 110px;
+  animation: star 4.4s infinite 4.9s;
 }
 
 .star21::before {
-  left: 63px;
-  top: 229px;
+  left: 276px;
+  top: 220px;
+  animation: star 4.1s infinite 2.8s;
 }
 
 .star21::after {
-  left: 147px;
-  top: 111px;
+  left: 86px;
+  top: 142px;
+  animation: star 4.3s infinite 2s;
 }
 
 .star22 {
-  top: 217px;
-  left: 18px;
+  top: 266px;
+  left: 162px;
+  animation: star 4.5s infinite 4.8s;
 }
 
 .star22::before {
-  left: 85px;
-  top: 144px;
+  left: 64px;
+  top: 208px;
+  animation: star 4.1s infinite 2.7s;
 }
 
 .star22::after {
-  left: 46px;
-  top: 243px;
+  left: 12px;
+  top: 141px;
+  animation: star 4.2s infinite 3.7s;
 }
 
 .star23 {
-  top: 229px;
-  left: 153px;
+  top: 225px;
+  left: 222px;
+  animation: star 4.1s infinite 5.5s;
 }
 
 .star23::before {
-  left: 219px;
-  top: 16px;
+  left: 28px;
+  top: 187px;
+  animation: star 4.5s infinite 3.9s;
 }
 
 .star23::after {
-  left: 3px;
-  top: 144px;
+  left: 207px;
+  top: 181px;
+  animation: star 4.4s infinite 4.9s;
 }
 
 .star24 {
-  top: 190px;
-  left: 246px;
+  top: 128px;
+  left: 203px;
+  animation: star 4.5s infinite 3.2s;
 }
 
 .star24::before {
-  left: 138px;
-  top: 57px;
+  left: 209px;
+  top: 184px;
+  animation: star 4.5s infinite 4.9s;
 }
 
 .star24::after {
-  left: 107px;
-  top: 40px;
+  left: 117px;
+  top: 68px;
+  animation: star 4.5s infinite 5.8s;
 }
 
 .star25 {
-  top: 5px;
-  left: 232px;
+  top: 225px;
+  left: 189px;
+  animation: star 4.1s infinite 4s;
 }
 
 .star25::before {
-  left: 257px;
-  top: 37px;
+  left: 15px;
+  top: 248px;
+  animation: star 4.1s infinite 0.9s;
 }
 
 .star25::after {
-  left: 206px;
-  top: 107px;
+  left: 42px;
+  top: 150px;
+  animation: star 4.4s infinite 5.6s;
 }
 
 .star26 {
-  top: 241px;
-  left: 222px;
+  top: 14px;
+  left: 10px;
+  animation: star 4.3s infinite 4.7s;
 }
 
 .star26::before {
-  left: 159px;
-  top: 157px;
+  left: 51px;
+  top: 96px;
+  animation: star 4.4s infinite 0.4s;
 }
 
 .star26::after {
-  left: 177px;
-  top: 187px;
+  left: 269px;
+  top: 215px;
+  animation: star 4.3s infinite 3.9s;
 }
 
 .star27 {
-  top: 119px;
-  left: 257px;
+  top: 258px;
+  left: 246px;
+  animation: star 4.1s infinite 6.2s;
 }
 
 .star27::before {
-  left: 97px;
-  top: 157px;
+  left: 134px;
+  top: 224px;
+  animation: star 4.4s infinite 5.4s;
 }
 
 .star27::after {
-  left: 126px;
-  top: 55px;
+  left: 266px;
+  top: 45px;
+  animation: star 4.2s infinite 6s;
 }
 
 .star28 {
-  top: 66px;
-  left: 233px;
+  top: 63px;
+  left: 174px;
+  animation: star 4.4s infinite 4.5s;
 }
 
 .star28::before {
-  left: 242px;
-  top: 206px;
+  left: 74px;
+  top: 169px;
+  animation: star 4.1s infinite 4.3s;
 }
 
 .star28::after {
-  left: 263px;
-  top: 135px;
+  left: 6px;
+  top: 231px;
+  animation: star 4.1s infinite 0.8s;
 }
 
 .star29 {
-  top: 86px;
-  left: 203px;
+  top: 198px;
+  left: 135px;
+  animation: star 4.1s infinite 4.6s;
 }
 
 .star29::before {
-  left: 62px;
-  top: 254px;
+  left: 18px;
+  top: 104px;
+  animation: star 4.5s infinite 4.2s;
 }
 
 .star29::after {
-  left: 141px;
-  top: 217px;
+  left: 213px;
+  top: 215px;
+  animation: star 4.3s infinite 3s;
 }
 
 .star30 {
-  top: 191px;
-  left: 4px;
+  top: 205px;
+  left: 199px;
+  animation: star 4.3s infinite 2.5s;
 }
 
 .star30::before {
-  left: 4px;
-  top: 53px;
+  left: 40px;
+  top: 209px;
+  animation: star 4.3s infinite 5.8s;
 }
 
 .star30::after {
-  left: 58px;
-  top: 198px;
+  left: 217px;
+  top: 244px;
+  animation: star 4.2s infinite 6.2s;
 }
 
 .star31 {
-  top: 182px;
-  left: 149px;
+  top: 31px;
+  left: 129px;
+  animation: star 4.4s infinite 4s;
 }
 
 .star31::before {
-  left: 175px;
-  top: 279px;
+  left: 136px;
+  top: 63px;
+  animation: star 4.1s infinite 4.7s;
 }
 
 .star31::after {
-  left: 143px;
-  top: 128px;
+  left: 84px;
+  top: 199px;
+  animation: star 4.4s infinite 5.6s;
 }
 
 .star32 {
-  top: 91px;
-  left: 66px;
+  top: 177px;
+  left: 108px;
+  animation: star 4.3s infinite 1.8s;
 }
 
 .star32::before {
-  left: 36px;
-  top: 130px;
+  left: 261px;
+  top: 6px;
+  animation: star 4.1s infinite 5.5s;
 }
 
 .star32::after {
-  left: 144px;
-  top: 223px;
+  left: 154px;
+  top: 212px;
+  animation: star 4.4s infinite 0.7s;
 }
 
 .star33 {
-  top: 109px;
-  left: 179px;
+  top: 35px;
+  left: 62px;
+  animation: star 4.3s infinite 0.6s;
 }
 
 .star33::before {
-  left: 264px;
-  top: 163px;
+  left: 260px;
+  top: 45px;
+  animation: star 4.1s infinite 2.6s;
 }
 
 .star33::after {
-  left: 211px;
-  top: 237px;
+  left: 228px;
+  top: 181px;
+  animation: star 4.2s infinite 3s;
 }
 
 .star34 {
-  top: 169px;
-  left: 209px;
+  top: 182px;
+  left: 177px;
+  animation: star 4.1s infinite 2.2s;
 }
 
 .star34::before {
-  left: 138px;
-  top: 32px;
+  left: 48px;
+  top: 76px;
+  animation: star 4.1s infinite 5.2s;
 }
 
 .star34::after {
-  left: 187px;
-  top: 227px;
+  left: 214px;
+  top: 57px;
+  animation: star 4.3s infinite 0.2s;
 }
 
 .star35 {
-  top: 108px;
-  left: 194px;
+  top: 259px;
+  left: 185px;
+  animation: star 4.2s infinite 5.2s;
 }
 
 .star35::before {
-  left: 173px;
-  top: 76px;
+  left: 209px;
+  top: 86px;
+  animation: star 4.1s infinite 2.3s;
 }
 
 .star35::after {
-  left: 172px;
-  top: 179px;
+  left: 81px;
+  top: 263px;
+  animation: star 4.3s infinite 0.6s;
 }
 
 .star36 {
-  top: 74px;
-  left: 151px;
+  top: 67px;
+  left: 92px;
+  animation: star 4.2s infinite 4.1s;
 }
 
 .star36::before {
-  left: 232px;
-  top: 184px;
+  left: 193px;
+  top: 78px;
+  animation: star 4.1s infinite 1.7s;
 }
 
 .star36::after {
-  left: 57px;
-  top: 269px;
+  left: 106px;
+  top: 112px;
+  animation: star 4.4s infinite 0.9s;
 }
 
 .star37 {
-  top: 225px;
-  left: 80px;
+  top: 134px;
+  left: 121px;
+  animation: star 4.4s infinite 0.7s;
 }
 
 .star37::before {
-  left: 158px;
-  top: 203px;
+  left: 276px;
+  top: 154px;
+  animation: star 4.3s infinite 2s;
 }
 
 .star37::after {
-  left: 79px;
-  top: 97px;
+  left: 236px;
+  top: 180px;
+  animation: star 4.1s infinite 1.6s;
 }
 
 .star38 {
-  top: 81px;
-  left: 161px;
+  top: 22px;
+  left: 158px;
+  animation: star 4.3s infinite 4s;
 }
 
 .star38::before {
-  left: 225px;
-  top: 123px;
+  left: 119px;
+  top: 3px;
+  animation: star 4.3s infinite 3s;
 }
 
 .star38::after {
-  left: 183px;
-  top: 64px;
+  left: 138px;
+  top: 11px;
+  animation: star 4.1s infinite 1.5s;
 }
 
 .star39 {
-  top: 140px;
-  left: 230px;
+  top: 272px;
+  left: 141px;
+  animation: star 4.3s infinite 4.6s;
 }
 
 .star39::before {
-  left: 173px;
-  top: 197px;
+  left: 6px;
+  top: 175px;
+  animation: star 4.1s infinite 0.5s;
 }
 
 .star39::after {
-  left: 234px;
-  top: 192px;
+  left: 256px;
+  top: 216px;
+  animation: star 4.4s infinite 0.7s;
 }
 
 .star40 {
-  top: 5px;
-  left: 24px;
+  top: 80px;
+  left: 103px;
+  animation: star 4.5s infinite 4.1s;
 }
 
 .star40::before {
-  left: 183px;
-  top: 100px;
+  left: 254px;
+  top: 152px;
+  animation: star 4.5s infinite 6.2s;
 }
 
 .star40::after {
-  left: 269px;
-  top: 64px;
+  left: 108px;
+  top: 269px;
+  animation: star 4.2s infinite 3.7s;
 }
 
 .star41 {
-  top: 275px;
-  left: 216px;
+  top: 182px;
+  left: 102px;
+  animation: star 4.1s infinite 1.7s;
 }
 
 .star41::before {
-  left: 77px;
-  top: 71px;
+  left: 3px;
+  top: 86px;
+  animation: star 4.4s infinite 2.4s;
 }
 
 .star41::after {
-  left: 127px;
-  top: 232px;
+  left: 202px;
+  top: 49px;
+  animation: star 4.4s infinite 5.5s;
 }
 
 .star42 {
-  top: 242px;
-  left: 22px;
+  top: 269px;
+  left: 212px;
+  animation: star 4.5s infinite 4.7s;
 }
 
 .star42::before {
-  left: 92px;
-  top: 129px;
+  left: 170px;
+  top: 17px;
+  animation: star 4.5s infinite 6s;
 }
 
 .star42::after {
-  left: 43px;
-  top: 36px;
+  left: 74px;
+  top: 35px;
+  animation: star 4.2s infinite 4.3s;
 }
 
 .star43 {
-  top: 277px;
-  left: 37px;
+  top: 23px;
+  left: 65px;
+  animation: star 4.5s infinite 4.9s;
 }
 
 .star43::before {
-  left: 181px;
-  top: 206px;
+  left: 36px;
+  top: 178px;
+  animation: star 4.1s infinite 4.3s;
 }
 
 .star43::after {
-  left: 176px;
-  top: 129px;
+  left: 76px;
+  top: 276px;
+  animation: star 4.4s infinite 6s;
 }
 
 .star44 {
-  top: 161px;
-  left: 118px;
+  top: 11px;
+  left: 269px;
+  animation: star 4.5s infinite 2.6s;
 }
 
 .star44::before {
-  left: 216px;
-  top: 123px;
+  left: 154px;
+  top: 50px;
+  animation: star 4.5s infinite 6s;
 }
 
 .star44::after {
-  left: 240px;
-  top: 175px;
+  left: 168px;
+  top: 237px;
+  animation: star 4.2s infinite 3.3s;
 }
 
 .star45 {
-  top: 85px;
-  left: 169px;
+  top: 38px;
+  left: 87px;
+  animation: star 4.3s infinite 5s;
 }
 
 .star45::before {
-  left: 260px;
-  top: 233px;
+  left: 44px;
+  top: 75px;
+  animation: star 4.1s infinite 6.2s;
 }
 
 .star45::after {
-  left: 265px;
-  top: 99px;
+  left: 99px;
+  top: 222px;
+  animation: star 4.1s infinite 5.3s;
 }
 
 .star46 {
-  top: 6px;
-  left: 186px;
+  top: 42px;
+  left: 277px;
+  animation: star 4.2s infinite 4.6s;
 }
 
 .star46::before {
-  left: 34px;
-  top: 88px;
+  left: 264px;
+  top: 257px;
+  animation: star 4.3s infinite 3.2s;
 }
 
 .star46::after {
-  left: 1px;
-  top: 253px;
+  left: 120px;
+  top: 1px;
+  animation: star 4.5s infinite 3.3s;
 }
 
 .star47 {
-  top: 60px;
-  left: 38px;
+  top: 183px;
+  left: 26px;
+  animation: star 4.5s infinite 2.2s;
 }
 
 .star47::before {
-  left: 13px;
-  top: 155px;
+  left: 208px;
+  top: 254px;
+  animation: star 4.4s infinite 3.8s;
 }
 
 .star47::after {
-  left: 268px;
-  top: 203px;
+  left: 131px;
+  top: 43px;
+  animation: star 4.3s infinite 1.1s;
 }
 
 .star48 {
-  top: 47px;
-  left: 201px;
+  top: 2px;
+  left: 184px;
+  animation: star 4.1s infinite 2.1s;
 }
 
 .star48::before {
-  left: 251px;
-  top: 43px;
+  left: 19px;
+  top: 31px;
+  animation: star 4.5s infinite 4.4s;
 }
 
 .star48::after {
-  left: 124px;
-  top: 129px;
+  left: 20px;
+  top: 40px;
+  animation: star 4.4s infinite 0.8s;
 }
 
 .star49 {
-  top: 189px;
-  left: 135px;
+  top: 37px;
+  left: 38px;
+  animation: star 4.3s infinite 3.1s;
 }
 
 .star49::before {
-  left: 61px;
-  top: 263px;
+  left: 195px;
+  top: 43px;
+  animation: star 4.3s infinite 3.5s;
 }
 
 .star49::after {
-  left: 175px;
-  top: 157px;
+  left: 71px;
+  top: 220px;
+  animation: star 4.5s infinite 3.7s;
 }
 
 .star50 {
-  top: 117px;
+  top: 130px;
   left: 193px;
+  animation: star 4.5s infinite 4.1s;
 }
 
 .star50::before {
-  left: 65px;
-  top: 145px;
+  left: 95px;
+  top: 99px;
+  animation: star 4.4s infinite 0.5s;
 }
 
 .star50::after {
-  left: 176px;
-  top: 31px;
+  left: 237px;
+  top: 122px;
+  animation: star 4.1s infinite 3.5s;
 }
 
 .star51 {
-  top: 89px;
-  left: 74px;
+  top: 64px;
+  left: 192px;
+  animation: star 4.4s infinite 5.8s;
 }
 
 .star51::before {
-  left: 43px;
-  top: 120px;
+  left: 67px;
+  top: 7px;
+  animation: star 4.3s infinite 6.5s;
 }
 
 .star51::after {
-  left: 126px;
-  top: 3px;
+  left: 123px;
+  top: 278px;
+  animation: star 4.1s infinite 1.4s;
 }
 
 .star52 {
-  top: 244px;
-  left: 219px;
+  top: 257px;
+  left: 71px;
+  animation: star 4.1s infinite 3.4s;
 }
 
 .star52::before {
-  left: 185px;
-  top: 186px;
+  left: 214px;
+  top: 278px;
+  animation: star 4.3s infinite 5s;
 }
 
 .star52::after {
-  left: 173px;
-  top: 107px;
+  left: 60px;
+  top: 70px;
+  animation: star 4.3s infinite 0.3s;
 }
 
 .star53 {
-  top: 220px;
-  left: 21px;
+  top: 71px;
+  left: 55px;
+  animation: star 4.1s infinite 1.2s;
 }
 
 .star53::before {
-  left: 23px;
-  top: 16px;
+  left: 221px;
+  top: 45px;
+  animation: star 4.3s infinite 0.8s;
 }
 
 .star53::after {
-  left: 232px;
-  top: 262px;
+  left: 173px;
+  top: 241px;
+  animation: star 4.4s infinite 5.1s;
 }
 
 .star54 {
-  top: 129px;
-  left: 14px;
+  top: 153px;
+  left: 188px;
+  animation: star 4.5s infinite 0.9s;
 }
 
 .star54::before {
-  left: 85px;
-  top: 274px;
+  left: 173px;
+  top: 191px;
+  animation: star 4.1s infinite 4.6s;
 }
 
 .star54::after {
-  left: 101px;
-  top: 28px;
+  left: 247px;
+  top: 132px;
+  animation: star 4.4s infinite 3.8s;
 }
 
 .star55 {
-  top: 178px;
-  left: 68px;
+  top: 6px;
+  left: 199px;
+  animation: star 4.5s infinite 4.4s;
 }
 
 .star55::before {
-  left: 239px;
-  top: 54px;
+  left: 11px;
+  top: 75px;
+  animation: star 4.5s infinite 2.4s;
 }
 
 .star55::after {
-  left: 163px;
-  top: 196px;
+  left: 232px;
+  top: 68px;
+  animation: star 4.3s infinite 3s;
 }
 
 .star56 {
-  top: 17px;
-  left: 110px;
+  top: 93px;
+  left: 140px;
+  animation: star 4.4s infinite 3.2s;
 }
 
 .star56::before {
-  left: 254px;
-  top: 3px;
+  left: 247px;
+  top: 88px;
+  animation: star 4.4s infinite 3.3s;
 }
 
 .star56::after {
-  left: 207px;
-  top: 109px;
+  left: 269px;
+  top: 190px;
+  animation: star 4.4s infinite 2s;
 }
 
 .star57 {
-  top: 246px;
-  left: 111px;
+  top: 263px;
+  left: 158px;
+  animation: star 4.5s infinite 1.5s;
 }
 
 .star57::before {
-  left: 186px;
-  top: 133px;
+  left: 37px;
+  top: 110px;
+  animation: star 4.4s infinite 2.1s;
 }
 
 .star57::after {
-  left: 69px;
-  top: 53px;
+  left: 45px;
+  top: 117px;
+  animation: star 4.1s infinite 3.8s;
 }
 
 .star58 {
-  top: 22px;
-  left: 97px;
+  top: 202px;
+  left: 52px;
+  animation: star 4.1s infinite 3.2s;
 }
 
 .star58::before {
-  left: 201px;
-  top: 227px;
+  left: 276px;
+  top: 208px;
+  animation: star 4.2s infinite 0.4s;
 }
 
 .star58::after {
-  left: 25px;
-  top: 245px;
+  left: 114px;
+  top: 69px;
+  animation: star 4.4s infinite 5.6s;
 }
 
 .star59 {
-  top: 85px;
-  left: 44px;
+  top: 14px;
+  left: 66px;
+  animation: star 4.4s infinite 5.2s;
 }
 
 .star59::before {
-  left: 76px;
-  top: 178px;
+  left: 35px;
+  top: 170px;
+  animation: star 4.5s infinite 5.8s;
 }
 
 .star59::after {
-  left: 164px;
-  top: 170px;
+  left: 134px;
+  top: 261px;
+  animation: star 4.4s infinite 1.1s;
 }
 
 .star60 {
-  top: 43px;
-  left: 186px;
+  top: 11px;
+  left: 38px;
+  animation: star 4.2s infinite 2.6s;
 }
 
 .star60::before {
-  left: 89px;
-  top: 41px;
+  left: 209px;
+  top: 118px;
+  animation: star 4.4s infinite 4.5s;
 }
 
 .star60::after {
-  left: 140px;
-  top: 164px;
+  left: 101px;
+  top: 142px;
+  animation: star 4.3s infinite 2.2s;
 }
 
 .star61 {
-  top: 164px;
-  left: 90px;
+  top: 137px;
+  left: 172px;
+  animation: star 4.2s infinite 6.1s;
 }
 
 .star61::before {
-  left: 63px;
-  top: 85px;
+  left: 96px;
+  top: 231px;
+  animation: star 4.3s infinite 1.1s;
 }
 
 .star61::after {
-  left: 80px;
-  top: 179px;
+  left: 246px;
+  top: 162px;
+  animation: star 4.3s infinite 5.3s;
 }
 
 .star62 {
-  top: 154px;
-  left: 48px;
+  top: 126px;
+  left: 215px;
+  animation: star 4.4s infinite 1.9s;
 }
 
 .star62::before {
-  left: 121px;
-  top: 248px;
+  left: 19px;
+  top: 15px;
+  animation: star 4.1s infinite 1.7s;
 }
 
 .star62::after {
-  left: 217px;
-  top: 167px;
+  left: 149px;
+  top: 265px;
+  animation: star 4.5s infinite 0.9s;
 }
 
 .star63 {
-  top: 172px;
-  left: 146px;
+  top: 206px;
+  left: 50px;
+  animation: star 4.2s infinite 1.5s;
 }
 
 .star63::before {
-  left: 13px;
-  top: 20px;
+  left: 205px;
+  top: 219px;
+  animation: star 4.2s infinite 4.5s;
 }
 
 .star63::after {
-  left: 118px;
-  top: 22px;
+  left: 95px;
+  top: 135px;
+  animation: star 4.5s infinite 0.7s;
 }
 
 .star64 {
-  top: 263px;
-  left: 10px;
+  top: 191px;
+  left: 141px;
+  animation: star 4.3s infinite 6.2s;
 }
 
 .star64::before {
-  left: 243px;
-  top: 189px;
+  left: 81px;
+  top: 214px;
+  animation: star 4.5s infinite 4.4s;
 }
 
 .star64::after {
-  left: 82px;
-  top: 31px;
+  left: 74px;
+  top: 44px;
+  animation: star 4.1s infinite 5.4s;
 }
 
 .star65 {
-  top: 33px;
-  left: 144px;
+  top: 85px;
+  left: 200px;
+  animation: star 4.2s infinite 2.8s;
 }
 
 .star65::before {
-  left: 65px;
-  top: 40px;
+  left: 49px;
+  top: 246px;
+  animation: star 4.2s infinite 5.1s;
 }
 
 .star65::after {
-  left: 118px;
-  top: 44px;
+  left: 112px;
+  top: 155px;
+  animation: star 4.2s infinite 2.2s;
 }
 
 .star66 {
-  top: 273px;
-  left: 59px;
+  top: 196px;
+  left: 233px;
+  animation: star 4.5s infinite 1.2s;
 }
 
 .star66::before {
-  left: 154px;
-  top: 223px;
+  left: 129px;
+  top: 78px;
+  animation: star 4.3s infinite 0.9s;
 }
 
 .star66::after {
-  left: 203px;
-  top: 196px;
+  left: 225px;
+  top: 154px;
+  animation: star 4.1s infinite 5.8s;
 }
 
 .star67 {
-  top: 102px;
-  left: 209px;
+  top: 149px;
+  left: 120px;
+  animation: star 4.5s infinite 2.9s;
 }
 
 .star67::before {
-  left: 263px;
-  top: 248px;
+  left: 137px;
+  top: 245px;
+  animation: star 4.5s infinite 4.4s;
 }
 
 .star67::after {
-  left: 178px;
-  top: 140px;
+  left: 50px;
+  top: 63px;
+  animation: star 4.2s infinite 2s;
 }
 
 .star68 {
-  top: 25px;
-  left: 174px;
+  top: 33px;
+  left: 278px;
+  animation: star 4.1s infinite 4.6s;
 }
 
 .star68::before {
-  left: 189px;
-  top: 245px;
+  left: 4px;
+  top: 137px;
+  animation: star 4.5s infinite 5.1s;
 }
 
 .star68::after {
-  left: 196px;
-  top: 192px;
+  left: 156px;
+  top: 178px;
+  animation: star 4.2s infinite 4.3s;
 }
 
 .star69 {
-  top: 184px;
-  left: 245px;
+  top: 33px;
+  left: 89px;
+  animation: star 4.2s infinite 4.3s;
 }
 
 .star69::before {
-  left: 217px;
-  top: 238px;
+  left: 128px;
+  top: 236px;
+  animation: star 4.5s infinite 3.7s;
 }
 
 .star69::after {
-  left: 103px;
-  top: 218px;
+  left: 184px;
+  top: 240px;
+  animation: star 4.3s infinite 1.7s;
 }
 
 .star70 {
-  top: 225px;
-  left: 246px;
+  top: 246px;
+  left: 19px;
+  animation: star 4.1s infinite 5.3s;
 }
 
 .star70::before {
-  left: 233px;
-  top: 235px;
+  left: 13px;
+  top: 154px;
+  animation: star 4.3s infinite 4.2s;
 }
 
 .star70::after {
-  left: 21px;
-  top: 248px;
+  left: 279px;
+  top: 87px;
+  animation: star 4.5s infinite 5.1s;
 }
 
 .star71 {
-  top: 111px;
-  left: 223px;
+  top: 214px;
+  left: 210px;
+  animation: star 4.5s infinite 2.3s;
 }
 
 .star71::before {
-  left: 115px;
-  top: 216px;
+  left: 202px;
+  top: 26px;
+  animation: star 4.5s infinite 5s;
 }
 
 .star71::after {
-  left: 39px;
-  top: 99px;
+  left: 193px;
+  top: 97px;
+  animation: star 4.3s infinite 5.5s;
 }
 
 .star72 {
-  top: 225px;
-  left: 195px;
+  top: 200px;
+  left: 162px;
+  animation: star 4.3s infinite 3.5s;
 }
 
 .star72::before {
-  left: 125px;
-  top: 149px;
+  left: 106px;
+  top: 121px;
+  animation: star 4.4s infinite 3.9s;
 }
 
 .star72::after {
-  left: 232px;
-  top: 18px;
+  left: 280px;
+  top: 109px;
+  animation: star 4.5s infinite 5.5s;
 }
 
 .star73 {
-  top: 112px;
-  left: 68px;
+  top: 9px;
+  left: 10px;
+  animation: star 4.1s infinite 1.6s;
 }
 
 .star73::before {
-  left: 59px;
-  top: 40px;
+  left: 60px;
+  top: 24px;
+  animation: star 4.3s infinite 3.1s;
 }
 
 .star73::after {
-  left: 55px;
-  top: 65px;
+  left: 243px;
+  top: 129px;
+  animation: star 4.2s infinite 5.2s;
 }
 
 .star74 {
-  top: 239px;
-  left: 148px;
+  top: 250px;
+  left: 22px;
+  animation: star 4.5s infinite 4.6s;
 }
 
 .star74::before {
-  left: 191px;
-  top: 131px;
+  left: 148px;
+  top: 245px;
+  animation: star 4.3s infinite 5.6s;
 }
 
 .star74::after {
-  left: 71px;
-  top: 250px;
+  left: 64px;
+  top: 77px;
+  animation: star 4.4s infinite 1.8s;
 }
 
 .star75 {
-  top: 242px;
-  left: 179px;
+  top: 186px;
+  left: 262px;
+  animation: star 4.4s infinite 1.3s;
 }
 
 .star75::before {
-  left: 166px;
-  top: 101px;
+  left: 66px;
+  top: 185px;
+  animation: star 4.2s infinite 0.8s;
 }
 
 .star75::after {
-  left: 40px;
-  top: 267px;
+  left: 158px;
+  top: 253px;
+  animation: star 4.3s infinite 2.1s;
 }
 
 .star76 {
-  top: 185px;
-  left: 48px;
+  top: 188px;
+  left: 56px;
+  animation: star 4.3s infinite 5.5s;
 }
 
 .star76::before {
-  left: 238px;
-  top: 265px;
+  left: 276px;
+  top: 136px;
+  animation: star 4.2s infinite 3.7s;
 }
 
 .star76::after {
-  left: 84px;
-  top: 56px;
+  left: 103px;
+  top: 154px;
+  animation: star 4.5s infinite 4.8s;
 }
 
 .star77 {
-  top: 54px;
-  left: 1px;
+  top: 2px;
+  left: 50px;
+  animation: star 4.2s infinite 0.9s;
 }
 
 .star77::before {
-  left: 239px;
-  top: 248px;
+  left: 249px;
+  top: 27px;
+  animation: star 4.1s infinite 2.3s;
 }
 
 .star77::after {
-  left: 164px;
-  top: 247px;
+  left: 97px;
+  top: 21px;
+  animation: star 4.3s infinite 4.4s;
 }
 
 .star78 {
-  top: 236px;
-  left: 29px;
+  top: 238px;
+  left: 177px;
+  animation: star 4.5s infinite 3s;
 }
 
 .star78::before {
-  left: 245px;
-  top: 80px;
+  left: 249px;
+  top: 142px;
+  animation: star 4.5s infinite 6s;
 }
 
 .star78::after {
-  left: 142px;
-  top: 160px;
+  left: 194px;
+  top: 172px;
+  animation: star 4.2s infinite 1.7s;
 }
 
 .star79 {
-  top: 24px;
-  left: 149px;
+  top: 128px;
+  left: 275px;
+  animation: star 4.4s infinite 2.5s;
 }
 
 .star79::before {
-  left: 214px;
-  top: 102px;
+  left: 150px;
+  top: 105px;
+  animation: star 4.5s infinite 5.9s;
 }
 
 .star79::after {
-  left: 260px;
-  top: 269px;
+  left: 36px;
+  top: 186px;
+  animation: star 4.5s infinite 2.3s;
 }
 
 .star80 {
-  top: 145px;
-  left: 41px;
+  top: 189px;
+  left: 113px;
+  animation: star 4.4s infinite 3.8s;
 }
 
 .star80::before {
-  left: 247px;
-  top: 44px;
+  left: 37px;
+  top: 213px;
+  animation: star 4.1s infinite 1.4s;
 }
 
 .star80::after {
-  left: 138px;
-  top: 178px;
+  left: 228px;
+  top: 137px;
+  animation: star 4.3s infinite 5.1s;
 }
 
 .star81 {
-  top: 255px;
-  left: 53px;
+  top: 183px;
+  left: 66px;
+  animation: star 4.4s infinite 3s;
 }
 
 .star81::before {
-  left: 186px;
-  top: 42px;
+  left: 174px;
+  top: 7px;
+  animation: star 4.5s infinite 3.7s;
 }
 
 .star81::after {
-  left: 84px;
-  top: 131px;
+  left: 163px;
+  top: 166px;
+  animation: star 4.1s infinite 1s;
 }
 
 .star82 {
-  top: 95px;
-  left: 144px;
+  top: 109px;
+  left: 230px;
+  animation: star 4.4s infinite 3.2s;
 }
 
 .star82::before {
-  left: 131px;
-  top: 98px;
+  left: 8px;
+  top: 109px;
+  animation: star 4.3s infinite 1s;
 }
 
 .star82::after {
-  left: 105px;
-  top: 78px;
+  left: 155px;
+  top: 33px;
+  animation: star 4.3s infinite 2.4s;
 }
 
 .star83 {
-  top: 266px;
-  left: 164px;
+  top: 178px;
+  left: 32px;
+  animation: star 4.4s infinite 5.3s;
 }
 
 .star83::before {
-  left: 105px;
-  top: 264px;
+  left: 195px;
+  top: 28px;
+  animation: star 4.3s infinite 4.7s;
 }
 
 .star83::after {
-  left: 258px;
-  top: 251px;
+  left: 80px;
+  top: 242px;
+  animation: star 4.4s infinite 3.2s;
 }
 
 .star84 {
-  top: 56px;
-  left: 229px;
+  top: 248px;
+  left: 247px;
+  animation: star 4.5s infinite 3.1s;
 }
 
 .star84::before {
-  left: 225px;
-  top: 48px;
+  left: 74px;
+  top: 234px;
+  animation: star 4.5s infinite 5.7s;
 }
 
 .star84::after {
-  left: 157px;
-  top: 239px;
+  left: 64px;
+  top: 119px;
+  animation: star 4.4s infinite 5.9s;
 }
 
 .star85 {
-  top: 68px;
-  left: 140px;
+  top: 152px;
+  left: 72px;
+  animation: star 4.2s infinite 0.8s;
 }
 
 .star85::before {
-  left: 30px;
-  top: 11px;
+  left: 238px;
+  top: 34px;
+  animation: star 4.3s infinite 0.6s;
 }
 
 .star85::after {
-  left: 64px;
-  top: 270px;
+  left: 180px;
+  top: 46px;
+  animation: star 4.1s infinite 2.6s;
 }
 
 .star86 {
-  top: 38px;
-  left: 111px;
+  top: 64px;
+  left: 10px;
+  animation: star 4.2s infinite 1.8s;
 }
 
 .star86::before {
-  left: 113px;
-  top: 69px;
+  left: 188px;
+  top: 67px;
+  animation: star 4.5s infinite 3.9s;
 }
 
 .star86::after {
-  left: 31px;
+  left: 192px;
   top: 190px;
+  animation: star 4.5s infinite 1.9s;
 }
 
 .star87 {
-  top: 199px;
-  left: 219px;
+  top: 229px;
+  left: 182px;
+  animation: star 4.2s infinite 3.1s;
 }
 
 .star87::before {
-  left: 68px;
-  top: 108px;
+  left: 104px;
+  top: 169px;
+  animation: star 4.5s infinite 4.5s;
 }
 
 .star87::after {
-  left: 29px;
-  top: 65px;
+  left: 64px;
+  top: 1px;
+  animation: star 4.4s infinite 3.4s;
 }
 
 .star88 {
-  top: 55px;
-  left: 4px;
+  top: 280px;
+  left: 11px;
+  animation: star 4.3s infinite 2.1s;
 }
 
 .star88::before {
-  left: 84px;
-  top: 63px;
+  left: 44px;
+  top: 155px;
+  animation: star 4.1s infinite 5s;
 }
 
 .star88::after {
-  left: 254px;
-  top: 140px;
+  left: 207px;
+  top: 25px;
+  animation: star 4.2s infinite 0.2s;
 }
 
 .star89 {
-  top: 163px;
-  left: 55px;
+  top: 193px;
+  left: 159px;
+  animation: star 4.1s infinite 6s;
 }
 
 .star89::before {
-  left: 251px;
-  top: 4px;
+  left: 202px;
+  top: 199px;
+  animation: star 4.4s infinite 2.6s;
 }
 
 .star89::after {
-  left: 94px;
-  top: 204px;
+  left: 84px;
+  top: 271px;
+  animation: star 4.2s infinite 1s;
 }
 
 .star90 {
-  top: 278px;
-  left: 209px;
+  top: 272px;
+  left: 86px;
+  animation: star 4.3s infinite 5.6s;
 }
 
 .star90::before {
-  left: 211px;
-  top: 274px;
+  left: 50px;
+  top: 216px;
+  animation: star 4.4s infinite 5s;
 }
 
 .star90::after {
-  left: 109px;
-  top: 134px;
+  left: 15px;
+  top: 220px;
+  animation: star 4.4s infinite 3.7s;
 }
 
 .star91 {
-  top: 1px;
-  left: 80px;
+  top: 158px;
+  left: 39px;
+  animation: star 4.1s infinite 3.3s;
 }
 
 .star91::before {
-  left: 3px;
-  top: 217px;
+  left: 277px;
+  top: 61px;
+  animation: star 4.3s infinite 1.5s;
 }
 
 .star91::after {
-  left: 24px;
-  top: 193px;
+  left: 206px;
+  top: 270px;
+  animation: star 4.4s infinite 6.1s;
 }
 
 .star92 {
-  top: 32px;
-  left: 9px;
+  top: 178px;
+  left: 208px;
+  animation: star 4.5s infinite 1.5s;
 }
 
 .star92::before {
-  left: 47px;
-  top: 157px;
+  left: 268px;
+  top: 228px;
+  animation: star 4.3s infinite 4s;
 }
 
 .star92::after {
-  left: 166px;
-  top: 181px;
+  left: 93px;
+  top: 35px;
+  animation: star 4.2s infinite 6s;
 }
 
 .star93 {
-  top: 81px;
-  left: 49px;
+  top: 207px;
+  left: 24px;
+  animation: star 4.5s infinite 0.8s;
 }
 
 .star93::before {
-  left: 19px;
-  top: 94px;
+  left: 262px;
+  top: 185px;
+  animation: star 4.2s infinite 0.8s;
 }
 
 .star93::after {
-  left: 61px;
-  top: 2px;
+  left: 36px;
+  top: 169px;
+  animation: star 4.3s infinite 3.1s;
 }
 
 .star94 {
-  top: 128px;
-  left: 236px;
+  top: 113px;
+  left: 101px;
+  animation: star 4.4s infinite 0.8s;
 }
 
 .star94::before {
-  left: 20px;
-  top: 81px;
+  left: 255px;
+  top: 23px;
+  animation: star 4.1s infinite 1.5s;
 }
 
 .star94::after {
-  left: 148px;
-  top: 248px;
+  left: 21px;
+  top: 243px;
+  animation: star 4.2s infinite 4.1s;
 }
 
 .star95 {
-  top: 26px;
-  left: 121px;
+  top: 110px;
+  left: 81px;
+  animation: star 4.5s infinite 3.5s;
 }
 
 .star95::before {
-  left: 265px;
-  top: 56px;
+  left: 249px;
+  top: 222px;
+  animation: star 4.3s infinite 3.3s;
 }
 
 .star95::after {
-  left: 175px;
-  top: 120px;
+  left: 263px;
+  top: 31px;
+  animation: star 4.2s infinite 0.9s;
 }
 
 .star96 {
-  top: 115px;
-  left: 88px;
+  top: 232px;
+  left: 149px;
+  animation: star 4.2s infinite 2s;
 }
 
 .star96::before {
-  left: 86px;
-  top: 261px;
+  left: 242px;
+  top: 159px;
+  animation: star 4.4s infinite 0.9s;
 }
 
 .star96::after {
-  left: 126px;
-  top: 10px;
+  left: 106px;
+  top: 183px;
+  animation: star 4.5s infinite 4.8s;
 }
 
 .star97 {
-  top: 152px;
-  left: 222px;
+  top: 203px;
+  left: 31px;
+  animation: star 4.3s infinite 4.7s;
 }
 
 .star97::before {
-  left: 252px;
-  top: 3px;
+  left: 212px;
+  top: 157px;
+  animation: star 4.2s infinite 5.3s;
 }
 
 .star97::after {
-  left: 271px;
-  top: 187px;
+  left: 156px;
+  top: 234px;
+  animation: star 4.3s infinite 2s;
 }
 
 .star98 {
-  top: 143px;
-  left: 244px;
+  top: 21px;
+  left: 115px;
+  animation: star 4.3s infinite 5.3s;
 }
 
 .star98::before {
-  left: 35px;
-  top: 156px;
+  left: 220px;
+  top: 112px;
+  animation: star 4.1s infinite 4.1s;
 }
 
 .star98::after {
-  left: 162px;
-  top: 224px;
+  left: 186px;
+  top: 135px;
+  animation: star 4.4s infinite 3.9s;
 }
 
 .star99 {
-  top: 275px;
-  left: 71px;
+  top: 103px;
+  left: 152px;
+  animation: star 4.1s infinite 2.3s;
 }
 
 .star99::before {
   left: 160px;
-  top: 233px;
+  top: 278px;
+  animation: star 4.5s infinite 5.2s;
 }
 
 .star99::after {
-  left: 66px;
-  top: 122px;
+  left: 135px;
+  top: 151px;
+  animation: star 4.2s infinite 3.2s;
 }
 
 .star100 {
-  top: 16px;
-  left: 74px;
+  top: 146px;
+  left: 164px;
+  animation: star 4.5s infinite 4s;
 }
 
 .star100::before {
-  left: 109px;
-  top: 18px;
+  left: 76px;
+  top: 144px;
+  animation: star 4.4s infinite 5.4s;
 }
 
 .star100::after {
-  left: 120px;
-  top: 136px;
+  left: 242px;
+  top: 192px;
+  animation: star 4.1s infinite 3s;
 }
 
 .star101 {
-  top: 70px;
-  left: 277px;
+  top: 97px;
+  left: 205px;
+  animation: star 4.1s infinite 3.2s;
 }
 
 .star101::before {
-  left: 68px;
-  top: 209px;
+  left: 140px;
+  top: 249px;
+  animation: star 4.4s infinite 2.4s;
 }
 
 .star101::after {
-  left: 82px;
-  top: 257px;
+  left: 196px;
+  top: 55px;
+  animation: star 4.3s infinite 4.7s;
 }
 
 .star102 {
-  top: 100px;
-  left: 102px;
+  top: 236px;
+  left: 136px;
+  animation: star 4.3s infinite 2.4s;
 }
 
 .star102::before {
-  left: 23px;
-  top: 73px;
+  left: 71px;
+  top: 170px;
+  animation: star 4.2s infinite 6.4s;
 }
 
 .star102::after {
-  left: 272px;
-  top: 23px;
+  left: 222px;
+  top: 34px;
+  animation: star 4.3s infinite 2.3s;
 }
 
 .star103 {
-  top: 87px;
-  left: 110px;
+  top: 280px;
+  left: 249px;
+  animation: star 4.4s infinite 5.8s;
 }
 
 .star103::before {
-  left: 86px;
-  top: 158px;
+  left: 24px;
+  top: 35px;
+  animation: star 4.3s infinite 4.9s;
 }
 
 .star103::after {
-  left: 108px;
-  top: 259px;
+  left: 161px;
+  top: 81px;
+  animation: star 4.2s infinite 4.2s;
 }
 
 .star104 {
-  top: 208px;
-  left: 120px;
+  top: 47px;
+  left: 195px;
+  animation: star 4.4s infinite 1s;
 }
 
 .star104::before {
-  left: 1px;
-  top: 244px;
+  left: 115px;
+  top: 211px;
+  animation: star 4.2s infinite 6.1s;
 }
 
 .star104::after {
-  left: 258px;
-  top: 219px;
+  left: 101px;
+  top: 157px;
+  animation: star 4.3s infinite 0.7s;
 }
 
 .star105 {
-  top: 166px;
-  left: 77px;
+  top: 227px;
+  left: 135px;
+  animation: star 4.2s infinite 5.6s;
 }
 
 .star105::before {
-  left: 72px;
-  top: 205px;
+  left: 183px;
+  top: 7px;
+  animation: star 4.5s infinite 3.8s;
 }
 
 .star105::after {
-  left: 267px;
-  top: 227px;
+  left: 139px;
+  top: 195px;
+  animation: star 4.3s infinite 5.3s;
 }
 
 .star106 {
-  top: 10px;
-  left: 203px;
+  top: 171px;
+  left: 270px;
+  animation: star 4.5s infinite 2.8s;
 }
 
 .star106::before {
-  left: 8px;
-  top: 174px;
+  left: 192px;
+  top: 204px;
+  animation: star 4.4s infinite 2.6s;
 }
 
 .star106::after {
-  left: 127px;
-  top: 46px;
+  left: 126px;
+  top: 68px;
+  animation: star 4.4s infinite 3.6s;
 }
 
 .star107 {
-  top: 104px;
-  left: 59px;
+  top: 265px;
+  left: 254px;
+  animation: star 4.3s infinite 2.1s;
 }
 
 .star107::before {
-  left: 21px;
-  top: 276px;
+  left: 276px;
+  top: 268px;
+  animation: star 4.2s infinite 2.7s;
 }
 
 .star107::after {
-  left: 113px;
-  top: 139px;
+  left: 214px;
+  top: 242px;
+  animation: star 4.1s infinite 1.3s;
 }
 
 .star108 {
-  top: 256px;
-  left: 138px;
+  top: 242px;
+  left: 28px;
+  animation: star 4.4s infinite 0.9s;
 }
 
 .star108::before {
-  left: 6px;
-  top: 99px;
+  left: 23px;
+  top: 13px;
+  animation: star 4.2s infinite 2.8s;
 }
 
 .star108::after {
-  left: 96px;
-  top: 217px;
+  left: 192px;
+  top: 158px;
+  animation: star 4.4s infinite 4.8s;
 }
 
 .star109 {
-  top: 116px;
+  top: 203px;
   left: 170px;
+  animation: star 4.2s infinite 6.1s;
 }
 
 .star109::before {
-  left: 14px;
-  top: 145px;
+  left: 69px;
+  top: 194px;
+  animation: star 4.1s infinite 1s;
 }
 
 .star109::after {
-  left: 163px;
-  top: 2px;
+  left: 66px;
+  top: 232px;
+  animation: star 4.1s infinite 1.7s;
 }
 
 .star110 {
-  top: 101px;
-  left: 250px;
+  top: 37px;
+  left: 93px;
+  animation: star 4.2s infinite 2.7s;
 }
 
 .star110::before {
-  left: 94px;
-  top: 34px;
+  left: 187px;
+  top: 265px;
+  animation: star 4.3s infinite 3.8s;
 }
 
 .star110::after {
-  left: 211px;
-  top: 55px;
+  left: 194px;
+  top: 58px;
+  animation: star 4.3s infinite 2.5s;
 }
 
 .star111 {
-  top: 88px;
-  left: 266px;
+  top: 215px;
+  left: 217px;
+  animation: star 4.3s infinite 1.1s;
 }
 
 .star111::before {
-  left: 165px;
-  top: 235px;
+  left: 34px;
+  top: 173px;
+  animation: star 4.3s infinite 4.1s;
 }
 
 .star111::after {
-  left: 271px;
-  top: 223px;
+  left: 172px;
+  top: 37px;
+  animation: star 4.5s infinite 0.5s;
 }
 
 .star112 {
-  top: 79px;
-  left: 91px;
+  top: 150px;
+  left: 116px;
+  animation: star 4.2s infinite 2.9s;
 }
 
 .star112::before {
-  left: 171px;
-  top: 10px;
+  left: 118px;
+  top: 1px;
+  animation: star 4.3s infinite 6s;
 }
 
 .star112::after {
-  left: 2px;
-  top: 188px;
+  left: 232px;
+  top: 121px;
+  animation: star 4.5s infinite 3s;
 }
 
 .star113 {
-  top: 238px;
-  left: 62px;
+  top: 209px;
+  left: 111px;
+  animation: star 4.4s infinite 3.6s;
 }
 
 .star113::before {
-  left: 223px;
-  top: 31px;
+  left: 116px;
+  top: 260px;
+  animation: star 4.2s infinite 1.5s;
 }
 
 .star113::after {
-  left: 241px;
-  top: 23px;
+  left: 20px;
+  top: 244px;
+  animation: star 4.3s infinite 1.2s;
 }
 
 .star114 {
-  top: 170px;
-  left: 86px;
+  top: 230px;
+  left: 197px;
+  animation: star 4.4s infinite 2.2s;
 }
 
 .star114::before {
-  left: 23px;
-  top: 172px;
+  left: 152px;
+  top: 217px;
+  animation: star 4.4s infinite 1.1s;
 }
 
 .star114::after {
-  left: 174px;
-  top: 143px;
+  left: 256px;
+  top: 158px;
+  animation: star 4.5s infinite 1.6s;
 }
 
 .star115 {
-  top: 203px;
-  left: 236px;
+  top: 34px;
+  left: 10px;
+  animation: star 4.1s infinite 2.8s;
 }
 
 .star115::before {
-  left: 2px;
-  top: 57px;
+  left: 44px;
+  top: 203px;
+  animation: star 4.1s infinite 6.5s;
 }
 
 .star115::after {
-  left: 56px;
-  top: 9px;
+  left: 36px;
+  top: 52px;
+  animation: star 4.5s infinite 1.6s;
 }
 
 .star116 {
-  top: 164px;
-  left: 13px;
+  top: 218px;
+  left: 117px;
+  animation: star 4.3s infinite 1.2s;
 }
 
 .star116::before {
-  left: 264px;
-  top: 2px;
+  left: 51px;
+  top: 199px;
+  animation: star 4.3s infinite 3.7s;
 }
 
 .star116::after {
-  left: 147px;
-  top: 116px;
+  left: 228px;
+  top: 90px;
+  animation: star 4.5s infinite 1.8s;
 }
 
 .star117 {
-  top: 187px;
-  left: 89px;
+  top: 13px;
+  left: 204px;
+  animation: star 4.1s infinite 5.6s;
 }
 
 .star117::before {
-  left: 68px;
-  top: 205px;
+  left: 58px;
+  top: 232px;
+  animation: star 4.3s infinite 1.1s;
 }
 
 .star117::after {
-  left: 278px;
-  top: 170px;
+  left: 103px;
+  top: 204px;
+  animation: star 4.2s infinite 5.2s;
 }
 
 .star118 {
-  top: 262px;
-  left: 156px;
+  top: 16px;
+  left: 163px;
+  animation: star 4.2s infinite 3.2s;
 }
 
 .star118::before {
-  left: 11px;
-  top: 102px;
+  left: 239px;
+  top: 192px;
+  animation: star 4.2s infinite 0.7s;
 }
 
 .star118::after {
-  left: 100px;
-  top: 12px;
+  left: 209px;
+  top: 198px;
+  animation: star 4.5s infinite 0.8s;
 }
 
 .star119 {
-  top: 196px;
-  left: 209px;
+  top: 238px;
+  left: 65px;
+  animation: star 4.4s infinite 2.6s;
 }
 
 .star119::before {
-  left: 230px;
-  top: 171px;
+  left: 71px;
+  top: 30px;
+  animation: star 4.2s infinite 1s;
 }
 
 .star119::after {
-  left: 70px;
-  top: 4px;
+  left: 132px;
+  top: 277px;
+  animation: star 4.3s infinite 6.2s;
 }
 
 .star120 {
-  top: 152px;
-  left: 280px;
+  top: 277px;
+  left: 119px;
+  animation: star 4.3s infinite 4.4s;
 }
 
 .star120::before {
-  left: 216px;
-  top: 244px;
+  left: 105px;
+  top: 149px;
+  animation: star 4.5s infinite 4.4s;
 }
 
 .star120::after {
-  left: 18px;
-  top: 64px;
+  left: 224px;
+  top: 254px;
+  animation: star 4.1s infinite 6.3s;
 }
 
 .star121 {
-  top: 125px;
-  left: 222px;
+  top: 48px;
+  left: 89px;
+  animation: star 4.1s infinite 2.8s;
 }
 
 .star121::before {
-  left: 280px;
-  top: 178px;
+  left: 181px;
+  top: 251px;
+  animation: star 4.4s infinite 4.8s;
 }
 
 .star121::after {
-  left: 48px;
-  top: 274px;
+  left: 75px;
+  top: 38px;
+  animation: star 4.4s infinite 5.5s;
 }
 
 .star122 {
-  top: 124px;
-  left: 266px;
+  top: 256px;
+  left: 64px;
+  animation: star 4.4s infinite 2.4s;
 }
 
 .star122::before {
-  left: 228px;
-  top: 213px;
+  left: 70px;
+  top: 58px;
+  animation: star 4.5s infinite 4.4s;
 }
 
 .star122::after {
-  left: 250px;
-  top: 198px;
+  left: 272px;
+  top: 180px;
+  animation: star 4.2s infinite 4.2s;
 }
 
 .star123 {
-  top: 227px;
-  left: 79px;
+  top: 16px;
+  left: 218px;
+  animation: star 4.3s infinite 5.6s;
 }
 
 .star123::before {
-  left: 73px;
-  top: 64px;
+  left: 183px;
+  top: 179px;
+  animation: star 4.4s infinite 3.7s;
 }
 
 .star123::after {
-  left: 143px;
-  top: 243px;
+  left: 206px;
+  top: 197px;
+  animation: star 4.1s infinite 0.7s;
 }
 
 .star124 {
-  top: 136px;
-  left: 278px;
+  top: 160px;
+  left: 210px;
+  animation: star 4.3s infinite 1s;
 }
 
 .star124::before {
-  left: 21px;
-  top: 184px;
+  left: 82px;
+  top: 172px;
+  animation: star 4.4s infinite 4.4s;
 }
 
 .star124::after {
-  left: 43px;
-  top: 26px;
+  left: 89px;
+  top: 71px;
+  animation: star 4.3s infinite 4.7s;
 }
 
 .star125 {
-  top: 103px;
-  left: 127px;
+  top: 85px;
+  left: 245px;
+  animation: star 4.2s infinite 1.3s;
 }
 
 .star125::before {
-  left: 126px;
-  top: 139px;
+  left: 174px;
+  top: 113px;
+  animation: star 4.1s infinite 6.3s;
 }
 
 .star125::after {
-  left: 23px;
-  top: 167px;
+  left: 58px;
+  top: 1px;
+  animation: star 4.2s infinite 2.5s;
 }
 
 .star126 {
-  top: 48px;
-  left: 13px;
+  top: 142px;
+  left: 91px;
+  animation: star 4.4s infinite 6.2s;
 }
 
 .star126::before {
-  left: 204px;
-  top: 13px;
+  left: 195px;
+  top: 145px;
+  animation: star 4.4s infinite 3.4s;
 }
 
 .star126::after {
-  left: 198px;
-  top: 69px;
+  left: 199px;
+  top: 228px;
+  animation: star 4.5s infinite 5.7s;
 }
 
 .star127 {
-  top: 73px;
-  left: 75px;
+  top: 268px;
+  left: 60px;
+  animation: star 4.5s infinite 3s;
 }
 
 .star127::before {
-  left: 110px;
-  top: 137px;
+  left: 178px;
+  top: 128px;
+  animation: star 4.5s infinite 2s;
 }
 
 .star127::after {
-  left: 271px;
-  top: 165px;
+  left: 186px;
+  top: 149px;
+  animation: star 4.1s infinite 6.1s;
 }
 
 .star128 {
-  top: 117px;
-  left: 277px;
+  top: 152px;
+  left: 201px;
+  animation: star 4.4s infinite 5s;
 }
 
 .star128::before {
-  left: 171px;
-  top: 100px;
+  left: 52px;
+  top: 243px;
+  animation: star 4.1s infinite 1.1s;
 }
 
 .star128::after {
-  left: 151px;
-  top: 43px;
+  left: 270px;
+  top: 86px;
+  animation: star 4.1s infinite 4.2s;
 }
 
 .star129 {
-  top: 204px;
-  left: 31px;
+  top: 210px;
+  left: 185px;
+  animation: star 4.1s infinite 5.8s;
 }
 
 .star129::before {
-  left: 247px;
-  top: 261px;
+  left: 213px;
+  top: 268px;
+  animation: star 4.3s infinite 6s;
 }
 
 .star129::after {
-  left: 137px;
-  top: 205px;
+  left: 69px;
+  top: 272px;
+  animation: star 4.4s infinite 3.4s;
 }
 
 .star130 {
-  top: 216px;
-  left: 28px;
+  top: 274px;
+  left: 19px;
+  animation: star 4.2s infinite 4.4s;
 }
 
 .star130::before {
-  left: 107px;
-  top: 251px;
+  left: 241px;
+  top: 274px;
+  animation: star 4.2s infinite 3.2s;
 }
 
 .star130::after {
-  left: 59px;
-  top: 272px;
+  left: 77px;
+  top: 40px;
+  animation: star 4.3s infinite 2s;
 }
 
 .star131 {
-  top: 112px;
-  left: 120px;
+  top: 45px;
+  left: 66px;
+  animation: star 4.4s infinite 4.4s;
 }
 
 .star131::before {
-  left: 108px;
-  top: 59px;
+  left: 179px;
+  top: 24px;
+  animation: star 4.1s infinite 2.4s;
 }
 
 .star131::after {
-  left: 158px;
-  top: 241px;
+  left: 180px;
+  top: 86px;
+  animation: star 4.2s infinite 1.8s;
 }
 
 .star132 {
-  top: 110px;
-  left: 52px;
+  top: 84px;
+  left: 154px;
+  animation: star 4.5s infinite 6.4s;
 }
 
 .star132::before {
-  left: 126px;
-  top: 68px;
+  left: 266px;
+  top: 79px;
+  animation: star 4.2s infinite 3.7s;
 }
 
 .star132::after {
-  left: 269px;
-  top: 244px;
+  left: 187px;
+  top: 124px;
+  animation: star 4.3s infinite 1.2s;
 }
 
 .star133 {
-  top: 238px;
-  left: 193px;
+  top: 96px;
+  left: 173px;
+  animation: star 4.2s infinite 1.8s;
 }
 
 .star133::before {
-  left: 203px;
-  top: 120px;
+  left: 192px;
+  top: 106px;
+  animation: star 4.5s infinite 4s;
 }
 
 .star133::after {
-  left: 43px;
-  top: 72px;
+  left: 266px;
+  top: 17px;
+  animation: star 4.4s infinite 0.4s;
 }
 
 .star134 {
-  top: 248px;
-  left: 73px;
+  top: 204px;
+  left: 175px;
+  animation: star 4.3s infinite 2.6s;
 }
 
 .star134::before {
-  left: 173px;
-  top: 162px;
+  left: 26px;
+  top: 192px;
+  animation: star 4.4s infinite 4.2s;
 }
 
 .star134::after {
-  left: 269px;
-  top: 209px;
+  left: 233px;
+  top: 52px;
+  animation: star 4.3s infinite 6.3s;
 }
 
 .star135 {
-  top: 9px;
-  left: 182px;
+  top: 176px;
+  left: 25px;
+  animation: star 4.2s infinite 6.4s;
 }
 
 .star135::before {
-  left: 183px;
-  top: 235px;
+  left: 116px;
+  top: 254px;
+  animation: star 4.4s infinite 4.8s;
 }
 
 .star135::after {
-  left: 18px;
-  top: 43px;
+  left: 29px;
+  top: 27px;
+  animation: star 4.5s infinite 3.3s;
 }
 
 .star136 {
-  top: 150px;
-  left: 168px;
+  top: 87px;
+  left: 68px;
+  animation: star 4.2s infinite 3.1s;
 }
 
 .star136::before {
-  left: 131px;
-  top: 95px;
+  left: 37px;
+  top: 119px;
+  animation: star 4.1s infinite 4s;
 }
 
 .star136::after {
-  left: 202px;
-  top: 140px;
+  left: 145px;
+  top: 28px;
+  animation: star 4.3s infinite 4.2s;
 }
 
 .star137 {
-  top: 51px;
-  left: 24px;
+  top: 240px;
+  left: 167px;
+  animation: star 4.2s infinite 3.1s;
 }
 
 .star137::before {
-  left: 76px;
-  top: 56px;
+  left: 66px;
+  top: 92px;
+  animation: star 4.3s infinite 3.3s;
 }
 
 .star137::after {
-  left: 191px;
-  top: 240px;
+  left: 254px;
+  top: 118px;
+  animation: star 4.5s infinite 4s;
 }
 
 .star138 {
-  top: 113px;
-  left: 174px;
+  top: 62px;
+  left: 241px;
+  animation: star 4.2s infinite 3.2s;
 }
 
 .star138::before {
-  left: 224px;
-  top: 234px;
+  left: 22px;
+  top: 256px;
+  animation: star 4.1s infinite 6.5s;
 }
 
 .star138::after {
-  left: 180px;
-  top: 125px;
+  left: 130px;
+  top: 2px;
+  animation: star 4.3s infinite 1.7s;
 }
 
 .star139 {
-  top: 87px;
-  left: 98px;
+  top: 175px;
+  left: 180px;
+  animation: star 4.1s infinite 5.8s;
 }
 
 .star139::before {
-  left: 244px;
-  top: 215px;
+  left: 185px;
+  top: 233px;
+  animation: star 4.2s infinite 5.9s;
 }
 
 .star139::after {
-  left: 105px;
-  top: 239px;
+  left: 125px;
+  top: 99px;
+  animation: star 4.1s infinite 4.5s;
 }
 
 .star140 {
-  top: 43px;
-  left: 235px;
+  top: 224px;
+  left: 226px;
+  animation: star 4.3s infinite 5.5s;
 }
 
 .star140::before {
-  left: 69px;
-  top: 276px;
+  left: 30px;
+  top: 269px;
+  animation: star 4.1s infinite 1.6s;
 }
 
 .star140::after {
-  left: 275px;
-  top: 197px;
+  left: 157px;
+  top: 42px;
+  animation: star 4.2s infinite 2.9s;
 }
 
 .star141 {
-  top: 84px;
-  left: 238px;
+  top: 137px;
+  left: 263px;
+  animation: star 4.2s infinite 3.2s;
 }
 
 .star141::before {
-  left: 108px;
-  top: 255px;
+  left: 260px;
+  top: 246px;
+  animation: star 4.2s infinite 0.9s;
 }
 
 .star141::after {
-  left: 56px;
-  top: 150px;
+  left: 33px;
+  top: 152px;
+  animation: star 4.1s infinite 4.5s;
 }
 
 .star142 {
-  top: 212px;
-  left: 118px;
+  top: 47px;
+  left: 255px;
+  animation: star 4.1s infinite 2.5s;
 }
 
 .star142::before {
-  left: 48px;
-  top: 74px;
+  left: 33px;
+  top: 28px;
+  animation: star 4.5s infinite 6.4s;
 }
 
 .star142::after {
-  left: 279px;
-  top: 269px;
+  left: 145px;
+  top: 179px;
+  animation: star 4.5s infinite 1s;
 }
 
 .star143 {
-  top: 121px;
-  left: 129px;
+  top: 152px;
+  left: 94px;
+  animation: star 4.2s infinite 0.5s;
 }
 
 .star143::before {
-  left: 170px;
-  top: 47px;
+  left: 78px;
+  top: 177px;
+  animation: star 4.5s infinite 0.6s;
 }
 
 .star143::after {
-  left: 273px;
-  top: 267px;
+  left: 9px;
+  top: 217px;
+  animation: star 4.4s infinite 1.4s;
 }
 
 .star144 {
-  top: 232px;
-  left: 132px;
+  top: 170px;
+  left: 278px;
+  animation: star 4.2s infinite 4s;
 }
 
 .star144::before {
-  left: 48px;
-  top: 220px;
+  left: 153px;
+  top: 109px;
+  animation: star 4.4s infinite 4.4s;
 }
 
 .star144::after {
-  left: 136px;
-  top: 166px;
+  left: 45px;
+  top: 148px;
+  animation: star 4.1s infinite 2.4s;
 }
 
 .star145 {
-  top: 270px;
-  left: 263px;
+  top: 142px;
+  left: 6px;
+  animation: star 4.5s infinite 2.7s;
 }
 
 .star145::before {
-  left: 114px;
-  top: 5px;
+  left: 129px;
+  top: 29px;
+  animation: star 4.4s infinite 3.9s;
 }
 
 .star145::after {
-  left: 238px;
-  top: 153px;
+  left: 66px;
+  top: 13px;
+  animation: star 4.5s infinite 0.7s;
 }
 
 .star146 {
-  top: 2px;
-  left: 172px;
+  top: 40px;
+  left: 156px;
+  animation: star 4.2s infinite 1.2s;
 }
 
 .star146::before {
-  left: 28px;
-  top: 176px;
+  left: 38px;
+  top: 149px;
+  animation: star 4.5s infinite 5.4s;
 }
 
 .star146::after {
-  left: 225px;
-  top: 22px;
+  left: 106px;
+  top: 208px;
+  animation: star 4.4s infinite 3.1s;
 }
 
 .star147 {
-  top: 149px;
-  left: 103px;
+  top: 142px;
+  left: 27px;
+  animation: star 4.4s infinite 4.4s;
 }
 
 .star147::before {
-  left: 203px;
-  top: 10px;
+  left: 157px;
+  top: 205px;
+  animation: star 4.1s infinite 0.8s;
 }
 
 .star147::after {
-  left: 95px;
-  top: 217px;
+  left: 249px;
+  top: 16px;
+  animation: star 4.5s infinite 3.6s;
 }
 
 .star148 {
-  top: 53px;
-  left: 25px;
+  top: 239px;
+  left: 237px;
+  animation: star 4.2s infinite 3s;
 }
 
 .star148::before {
-  left: 150px;
-  top: 196px;
+  left: 184px;
+  top: 60px;
+  animation: star 4.4s infinite 1.7s;
 }
 
 .star148::after {
-  left: 111px;
-  top: 126px;
+  left: 83px;
+  top: 119px;
+  animation: star 4.2s infinite 5.8s;
 }
 
 .star149 {
-  top: 147px;
-  left: 182px;
+  top: 47px;
+  left: 275px;
+  animation: star 4.1s infinite 3.8s;
 }
 
 .star149::before {
-  left: 7px;
-  top: 183px;
+  left: 117px;
+  top: 232px;
+  animation: star 4.1s infinite 2.2s;
 }
 
 .star149::after {
-  left: 12px;
-  top: 13px;
+  left: 163px;
+  top: 238px;
+  animation: star 4.5s infinite 3.6s;
 }
 
 .star150 {
-  top: 122px;
-  left: 179px;
+  top: 249px;
+  left: 205px;
+  animation: star 4.3s infinite 1s;
 }
 
 .star150::before {
-  left: 108px;
-  top: 20px;
+  left: 60px;
+  top: 275px;
+  animation: star 4.4s infinite 4.5s;
 }
 
 .star150::after {
-  left: 109px;
-  top: 227px;
+  left: 147px;
+  top: 279px;
+  animation: star 4.2s infinite 1.6s;
 }
 
 .star151 {
-  top: 223px;
-  left: 80px;
+  top: 107px;
+  left: 182px;
+  animation: star 4.5s infinite 1.5s;
 }
 
 .star151::before {
-  left: 113px;
-  top: 153px;
+  left: 157px;
+  top: 185px;
+  animation: star 4.5s infinite 1.9s;
 }
 
 .star151::after {
-  left: 173px;
-  top: 122px;
+  left: 122px;
+  top: 242px;
+  animation: star 4.2s infinite 1.5s;
+}
+
+@keyframes star {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

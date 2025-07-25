@@ -39,13 +39,24 @@ body {
 .star#{$i} {
   top: random(280)+px;
   left: random(280)+px;
+  animation: star ((random(5)+40)/10)+s infinite ((random(5)+random(60))/10)+s;
 }
 .star#{$i}::before {
   left: random(280)+px;
   top:random(280)+px;
+  animation: star ((random(5)+40)/10)+s infinite ((random(5)+random(60))/10)+s;
 }
 .star#{$i}::after {
   left: random(280)+px;
   top: random(280)+px;
+  animation: star ((random(5)+40)/10)+s infinite ((random(5)+random(60))/10)+s;
 }
+}
+@keyframes star{
+    0%,100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.2;
+    }
 }
