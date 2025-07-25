@@ -7,14 +7,12 @@ github: https://www.github.com/imShahbazi
   margin: 0;
   padding: 0;
 }
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-
 .frame {
   background-image: linear-gradient(to bottom, #1d4253 0%, #6bb5c4 100%);
   width: 500px;
@@ -22,7 +20,6 @@ body {
   border-radius: 100%;
   position: relative;
 }
-
 .star {
   width: 2px;
   height: 2px;
@@ -30,7 +27,6 @@ body {
   background-color: white;
   border-radius: 100%;
 }
-
 .star::before,
 .star::after {
   content: "";
@@ -39,19 +35,14 @@ body {
   width: 2px;
   height: 2px;
 }
-
 .star1 {
   top: 10%;
   left: 30%;
 }
-
 .star1::before {
   left: 30px;
 }
-
 .star1::after {
   left: 30px;
   top: 20px;
 }
-
-/*# sourceMappingURL=main.css.map */
