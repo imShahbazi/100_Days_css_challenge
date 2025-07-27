@@ -3,31 +3,183 @@ date:27 July 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi  
 */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    height: 100vh;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
 }
-.rect{
-    border: 1px solid white;
-    aspect-ratio: 1/1;
-    position: absolute;
+
+.rect {
+  border: 1px solid white;
+  aspect-ratio: 1/1;
+  position: absolute;
 }
-.rect1{
-    width: 40%;
+
+.rect1 {
+  width: 40%;
 }
-.rect2{
-    width: 39%;
+
+.rect2 {
+  width: 39%;
 }
-.rect3{
-    width: 38%;
+
+.rect3 {
+  width: 38%;
 }
-.rect4{
-    width: 37%;
+
+.rect4 {
+  width: 37%;
 }
+
+.rect5 {
+  width: 36%;
+}
+
+.rect6 {
+  width: 35%;
+}
+
+.rect7 {
+  width: 34%;
+}
+
+.rect8 {
+  width: 33%;
+}
+
+.rect9 {
+  width: 32%;
+}
+
+.rect10 {
+  width: 31%;
+}
+
+.rect11 {
+  width: 30%;
+}
+
+.rect12 {
+  width: 29%;
+}
+
+.rect13 {
+  width: 28%;
+}
+
+.rect14 {
+  width: 27%;
+}
+
+.rect15 {
+  width: 26%;
+}
+
+.rect16 {
+  width: 25%;
+}
+
+.rect17 {
+  width: 24%;
+}
+
+.rect18 {
+  width: 23%;
+}
+
+.rect19 {
+  width: 22%;
+}
+
+.rect20 {
+  width: 21%;
+}
+
+.rect21 {
+  width: 20%;
+}
+
+.rect22 {
+  width: 19%;
+}
+
+.rect23 {
+  width: 18%;
+}
+
+.rect24 {
+  width: 17%;
+}
+
+.rect25 {
+  width: 16%;
+}
+
+.rect26 {
+  width: 15%;
+}
+
+.rect27 {
+  width: 14%;
+}
+
+.rect28 {
+  width: 13%;
+}
+
+.rect29 {
+  width: 12%;
+}
+
+.rect30 {
+  width: 11%;
+}
+
+.rect31 {
+  width: 10%;
+}
+
+.rect32 {
+  width: 9%;
+}
+
+.rect33 {
+  width: 8%;
+}
+
+.rect34 {
+  width: 7%;
+}
+
+.rect35 {
+  width: 6%;
+}
+
+.rect36 {
+  width: 5%;
+}
+
+.rect37 {
+  width: 4%;
+}
+
+.rect38 {
+  width: 3%;
+}
+
+.rect39 {
+  width: 2%;
+}
+
+.rect40 {
+  width: 1%;
+}
+
+/*# sourceMappingURL=main.css.map */

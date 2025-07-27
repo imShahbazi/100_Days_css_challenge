@@ -19,3 +19,8 @@ body{
     aspect-ratio: 1/1;
     position: absolute;
 }
+@for $i from 1 through 40{
+    .rect#{$i}{
+        width: 41-$i+%;
+    }
+}
