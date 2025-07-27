@@ -1,0 +1,29 @@
+/* 
+date:20 July 2025
+author: Ali Shahbazi
+github: https://www.github.com/imShahbazi  
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #9b59b6;
+  overflow: hidden;
+}
+.logo1 {
+  width: 30%;
+  height: 30%;
+  transition: 2s linear;
+}
+.logo2 {
+  position: absolute;
+  transform: scale(0);
+  transition: 2s linear;
+  width: 30%;
+  height: 30%;
+}
