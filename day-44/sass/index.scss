@@ -15,12 +15,13 @@ body{
     height: 100vh;
 }
 .rect{
-    border: 1px solid white;
+    border: 1px solid;
     aspect-ratio: 1/1;
     position: absolute;
 }
 @for $i from 1 through 40{
     .rect#{$i}{
         width: 41-$i+%;
+        border-color: rgb(80+$i*8,80+$i*8,80+$i*8);
     }
 }
