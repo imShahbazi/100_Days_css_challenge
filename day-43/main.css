@@ -3,16 +3,36 @@ date:27 July 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi  
 */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    background-color:#404556;
-    gap: 5px;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #404556;
+}
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+.blub {
+  transition: 0.5s;
+}
+.blub:hover {
+  fill: #8c8f99;
+}
+.circle {
+  width: 190px;
+  aspect-ratio: 1/1;
+  background-color: #FFF35C;
+  position: absolute;
+  border-radius: 100%;
+  top: 0;
 }
