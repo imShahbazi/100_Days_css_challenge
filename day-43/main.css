@@ -30,6 +30,9 @@ body {
 .blub:hover {
   fill: #8c8f99;
 }
+.blub:hover ~.circle{
+    opacity: 0;
+}
 .circle {
   width: 185px;
   aspect-ratio: 1/1;
@@ -38,4 +41,5 @@ body {
   border-radius: 100%;
   top: 0;
   transition: 0.5s;
+  box-shadow: 0 0 70px 20px #FFF35C;
 }
