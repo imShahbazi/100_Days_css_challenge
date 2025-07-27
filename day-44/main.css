@@ -14,3 +14,14 @@ body{
     background-color: black;
     height: 100vh;
 }
+.rect{
+    border: 1px solid white;
+    aspect-ratio: 1/1;
+    position: absolute;
+}
+.rect1{
+    width: 40%;
+}
+.rect2{
+    width: 39%;
+}
