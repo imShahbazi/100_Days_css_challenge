@@ -23,5 +23,14 @@ body{
     .rect#{$i}{
         width: 41-$i+%;
         border-color: rgb(80+$i*8,80+$i*8,80+$i*8);
+        animation: rect 2s ($i/30)+s infinite alternate;
+    }
+}
+@keyframes rect{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
     }
 }
