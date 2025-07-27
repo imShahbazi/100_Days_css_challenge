@@ -24,15 +24,18 @@ body {
 }
 .blub {
   transition: 0.5s;
+  position: relative;
+  z-index: 10;
 }
 .blub:hover {
   fill: #8c8f99;
 }
 .circle {
-  width: 190px;
+  width: 185px;
   aspect-ratio: 1/1;
   background-color: #FFF35C;
   position: absolute;
   border-radius: 100%;
   top: 0;
+  transition: 0.5s;
 }
