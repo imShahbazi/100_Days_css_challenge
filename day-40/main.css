@@ -1,0 +1,71 @@
+/*
+date:22 July 2025
+author: Ali Shahbazi
+github: https://www.github.com/imShahbazi 
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.frame{
+    width: 800px;
+    height: 800px;
+    position: relative;
+}
+img{
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    transition: 1s;
+}
+.left{
+    left: 0;
+}
+.center{
+    left: 50%;
+    translate: -50% 0;
+}
+.right{
+    right: 0;
+}
+.left1{
+    top: 0;
+    transform-origin: 0 0;
+}
+.left2{
+    top: 270px;
+    transform-origin: 0 center;
+}
+.left3{
+    top: 540px;
+    transform-origin: 0 bottom;
+}
+.center1{
+    top: 0;
+    transform-origin: center 0;
+}
+.center2{
+    top: 270px;
+}
+.center3{
+    top: 540px;
+    transform-origin: center bottom;
+}
+.right1{
+    top: 0;
+    transform-origin: right 0;
+}
+.right2{
+    top:270px;
+    transform-origin: right center;
+}
+.right3{
+    top: 540px;
+    transform-origin: right bottom;
+}

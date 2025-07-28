@@ -1,0 +1,39 @@
+<!-- 
+date:22 July 2025
+author: Ali Shahbazi
+github: https://www.github.com/imShahbazi 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>AliShahbazi-css-challenge-day-40</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="frame">
+        <img onclick="size(this)" class="left left1" src="./img/1.jpg"/>
+        <img onclick="size(this)" class="center center1" src="./img/2.jpg"/>
+        <img onclick="size(this)" class="right right1" src="./img/3.jpg"/>
+        <img onclick="size(this)" class="left left2" src="./img/4.jpg"/>
+        <img onclick="size(this)" class="center center2" src="./img/5.jpg"/>
+        <img onclick="size(this)" class="right right2" src="./img/6.jpeg"/>
+        <img onclick="size(this)" class="left left3" src="./img/7.jpg"/>
+        <img onclick="size(this)" class="center center3" src="./img/8.jpg"/>
+        <img onclick="size(this)" class="right right3" src="./img/9.jpg"/>
+    </div>
+</body>
+<script>
+    let big=true;
+    function size(session){
+        if(big){
+            session.style="transform:scale(3.08);z-index:5;";
+            big=false;
+        }else{
+            session.style="transform:scale(1);z-index:1";
+            big=true;
+        }
+    }
+</script>
+</html>
