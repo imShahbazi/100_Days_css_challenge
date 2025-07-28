@@ -21,12 +21,20 @@ body {
 }
 .line {
   stroke: #fff;
-  stroke-dasharray: 40 480;
-  stroke-dashoffset: 40;
+  stroke-dasharray: 60 480;
+  stroke-dashoffset: 60;
   transition:0.5s;
 }
 h2{
     color: white;
     position: absolute;
     font-size: 4rem;
+    z-index: 0;
+}
+svg{
+    position: relative;
+    z-index: 1;
+}
+svg:hover .line{
+    stroke-dashoffset: -480;
 }
