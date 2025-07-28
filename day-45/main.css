@@ -23,18 +23,22 @@ body {
   stroke: #fff;
   stroke-dasharray: 60 480;
   stroke-dashoffset: 60;
-  transition:0.5s;
+  transition:1.5s;
 }
 h2{
     color: white;
     position: absolute;
     font-size: 4rem;
-    z-index: 0;
 }
-svg{
+.frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    z-index: 1;
 }
-svg:hover .line{
+.frame:hover .line{
     stroke-dashoffset: -480;
+}
+.frame:hover .bg{
+    fill: #4F95DA;
 }
