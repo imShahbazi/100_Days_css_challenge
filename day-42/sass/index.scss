@@ -1,0 +1,99 @@
+/*
+date:25 July 2025
+author: Ali Shahbazi
+github: https://www.github.com/imShahbazi   
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.frame {
+  background-image: linear-gradient(to bottom, #1d4253 0%, #6bb5c4 100%);
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  position: relative;
+}
+.star {
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  background-color: white;
+  border-radius: 100%;
+}
+.star::before,
+.star::after {
+  content: "";
+  background-color: white;
+  position: absolute;
+  width: 2px;
+  height: 2px;
+}
+@for $i from 1 through 151{
+.star#{$i} {
+  top: random(280)+px;
+  left: random(280)+px;
+  animation: star ((random(5)+40)/10)+s infinite ((random(5)+random(60))/10)+s;
+}
+.star#{$i}::before {
+  left: random(280)+px;
+  top:random(280)+px;
+  animation: star ((random(5)+40)/10)+s infinite ((random(5)+random(60))/10)+s;
+}
+.star#{$i}::after {
+  left: random(280)+px;
+  top: random(280)+px;
+  animation: star ((random(5)+40)/10)+s infinite ((random(5)+random(60))/10)+s;
+}
+}
+img{
+    rotate: 20deg;
+    position: absolute;
+    left: -500px;
+}
+.shotingStar1{
+        top: 0;
+        animation: shotingStar 10s linear 2s infinite;
+}
+.shotingStar2{
+        top: 100px;
+        animation: shotingStar 13s linear 5s infinite;
+}
+.shotingStar3{
+        top: 50px;
+        animation: shotingStar 12s linear 3.5s infinite;
+}
+.shotingStar4{
+        top: 130px;
+        animation: shotingStar 10s linear 2.5s infinite;
+}
+.shotingStar5{
+        top: 70px;
+        animation: shotingStar 16s linear 1s infinite;
+}
+.shotingStar5{
+        top: 10px;
+        animation: shotingStar 30s linear 7s infinite;
+}
+@keyframes star{
+    0%,100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.2;
+    }
+}
+@keyframes shotingStar{
+    0%{
+        transform: translateX(0);
+    }
+    10%,100%{
+        transform: translateX(1100px);
+    }
+}
