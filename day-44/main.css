@@ -1,0 +1,275 @@
+/* 
+date:27 July 2025
+author: Ali Shahbazi
+github: https://www.github.com/imShahbazi  
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.rect {
+  border: 1px solid;
+  aspect-ratio: 1/1;
+  position: absolute;
+}
+
+.rect1 {
+  width: 40%;
+  border-color: rgb(88, 88, 88);
+  animation: rect 2s 0.0333333333s infinite alternate;
+}
+
+.rect2 {
+  width: 39%;
+  border-color: rgb(96, 96, 96);
+  animation: rect 2s 0.0666666667s infinite alternate;
+}
+
+.rect3 {
+  width: 38%;
+  border-color: rgb(104, 104, 104);
+  animation: rect 2s 0.1s infinite alternate;
+}
+
+.rect4 {
+  width: 37%;
+  border-color: rgb(112, 112, 112);
+  animation: rect 2s 0.1333333333s infinite alternate;
+}
+
+.rect5 {
+  width: 36%;
+  border-color: rgb(120, 120, 120);
+  animation: rect 2s 0.1666666667s infinite alternate;
+}
+
+.rect6 {
+  width: 35%;
+  border-color: rgb(128, 128, 128);
+  animation: rect 2s 0.2s infinite alternate;
+}
+
+.rect7 {
+  width: 34%;
+  border-color: rgb(136, 136, 136);
+  animation: rect 2s 0.2333333333s infinite alternate;
+}
+
+.rect8 {
+  width: 33%;
+  border-color: rgb(144, 144, 144);
+  animation: rect 2s 0.2666666667s infinite alternate;
+}
+
+.rect9 {
+  width: 32%;
+  border-color: rgb(152, 152, 152);
+  animation: rect 2s 0.3s infinite alternate;
+}
+
+.rect10 {
+  width: 31%;
+  border-color: rgb(160, 160, 160);
+  animation: rect 2s 0.3333333333s infinite alternate;
+}
+
+.rect11 {
+  width: 30%;
+  border-color: rgb(168, 168, 168);
+  animation: rect 2s 0.3666666667s infinite alternate;
+}
+
+.rect12 {
+  width: 29%;
+  border-color: rgb(176, 176, 176);
+  animation: rect 2s 0.4s infinite alternate;
+}
+
+.rect13 {
+  width: 28%;
+  border-color: rgb(184, 184, 184);
+  animation: rect 2s 0.4333333333s infinite alternate;
+}
+
+.rect14 {
+  width: 27%;
+  border-color: rgb(192, 192, 192);
+  animation: rect 2s 0.4666666667s infinite alternate;
+}
+
+.rect15 {
+  width: 26%;
+  border-color: rgb(200, 200, 200);
+  animation: rect 2s 0.5s infinite alternate;
+}
+
+.rect16 {
+  width: 25%;
+  border-color: rgb(208, 208, 208);
+  animation: rect 2s 0.5333333333s infinite alternate;
+}
+
+.rect17 {
+  width: 24%;
+  border-color: rgb(216, 216, 216);
+  animation: rect 2s 0.5666666667s infinite alternate;
+}
+
+.rect18 {
+  width: 23%;
+  border-color: rgb(224, 224, 224);
+  animation: rect 2s 0.6s infinite alternate;
+}
+
+.rect19 {
+  width: 22%;
+  border-color: rgb(232, 232, 232);
+  animation: rect 2s 0.6333333333s infinite alternate;
+}
+
+.rect20 {
+  width: 21%;
+  border-color: rgb(240, 240, 240);
+  animation: rect 2s 0.6666666667s infinite alternate;
+}
+
+.rect21 {
+  width: 20%;
+  border-color: rgb(248, 248, 248);
+  animation: rect 2s 0.7s infinite alternate;
+}
+
+.rect22 {
+  width: 19%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 0.7333333333s infinite alternate;
+}
+
+.rect23 {
+  width: 18%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 0.7666666667s infinite alternate;
+}
+
+.rect24 {
+  width: 17%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 0.8s infinite alternate;
+}
+
+.rect25 {
+  width: 16%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 0.8333333333s infinite alternate;
+}
+
+.rect26 {
+  width: 15%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 0.8666666667s infinite alternate;
+}
+
+.rect27 {
+  width: 14%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 0.9s infinite alternate;
+}
+
+.rect28 {
+  width: 13%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 0.9333333333s infinite alternate;
+}
+
+.rect29 {
+  width: 12%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 0.9666666667s infinite alternate;
+}
+
+.rect30 {
+  width: 11%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 1s infinite alternate;
+}
+
+.rect31 {
+  width: 10%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 1.0333333333s infinite alternate;
+}
+
+.rect32 {
+  width: 9%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 1.0666666667s infinite alternate;
+}
+
+.rect33 {
+  width: 8%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 1.1s infinite alternate;
+}
+
+.rect34 {
+  width: 7%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 1.1333333333s infinite alternate;
+}
+
+.rect35 {
+  width: 6%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 1.1666666667s infinite alternate;
+}
+
+.rect36 {
+  width: 5%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 1.2s infinite alternate;
+}
+
+.rect37 {
+  width: 4%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 1.2333333333s infinite alternate;
+}
+
+.rect38 {
+  width: 3%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 1.2666666667s infinite alternate;
+}
+
+.rect39 {
+  width: 2%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 1.3s infinite alternate;
+}
+
+.rect40 {
+  width: 1%;
+  border-color: rgb(255, 255, 255);
+  animation: rect 2s 1.3333333333s infinite alternate;
+}
+
+@keyframes rect {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
