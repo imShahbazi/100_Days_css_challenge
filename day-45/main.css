@@ -1,0 +1,49 @@
+/* 
+date:28 July 2025
+author: Ali Shahbazi
+github: https://www.github.com/imShahbazi 
+ */
+ @font-face {
+    font-family: openSans;
+    src: url("./font/openSans.ttf");
+ }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: openSans;
+}
+body {
+  background-color: #5ca4ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.bg {
+  fill: #5ca4ea;
+  stroke: #91c9ff;
+  transition: 0.5s;
+}
+.line {
+  stroke: #fff;
+  stroke-dasharray: 60 480;
+  stroke-dashoffset: 60;
+  transition:1.5s;
+}
+h2{
+    color: white;
+    position: absolute;
+    font-size: 4rem;
+}
+.frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.frame:hover .line{
+    stroke-dashoffset: -480;
+}
+.frame:hover .bg{
+    fill: #4F95DA;
+}
