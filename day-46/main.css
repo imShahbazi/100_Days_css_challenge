@@ -26,6 +26,9 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .circle{
     width: 40px;
