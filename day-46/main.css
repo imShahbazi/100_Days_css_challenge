@@ -3,76 +3,96 @@ date:4 August 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi 
 */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #27ae60;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #27ae60;
 }
-.frame{
-    width: 200px;
-    aspect-ratio: 1/1;
-    position: relative;
-    border: 1px solid white;
-    border-radius: 999px;
+.frame {
+  width: 200px;
+  aspect-ratio: 1/1;
+  position: relative;
+  border: 1px solid white;
+  border-radius: 999px;
 }
-.cContainer{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+.cContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.cContainer2{
-    rotate: -90deg;
-    bottom: 0;
-    left: -78%;
+.cContainer2 {
+  rotate: -90deg;
+  bottom: 0;
+  left: -78%;
 }
-.cContainer3{
-    rotate: -180deg;
-    bottom: -120%;
-    left: 20%;
+.cContainer3 {
+  rotate: -180deg;
+  bottom: -120%;
+  left: 20%;
 }
-.cContainer4{
-    rotate: -270deg;
-    bottom: -27%;
-    left: 140%;
+.cContainer4 {
+  rotate: -270deg;
+  bottom: -27%;
+  left: 140%;
 }
-.circle{
-    width: 40px;
-    aspect-ratio: 1/1;
-    background-color: white;
-    border-radius: 100%;
+.cContainer5 {
+  rotate: -45deg;
+  left: -37.5%;
+  bottom: 78%;
 }
-.circle1{
-    width: 35px;
-    opacity: 0.9;
-    margin-left: 27px;
+.cContainer6 {
+  rotate: -135deg;
+  left: -55%;
+  bottom: -78%;
 }
-.circle2{
-    width: 30px;
-    opacity: 0.8;
-    margin-left: 42px;
+.cContainer7 {
+  rotate: -225deg;
+  bottom: -98%;
+  left: 100%;
 }
-.circle3{
-    width: 25px;
-    opacity: 0.7;
-    margin-left: 48px;
+.cContainer8 {
+  rotate: -315deg;
+  bottom: 55%;
+  left: 123%;
 }
-.circle4{
-    width: 20px;
-    opacity: 0.6;
-    margin-left: 47px;
+.circle {
+  width: 40px;
+  aspect-ratio: 1/1;
+  background-color: white;
+  border-radius: 100%;
 }
-.circle5{
-    width: 15px;
-    opacity: 0.5;
-    margin-left: 40px;
+.circle1 {
+  width: 35px;
+  opacity: 0.9;
+  margin-left: 27px;
+}
+.circle2 {
+  width: 30px;
+  opacity: 0.8;
+  margin-left: 42px;
+}
+.circle3 {
+  width: 25px;
+  opacity: 0.7;
+  margin-left: 48px;
+}
+.circle4 {
+  width: 20px;
+  opacity: 0.6;
+  margin-left: 47px;
+}
+.circle5 {
+  width: 15px;
+  opacity: 0.5;
+  margin-left: 40px;
 }
