@@ -14,3 +14,10 @@ body{
     height: 100vh;
     background-color: #27ae60;
 }
+.frame{
+    width: 10%;
+    aspect-ratio: 1/1;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 999px;
+}
