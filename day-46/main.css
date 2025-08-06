@@ -65,6 +65,46 @@ body {
   bottom: 55%;
   left: 123%;
 }
+.cContainer9 {
+  rotate: -22.5deg;
+  bottom: 97%;
+  left: 3%;
+}
+.cContainer10 {
+  rotate: -67.5deg;
+  bottom: 43%;
+  left: -65%;
+}
+.cContainer12 {
+  rotate: -112.5deg;
+  bottom: -41%;
+  left: -75%;
+}
+.cContainer13 {
+  rotate: -157.5deg;
+  bottom: -106%;
+  left: -22%;
+}
+.cContainer14 {
+  rotate: -202.5deg;
+  bottom: -117%;
+  left: 62%;
+}
+.cContainer15 {
+  rotate: -247.5deg;
+  bottom: -66%;
+  left: 125%;
+}
+.cContainer16 {
+  rotate: -292.5deg;
+  bottom: 14.5%;
+  left: 140%;
+}
+.cContainer17 {
+  rotate: -337.5deg;
+  bottom: 84%;
+  left: 90%;
+}
 .circle {
   width: 40px;
   aspect-ratio: 1/1;
