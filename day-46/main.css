@@ -18,6 +18,7 @@ body {
   width: 200px;
   aspect-ratio: 1/1;
   position: relative;
+  animation: frame 35s infinite;
 }
 .cContainer {
   position: absolute;
@@ -29,97 +30,97 @@ body {
   transform: translateX(-50%);
 }
 .cContainer1 {
-  animation: cc1 10s infinite;
+  animation: cc1 35s infinite;
 }
 .cContainer2 {
   rotate: -90deg;
   bottom: 0;
   left: -78%;
-  animation: cc2 10s infinite;
+  animation: cc2 35s infinite;
 }
 .cContainer3 {
   rotate: -180deg;
   bottom: -120%;
   left: 20%;
-  animation: cc3 10s infinite;
+  animation: cc3 35s infinite;
 }
 .cContainer4 {
   rotate: -270deg;
   bottom: -27%;
   left: 140%;
-  animation: cc4 10s infinite;
+  animation: cc4 35s infinite;
 }
 .cContainer5 {
   rotate: -45deg;
   left: -37.5%;
   bottom: 78%;
-  animation: cc5 10s infinite;
+  animation: cc5 35s infinite;
 }
 .cContainer6 {
   rotate: -135deg;
   left: -55%;
   bottom: -78%;
-  animation: cc6 10s infinite;
+  animation: cc6 35s infinite;
 }
 .cContainer7 {
   rotate: -225deg;
   bottom: -98%;
   left: 100%;
-  animation: cc7 10s infinite;
+  animation: cc7 35s infinite;
 }
 .cContainer8 {
   rotate: -315deg;
   bottom: 55%;
   left: 123%;
-  animation: cc8 10s infinite;
+  animation: cc8 35s infinite;
 }
 .cContainer9 {
   rotate: -22.5deg;
   bottom: 97%;
   left: 3%;
-  animation: cc9 10s infinite;
+  animation: cc9 35s infinite;
 }
 .cContainer10 {
   rotate: -67.5deg;
   bottom: 43%;
   left: -65%;
-  animation: cc10 10s infinite;
+  animation: cc10 35s infinite;
 }
 .cContainer12 {
   rotate: -112.5deg;
   bottom: -41%;
   left: -75%;
-  animation: cc12 10s infinite;
+  animation: cc12 35s infinite;
 }
 .cContainer13 {
   rotate: -157.5deg;
   bottom: -106%;
   left: -22%;
-  animation: cc13 10s infinite;
+  animation: cc13 35s infinite;
 }
 .cContainer14 {
   rotate: -202.5deg;
   bottom: -117%;
   left: 62%;
-  animation: cc14 10s infinite;
+  animation: cc14 35s infinite;
 }
 .cContainer15 {
   rotate: -247.5deg;
   bottom: -66%;
   left: 125%;
-  animation: cc15 10s infinite;
+  animation: cc15 35s infinite;
 }
 .cContainer16 {
   rotate: -292.5deg;
   bottom: 14.5%;
   left: 140%;
-  animation: cc16 10s infinite;
+  animation: cc16 35s infinite;
 }
 .cContainer17 {
   rotate: -337.5deg;
   bottom: 84%;
   left: 90%;
-  animation: cc17 10s infinite;
+  animation: cc17 35s infinite;
 }
 .circle {
   width: 40px;
@@ -153,162 +154,172 @@ body {
   margin-left: 40px;
 }
 @keyframes cc1 {
-  0%,
+  0%,90%,
   100% {
     rotate: 0;
   }
   50%,
-  60% {
+  55% {
     rotate: -50deg;
   }
 }
 @keyframes cc2 {
-  0%,
+  0%,90%,
   100% {
     rotate: -90deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -140deg;
   }
 }
 @keyframes cc3 {
-  0%,
+  0%,90%,
   100% {
     rotate: -180deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -230deg;
   }
 }
 @keyframes cc4 {
-  0%,
+  0%,90%,
   100% {
     rotate: -270deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -320deg;
   }
 }
 @keyframes cc5 {
-  0%,
+  0%,90%,
   100% {
     rotate: -45deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -95deg;
   }
 }
 @keyframes cc6 {
-  0%,
+  0%,90%,
   100% {
     rotate: -135deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -185deg;
   }
 }
 @keyframes cc7 {
-  0%,
+  0%,90%,
   100% {
     rotate: -225deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -275deg;
   }
 }
 @keyframes cc8 {
-  0%,
+  0%,90%,
   100% {
     rotate: -315deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -365deg;
   }
 }
 @keyframes cc9 {
-  0%,
+  0%,90%,
   100% {
     rotate: -22.5deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -72.5deg;
   }
 }
 @keyframes cc10 {
-  0%,
+  0%,90%,
   100% {
     rotate: -67.5deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -117.5deg;
   }
 }
 @keyframes cc12 {
-  0%,
+  0%,90%,
   100% {
     rotate: -112.5deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -162.5deg;
   }
 }
 @keyframes cc13 {
-  0%,
+  0%,90%,
   100% {
     rotate: -157.5deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -207.5deg;
   }
 }
 @keyframes cc14 {
-  0%,
+  0%,90%,
   100% {
     rotate: -202.5deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -252.5deg;
   }
 }
 @keyframes cc15 {
-  0%,
+  0%,90%,
   100% {
     rotate: -247.5deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -297.5deg;
   }
 }
 @keyframes cc16 {
-  0%,
+  0%,90%,
   100% {
     rotate: -292.5deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -342.5deg;
   }
 }
 @keyframes cc17 {
-  0%,
+  0%,90%,
   100% {
     rotate: -337.5deg;
   }
   50%,
-  60% {
+  55% {
     rotate: -387.5deg;
+  }
+}
+@keyframes frame {
+  0%,90%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50%,
+  55% {
+    transform: rotate(360deg);
   }
 }
