@@ -15,7 +15,7 @@ body{
     background-color: #27ae60;
 }
 .frame{
-    width: 10%;
+    width: 200px;
     aspect-ratio: 1/1;
     position: relative;
     border: 1px solid white;
@@ -29,6 +29,21 @@ body{
     bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
+}
+.cContainer2{
+    rotate: -90deg;
+    bottom: 0;
+    left: -78%;
+}
+.cContainer3{
+    rotate: -180deg;
+    bottom: -120%;
+    left: 20%;
+}
+.cContainer4{
+    rotate: -270deg;
+    bottom: -27%;
+    left: 140%;
 }
 .circle{
     width: 40px;
