@@ -13,3 +13,7 @@ body{
     align-items: center;
     height: 100vh;
 }
+.frame{
+    width: 600px;
+    height: 600px;
+}
