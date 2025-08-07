@@ -3,3 +3,7 @@ date:7 August 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi 
 */
+*{
+    margin: 0;
+    padding: 0;
+}
