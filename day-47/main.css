@@ -32,3 +32,83 @@ body{
 .pixel:hover{
     background-color: #fa8e82;
 }
+#ch1:checked ~ .frame .ch1{
+    background-color: white;
+    border-color: white;
+}
+#ch2:checked ~ .frame .ch2{
+    background-color: white;
+    border-color: white;
+}
+#ch3:checked ~ .frame .ch3{
+    background-color: white;
+    border-color: white;
+}
+#ch4:checked ~ .frame .ch4{
+    background-color: white;
+    border-color: white;
+}
+#ch5:checked ~ .frame .ch5{
+    background-color: white;
+    border-color: white;
+}
+#ch6:checked ~ .frame .ch6{
+    background-color: white;
+    border-color: white;
+}
+#ch7:checked ~ .frame .ch7{
+    background-color: white;
+    border-color: white;
+}
+#ch8:checked ~ .frame .ch8{
+    background-color: white;
+    border-color: white;
+}
+#ch9:checked ~ .frame .ch9{
+    background-color: white;
+    border-color: white;
+}
+#ch10:checked ~ .frame .ch10{
+    background-color: white;
+    border-color: white;
+}
+#ch11:checked ~ .frame .ch11{
+    background-color: white;
+    border-color: white;
+}
+#ch12:checked ~ .frame .ch12{
+    background-color: white;
+    border-color: white;
+}
+#ch13:checked ~ .frame .ch13{
+    background-color: white;
+    border-color: white;
+}
+#ch14:checked ~ .frame .ch14{
+    background-color: white;
+    border-color: white;
+}
+#ch15:checked ~ .frame .ch15{
+    background-color: white;
+    border-color: white;
+}
+#ch16:checked ~ .frame .ch16{
+    background-color: white;
+    border-color: white;
+}
+#ch17:checked ~ .frame .ch17{
+    background-color: white;
+    border-color: white;
+}
+#ch18:checked ~ .frame .ch18{
+    background-color: white;
+    border-color: white;
+}
+#ch19:checked ~ .frame .ch19{
+    background-color: white;
+    border-color: white;
+}
+#ch20:checked ~ .frame .ch20{
+    background-color: white;
+    border-color: white;
+}
