@@ -16,4 +16,14 @@ body{
 .frame{
     width: 600px;
     height: 600px;
+    display: grid;
+    grid-template-columns: repeat(20,minmax(0,1fr));
+    grid-template-rows: repeat(20,minmax(0,1fr));
+}
+.pixel{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #DE4738;
+    border: 1px solid #fa8e82;
 }
