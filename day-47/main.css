@@ -3,112 +3,2037 @@ date:7 August 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi 
 */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.frame{
-    width: 600px;
-    height: 600px;
-    display: grid;
-    grid-template-columns: repeat(20,minmax(0,1fr));
-    grid-template-rows: repeat(20,minmax(0,1fr));
+
+.frame {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(20, minmax(0, 1fr));
+  grid-template-rows: repeat(20, minmax(0, 1fr));
 }
-.pixel{
-    display: block;
-    width: 30px;
-    height: 30px;
-    background-color: #DE4738;
-    border: 1px solid #fa8e82;
-    transition: 0.5s;
-    cursor: pointer;
+
+.pixel {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: #DE4738;
+  border: 1px solid #fa8e82;
+  transition: 0.5s;
+  cursor: pointer;
 }
-.pixel:hover{
-    background-color: #fa8e82;
+.pixel:hover {
+  background-color: #fa8e82;
 }
-#ch1:checked ~ .frame .ch1{
-    background-color: white;
-    border-color: white;
+
+#ch1:checked ~ .frame .ch1 {
+  background-color: white;
+  border-color: white;
 }
-#ch2:checked ~ .frame .ch2{
-    background-color: white;
-    border-color: white;
+
+#ch2:checked ~ .frame .ch2 {
+  background-color: white;
+  border-color: white;
 }
-#ch3:checked ~ .frame .ch3{
-    background-color: white;
-    border-color: white;
+
+#ch3:checked ~ .frame .ch3 {
+  background-color: white;
+  border-color: white;
 }
-#ch4:checked ~ .frame .ch4{
-    background-color: white;
-    border-color: white;
+
+#ch4:checked ~ .frame .ch4 {
+  background-color: white;
+  border-color: white;
 }
-#ch5:checked ~ .frame .ch5{
-    background-color: white;
-    border-color: white;
+
+#ch5:checked ~ .frame .ch5 {
+  background-color: white;
+  border-color: white;
 }
-#ch6:checked ~ .frame .ch6{
-    background-color: white;
-    border-color: white;
+
+#ch6:checked ~ .frame .ch6 {
+  background-color: white;
+  border-color: white;
 }
-#ch7:checked ~ .frame .ch7{
-    background-color: white;
-    border-color: white;
+
+#ch7:checked ~ .frame .ch7 {
+  background-color: white;
+  border-color: white;
 }
-#ch8:checked ~ .frame .ch8{
-    background-color: white;
-    border-color: white;
+
+#ch8:checked ~ .frame .ch8 {
+  background-color: white;
+  border-color: white;
 }
-#ch9:checked ~ .frame .ch9{
-    background-color: white;
-    border-color: white;
+
+#ch9:checked ~ .frame .ch9 {
+  background-color: white;
+  border-color: white;
 }
-#ch10:checked ~ .frame .ch10{
-    background-color: white;
-    border-color: white;
+
+#ch10:checked ~ .frame .ch10 {
+  background-color: white;
+  border-color: white;
 }
-#ch11:checked ~ .frame .ch11{
-    background-color: white;
-    border-color: white;
+
+#ch11:checked ~ .frame .ch11 {
+  background-color: white;
+  border-color: white;
 }
-#ch12:checked ~ .frame .ch12{
-    background-color: white;
-    border-color: white;
+
+#ch12:checked ~ .frame .ch12 {
+  background-color: white;
+  border-color: white;
 }
-#ch13:checked ~ .frame .ch13{
-    background-color: white;
-    border-color: white;
+
+#ch13:checked ~ .frame .ch13 {
+  background-color: white;
+  border-color: white;
 }
-#ch14:checked ~ .frame .ch14{
-    background-color: white;
-    border-color: white;
+
+#ch14:checked ~ .frame .ch14 {
+  background-color: white;
+  border-color: white;
 }
-#ch15:checked ~ .frame .ch15{
-    background-color: white;
-    border-color: white;
+
+#ch15:checked ~ .frame .ch15 {
+  background-color: white;
+  border-color: white;
 }
-#ch16:checked ~ .frame .ch16{
-    background-color: white;
-    border-color: white;
+
+#ch16:checked ~ .frame .ch16 {
+  background-color: white;
+  border-color: white;
 }
-#ch17:checked ~ .frame .ch17{
-    background-color: white;
-    border-color: white;
+
+#ch17:checked ~ .frame .ch17 {
+  background-color: white;
+  border-color: white;
 }
-#ch18:checked ~ .frame .ch18{
-    background-color: white;
-    border-color: white;
+
+#ch18:checked ~ .frame .ch18 {
+  background-color: white;
+  border-color: white;
 }
-#ch19:checked ~ .frame .ch19{
-    background-color: white;
-    border-color: white;
+
+#ch19:checked ~ .frame .ch19 {
+  background-color: white;
+  border-color: white;
 }
-#ch20:checked ~ .frame .ch20{
-    background-color: white;
-    border-color: white;
+
+#ch20:checked ~ .frame .ch20 {
+  background-color: white;
+  border-color: white;
 }
+
+#ch21:checked ~ .frame .ch21 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch22:checked ~ .frame .ch22 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch23:checked ~ .frame .ch23 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch24:checked ~ .frame .ch24 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch25:checked ~ .frame .ch25 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch26:checked ~ .frame .ch26 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch27:checked ~ .frame .ch27 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch28:checked ~ .frame .ch28 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch29:checked ~ .frame .ch29 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch30:checked ~ .frame .ch30 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch31:checked ~ .frame .ch31 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch32:checked ~ .frame .ch32 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch33:checked ~ .frame .ch33 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch34:checked ~ .frame .ch34 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch35:checked ~ .frame .ch35 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch36:checked ~ .frame .ch36 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch37:checked ~ .frame .ch37 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch38:checked ~ .frame .ch38 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch39:checked ~ .frame .ch39 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch40:checked ~ .frame .ch40 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch41:checked ~ .frame .ch41 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch42:checked ~ .frame .ch42 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch43:checked ~ .frame .ch43 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch44:checked ~ .frame .ch44 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch45:checked ~ .frame .ch45 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch46:checked ~ .frame .ch46 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch47:checked ~ .frame .ch47 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch48:checked ~ .frame .ch48 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch49:checked ~ .frame .ch49 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch50:checked ~ .frame .ch50 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch51:checked ~ .frame .ch51 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch52:checked ~ .frame .ch52 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch53:checked ~ .frame .ch53 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch54:checked ~ .frame .ch54 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch55:checked ~ .frame .ch55 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch56:checked ~ .frame .ch56 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch57:checked ~ .frame .ch57 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch58:checked ~ .frame .ch58 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch59:checked ~ .frame .ch59 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch60:checked ~ .frame .ch60 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch61:checked ~ .frame .ch61 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch62:checked ~ .frame .ch62 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch63:checked ~ .frame .ch63 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch64:checked ~ .frame .ch64 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch65:checked ~ .frame .ch65 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch66:checked ~ .frame .ch66 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch67:checked ~ .frame .ch67 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch68:checked ~ .frame .ch68 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch69:checked ~ .frame .ch69 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch70:checked ~ .frame .ch70 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch71:checked ~ .frame .ch71 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch72:checked ~ .frame .ch72 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch73:checked ~ .frame .ch73 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch74:checked ~ .frame .ch74 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch75:checked ~ .frame .ch75 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch76:checked ~ .frame .ch76 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch77:checked ~ .frame .ch77 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch78:checked ~ .frame .ch78 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch79:checked ~ .frame .ch79 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch80:checked ~ .frame .ch80 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch81:checked ~ .frame .ch81 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch82:checked ~ .frame .ch82 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch83:checked ~ .frame .ch83 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch84:checked ~ .frame .ch84 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch85:checked ~ .frame .ch85 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch86:checked ~ .frame .ch86 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch87:checked ~ .frame .ch87 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch88:checked ~ .frame .ch88 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch89:checked ~ .frame .ch89 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch90:checked ~ .frame .ch90 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch91:checked ~ .frame .ch91 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch92:checked ~ .frame .ch92 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch93:checked ~ .frame .ch93 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch94:checked ~ .frame .ch94 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch95:checked ~ .frame .ch95 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch96:checked ~ .frame .ch96 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch97:checked ~ .frame .ch97 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch98:checked ~ .frame .ch98 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch99:checked ~ .frame .ch99 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch100:checked ~ .frame .ch100 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch101:checked ~ .frame .ch101 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch102:checked ~ .frame .ch102 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch103:checked ~ .frame .ch103 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch104:checked ~ .frame .ch104 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch105:checked ~ .frame .ch105 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch106:checked ~ .frame .ch106 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch107:checked ~ .frame .ch107 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch108:checked ~ .frame .ch108 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch109:checked ~ .frame .ch109 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch110:checked ~ .frame .ch110 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch111:checked ~ .frame .ch111 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch112:checked ~ .frame .ch112 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch113:checked ~ .frame .ch113 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch114:checked ~ .frame .ch114 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch115:checked ~ .frame .ch115 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch116:checked ~ .frame .ch116 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch117:checked ~ .frame .ch117 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch118:checked ~ .frame .ch118 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch119:checked ~ .frame .ch119 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch120:checked ~ .frame .ch120 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch121:checked ~ .frame .ch121 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch122:checked ~ .frame .ch122 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch123:checked ~ .frame .ch123 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch124:checked ~ .frame .ch124 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch125:checked ~ .frame .ch125 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch126:checked ~ .frame .ch126 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch127:checked ~ .frame .ch127 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch128:checked ~ .frame .ch128 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch129:checked ~ .frame .ch129 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch130:checked ~ .frame .ch130 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch131:checked ~ .frame .ch131 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch132:checked ~ .frame .ch132 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch133:checked ~ .frame .ch133 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch134:checked ~ .frame .ch134 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch135:checked ~ .frame .ch135 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch136:checked ~ .frame .ch136 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch137:checked ~ .frame .ch137 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch138:checked ~ .frame .ch138 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch139:checked ~ .frame .ch139 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch140:checked ~ .frame .ch140 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch141:checked ~ .frame .ch141 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch142:checked ~ .frame .ch142 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch143:checked ~ .frame .ch143 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch144:checked ~ .frame .ch144 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch145:checked ~ .frame .ch145 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch146:checked ~ .frame .ch146 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch147:checked ~ .frame .ch147 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch148:checked ~ .frame .ch148 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch149:checked ~ .frame .ch149 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch150:checked ~ .frame .ch150 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch151:checked ~ .frame .ch151 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch152:checked ~ .frame .ch152 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch153:checked ~ .frame .ch153 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch154:checked ~ .frame .ch154 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch155:checked ~ .frame .ch155 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch156:checked ~ .frame .ch156 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch157:checked ~ .frame .ch157 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch158:checked ~ .frame .ch158 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch159:checked ~ .frame .ch159 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch160:checked ~ .frame .ch160 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch161:checked ~ .frame .ch161 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch162:checked ~ .frame .ch162 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch163:checked ~ .frame .ch163 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch164:checked ~ .frame .ch164 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch165:checked ~ .frame .ch165 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch166:checked ~ .frame .ch166 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch167:checked ~ .frame .ch167 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch168:checked ~ .frame .ch168 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch169:checked ~ .frame .ch169 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch170:checked ~ .frame .ch170 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch171:checked ~ .frame .ch171 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch172:checked ~ .frame .ch172 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch173:checked ~ .frame .ch173 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch174:checked ~ .frame .ch174 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch175:checked ~ .frame .ch175 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch176:checked ~ .frame .ch176 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch177:checked ~ .frame .ch177 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch178:checked ~ .frame .ch178 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch179:checked ~ .frame .ch179 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch180:checked ~ .frame .ch180 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch181:checked ~ .frame .ch181 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch182:checked ~ .frame .ch182 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch183:checked ~ .frame .ch183 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch184:checked ~ .frame .ch184 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch185:checked ~ .frame .ch185 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch186:checked ~ .frame .ch186 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch187:checked ~ .frame .ch187 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch188:checked ~ .frame .ch188 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch189:checked ~ .frame .ch189 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch190:checked ~ .frame .ch190 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch191:checked ~ .frame .ch191 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch192:checked ~ .frame .ch192 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch193:checked ~ .frame .ch193 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch194:checked ~ .frame .ch194 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch195:checked ~ .frame .ch195 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch196:checked ~ .frame .ch196 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch197:checked ~ .frame .ch197 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch198:checked ~ .frame .ch198 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch199:checked ~ .frame .ch199 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch200:checked ~ .frame .ch200 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch201:checked ~ .frame .ch201 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch202:checked ~ .frame .ch202 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch203:checked ~ .frame .ch203 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch204:checked ~ .frame .ch204 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch205:checked ~ .frame .ch205 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch206:checked ~ .frame .ch206 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch207:checked ~ .frame .ch207 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch208:checked ~ .frame .ch208 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch209:checked ~ .frame .ch209 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch210:checked ~ .frame .ch210 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch211:checked ~ .frame .ch211 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch212:checked ~ .frame .ch212 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch213:checked ~ .frame .ch213 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch214:checked ~ .frame .ch214 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch215:checked ~ .frame .ch215 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch216:checked ~ .frame .ch216 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch217:checked ~ .frame .ch217 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch218:checked ~ .frame .ch218 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch219:checked ~ .frame .ch219 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch220:checked ~ .frame .ch220 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch221:checked ~ .frame .ch221 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch222:checked ~ .frame .ch222 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch223:checked ~ .frame .ch223 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch224:checked ~ .frame .ch224 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch225:checked ~ .frame .ch225 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch226:checked ~ .frame .ch226 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch227:checked ~ .frame .ch227 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch228:checked ~ .frame .ch228 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch229:checked ~ .frame .ch229 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch230:checked ~ .frame .ch230 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch231:checked ~ .frame .ch231 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch232:checked ~ .frame .ch232 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch233:checked ~ .frame .ch233 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch234:checked ~ .frame .ch234 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch235:checked ~ .frame .ch235 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch236:checked ~ .frame .ch236 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch237:checked ~ .frame .ch237 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch238:checked ~ .frame .ch238 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch239:checked ~ .frame .ch239 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch240:checked ~ .frame .ch240 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch241:checked ~ .frame .ch241 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch242:checked ~ .frame .ch242 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch243:checked ~ .frame .ch243 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch244:checked ~ .frame .ch244 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch245:checked ~ .frame .ch245 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch246:checked ~ .frame .ch246 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch247:checked ~ .frame .ch247 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch248:checked ~ .frame .ch248 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch249:checked ~ .frame .ch249 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch250:checked ~ .frame .ch250 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch251:checked ~ .frame .ch251 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch252:checked ~ .frame .ch252 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch253:checked ~ .frame .ch253 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch254:checked ~ .frame .ch254 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch255:checked ~ .frame .ch255 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch256:checked ~ .frame .ch256 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch257:checked ~ .frame .ch257 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch258:checked ~ .frame .ch258 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch259:checked ~ .frame .ch259 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch260:checked ~ .frame .ch260 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch261:checked ~ .frame .ch261 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch262:checked ~ .frame .ch262 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch263:checked ~ .frame .ch263 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch264:checked ~ .frame .ch264 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch265:checked ~ .frame .ch265 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch266:checked ~ .frame .ch266 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch267:checked ~ .frame .ch267 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch268:checked ~ .frame .ch268 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch269:checked ~ .frame .ch269 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch270:checked ~ .frame .ch270 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch271:checked ~ .frame .ch271 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch272:checked ~ .frame .ch272 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch273:checked ~ .frame .ch273 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch274:checked ~ .frame .ch274 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch275:checked ~ .frame .ch275 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch276:checked ~ .frame .ch276 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch277:checked ~ .frame .ch277 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch278:checked ~ .frame .ch278 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch279:checked ~ .frame .ch279 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch280:checked ~ .frame .ch280 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch281:checked ~ .frame .ch281 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch282:checked ~ .frame .ch282 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch283:checked ~ .frame .ch283 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch284:checked ~ .frame .ch284 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch285:checked ~ .frame .ch285 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch286:checked ~ .frame .ch286 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch287:checked ~ .frame .ch287 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch288:checked ~ .frame .ch288 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch289:checked ~ .frame .ch289 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch290:checked ~ .frame .ch290 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch291:checked ~ .frame .ch291 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch292:checked ~ .frame .ch292 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch293:checked ~ .frame .ch293 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch294:checked ~ .frame .ch294 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch295:checked ~ .frame .ch295 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch296:checked ~ .frame .ch296 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch297:checked ~ .frame .ch297 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch298:checked ~ .frame .ch298 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch299:checked ~ .frame .ch299 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch300:checked ~ .frame .ch300 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch301:checked ~ .frame .ch301 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch302:checked ~ .frame .ch302 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch303:checked ~ .frame .ch303 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch304:checked ~ .frame .ch304 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch305:checked ~ .frame .ch305 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch306:checked ~ .frame .ch306 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch307:checked ~ .frame .ch307 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch308:checked ~ .frame .ch308 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch309:checked ~ .frame .ch309 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch310:checked ~ .frame .ch310 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch311:checked ~ .frame .ch311 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch312:checked ~ .frame .ch312 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch313:checked ~ .frame .ch313 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch314:checked ~ .frame .ch314 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch315:checked ~ .frame .ch315 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch316:checked ~ .frame .ch316 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch317:checked ~ .frame .ch317 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch318:checked ~ .frame .ch318 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch319:checked ~ .frame .ch319 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch320:checked ~ .frame .ch320 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch321:checked ~ .frame .ch321 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch322:checked ~ .frame .ch322 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch323:checked ~ .frame .ch323 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch324:checked ~ .frame .ch324 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch325:checked ~ .frame .ch325 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch326:checked ~ .frame .ch326 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch327:checked ~ .frame .ch327 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch328:checked ~ .frame .ch328 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch329:checked ~ .frame .ch329 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch330:checked ~ .frame .ch330 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch331:checked ~ .frame .ch331 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch332:checked ~ .frame .ch332 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch333:checked ~ .frame .ch333 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch334:checked ~ .frame .ch334 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch335:checked ~ .frame .ch335 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch336:checked ~ .frame .ch336 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch337:checked ~ .frame .ch337 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch338:checked ~ .frame .ch338 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch339:checked ~ .frame .ch339 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch340:checked ~ .frame .ch340 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch341:checked ~ .frame .ch341 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch342:checked ~ .frame .ch342 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch343:checked ~ .frame .ch343 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch344:checked ~ .frame .ch344 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch345:checked ~ .frame .ch345 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch346:checked ~ .frame .ch346 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch347:checked ~ .frame .ch347 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch348:checked ~ .frame .ch348 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch349:checked ~ .frame .ch349 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch350:checked ~ .frame .ch350 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch351:checked ~ .frame .ch351 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch352:checked ~ .frame .ch352 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch353:checked ~ .frame .ch353 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch354:checked ~ .frame .ch354 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch355:checked ~ .frame .ch355 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch356:checked ~ .frame .ch356 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch357:checked ~ .frame .ch357 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch358:checked ~ .frame .ch358 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch359:checked ~ .frame .ch359 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch360:checked ~ .frame .ch360 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch361:checked ~ .frame .ch361 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch362:checked ~ .frame .ch362 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch363:checked ~ .frame .ch363 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch364:checked ~ .frame .ch364 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch365:checked ~ .frame .ch365 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch366:checked ~ .frame .ch366 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch367:checked ~ .frame .ch367 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch368:checked ~ .frame .ch368 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch369:checked ~ .frame .ch369 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch370:checked ~ .frame .ch370 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch371:checked ~ .frame .ch371 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch372:checked ~ .frame .ch372 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch373:checked ~ .frame .ch373 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch374:checked ~ .frame .ch374 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch375:checked ~ .frame .ch375 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch376:checked ~ .frame .ch376 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch377:checked ~ .frame .ch377 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch378:checked ~ .frame .ch378 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch379:checked ~ .frame .ch379 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch380:checked ~ .frame .ch380 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch381:checked ~ .frame .ch381 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch382:checked ~ .frame .ch382 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch383:checked ~ .frame .ch383 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch384:checked ~ .frame .ch384 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch385:checked ~ .frame .ch385 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch386:checked ~ .frame .ch386 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch387:checked ~ .frame .ch387 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch388:checked ~ .frame .ch388 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch389:checked ~ .frame .ch389 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch390:checked ~ .frame .ch390 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch391:checked ~ .frame .ch391 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch392:checked ~ .frame .ch392 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch393:checked ~ .frame .ch393 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch394:checked ~ .frame .ch394 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch395:checked ~ .frame .ch395 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch396:checked ~ .frame .ch396 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch397:checked ~ .frame .ch397 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch398:checked ~ .frame .ch398 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch399:checked ~ .frame .ch399 {
+  background-color: white;
+  border-color: white;
+}
+
+#ch400:checked ~ .frame .ch400 {
+  background-color: white;
+  border-color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
