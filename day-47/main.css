@@ -26,4 +26,9 @@ body{
     height: 30px;
     background-color: #DE4738;
     border: 1px solid #fa8e82;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.pixel:hover{
+    background-color: #fa8e82;
 }
