@@ -32,7 +32,7 @@ body{
     background-color: #fa8e82;
     }
 }
-@for $i from 1 through 400{
+@for $i from 1 through 420{
     #ch#{$i}:checked ~ .frame .ch#{$i}{
         background-color: white;
         border-color: white;
