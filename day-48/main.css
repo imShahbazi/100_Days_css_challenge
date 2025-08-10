@@ -38,3 +38,7 @@ body{
     background-color: #e1e1e1;
     transform: rotateY(90deg) translateZ(100px);
 }
+.side4{
+    background-color: #e5e5e5;
+    transform: rotateY(-90deg) translateZ(100px);
+}
