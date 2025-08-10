@@ -7,3 +7,10 @@ github: https://www.github.com/imShahbazi
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E47512;
+    height: 100vh;
+}
