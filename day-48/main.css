@@ -30,3 +30,7 @@ body{
     background-color: white;
     transform: translateZ(100px);
 }
+.side2{
+    background-color: lightgray;
+    transform: rotateX(180deg) translateZ(100px);
+}
