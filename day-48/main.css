@@ -19,7 +19,11 @@ body{
     height: 200px;
     position: relative;
     transform-style: preserve-3d;
-    transform: translateZ(-100px) rotateX(70deg) rotateZ(-45deg);
+    transform: rotateX(70deg) rotateZ(-45deg);
+    transition: 1s;
+}
+.cube:hover{
+    transform: rotateX( -120deg ) rotateZ( 135deg );
 }
 .side{
     width: 100%;
