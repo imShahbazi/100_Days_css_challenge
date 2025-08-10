@@ -15,8 +15,8 @@ body{
     height: 100vh;
 }
 .cube{
-    width: 20%;
-    aspect-ratio: 1/1;
+    width: 200px;
+    height: 200px;
     position: relative;
     transform-style: preserve-3d;
     transform: translateZ(-100px) rotateX(70deg) rotateZ(-45deg);
@@ -33,4 +33,8 @@ body{
 .side2{
     background-color: lightgray;
     transform: rotateX(180deg) translateZ(100px);
+}
+.side3{
+    background-color: #e1e1e1;
+    transform: rotateY(90deg) translateZ(100px);
 }
