@@ -40,5 +40,13 @@ body{
 }
 .side4{
     background-color: #e5e5e5;
-    transform: rotateY(-90deg) translateZ(100px);
+    transform: rotateY(90deg) translateZ(-100px);
+}
+.side5{
+    background-color: #e1e1e1;
+    transform: rotateX(90deg) translateZ(100px);
+}
+.side6{
+    background-color: lightgray;
+    transform: rotateX(90deg) translateZ(-100px);
 }
