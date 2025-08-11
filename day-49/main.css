@@ -21,3 +21,9 @@ body{
     grid-template-columns: repeat(20,minmax(0,1fr));
     grid-template-rows: repeat(20,minmax(0,1fr));
 }
+.frame a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
