@@ -14,3 +14,9 @@ body{
     height: 100vh;
     background-color: #8e44ad;
 }
+.egg{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 200px 200px 200px 200px / 300px 300px 200px 200px;
+}
