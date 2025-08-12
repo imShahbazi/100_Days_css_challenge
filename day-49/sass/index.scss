@@ -1,0 +1,88 @@
+/*
+date:11 August 2025
+author: Ali Shahbazi
+github: https://www.github.com/imShahbazi 
+*/
+$counter:0;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.frame{
+    background-color: #2c3e50;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(20,minmax(0,1fr));
+    grid-template-rows: repeat(20,minmax(0,1fr));
+    position: relative;
+    overflow: hidden;
+}
+.frame a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 2;
+}
+.frame div{
+    width: 20px;
+    aspect-ratio: 1/1;
+    background-color: #2ecc71;
+    position: absolute;
+    border-radius: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition:0.5s;
+    z-index: 1;
+}
+.frame div::after{
+    content: '';
+    width: 150%;
+    aspect-ratio: 1/1;
+    border: 3px solid #2ecc71;
+    position: absolute;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    animation: circle 1s infinite linear;
+}
+.a21:hover~div{
+    left: 20px;
+    top: 20px;
+    transform: none;
+}
+@for $i from 1 through 20{
+    $r:20*($i - 1);
+    @for $i2 from 0 through 19 {
+        $c:20*$i2;
+        .a#{$counter}:hover~div{
+            left: $c+px;
+            top:$r+px;
+            transform: none;
+        }
+        $counter:$counter + 1;
+    }
+}
+@keyframes circle{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3);
+        opacity: 0;
+    }
+
+}
