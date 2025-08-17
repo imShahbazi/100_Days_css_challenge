@@ -37,6 +37,9 @@ body{
 .div4{
     animation: move 10s steps(1) infinite;
 }
+.div3{
+    animation: move 100s steps(1) infinite;
+}
 span{
     width: 100%;
     text-align: center;
