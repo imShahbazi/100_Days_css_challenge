@@ -85,6 +85,9 @@ label{
     border-style: solid;
     border-width: 35px 0px 35px 70px;
     border-color: transparent transparent transparent #ffffff;
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.5s;
 }
 #ch:checked ~ .frame div{
     animation-play-state: paused;
@@ -92,6 +95,10 @@ label{
 #ch:checked ~ label .paus{
     transform: scale(0);
     opacity: 0;
+}
+#ch:checked ~ label .play{
+    transform: scale(1);
+    opacity: 1;
 }
 @keyframes move{
     0%{
