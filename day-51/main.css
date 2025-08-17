@@ -54,6 +54,9 @@ span{
     text-align: center;
     display: block;
 }
+label{
+    cursor: pointer;
+}
 .paus{
     width: 50px;
     height: 50px;
@@ -69,6 +72,9 @@ span{
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+#ch:checked ~ .frame div{
+    animation-play-state: paused;
 }
 @keyframes move{
     0%{
