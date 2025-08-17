@@ -28,6 +28,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-inline: 2rem;
+    overflow: hidden;
 }
 .frame div{
     font-size: 5rem;
