@@ -14,3 +14,10 @@ body{
     background-color: #313C46;
     height: 100vh;
 }
+.frame{
+    display: flex;
+    width: 40%;
+    height: 20%;
+    background-color: white;
+    border-radius: 5px;
+}
