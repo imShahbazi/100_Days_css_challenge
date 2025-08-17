@@ -34,6 +34,9 @@ body{
     color: #478BB8;
     transform: translateY(30.5rem);
 }
+.div4{
+    animation: move 10s steps(1) infinite;
+}
 span{
     width: 100%;
     text-align: center;
@@ -43,31 +46,31 @@ span{
     0%{
         transform: translateY(30.5rem);
     }
-    11%{
+    10%{
         transform: translateY(23.7rem);
     }
-    22%{
+    20%{
         transform: translateY(16.9rem);
     }
-    33%{
+    30%{
         transform: translateY(10.1rem);
     }
-    44%{
+    40%{
         transform: translateY(3.3rem);
     }
-    55%{
+    50%{
         transform: translateY(-3.5rem);
     }
-    66%{
+    60%{
         transform: translateY(-10.3rem);
     }
-    77%{
+    70%{
         transform: translateY(-17.1rem);
     }
-    88%{
+    80%{
         transform: translateY(-23.9rem);
     }
-    99%{
+    90%{
         transform: translateY(-30.7rem);
     }
 }
