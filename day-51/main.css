@@ -21,8 +21,15 @@ body{
 }
 .frame{
     display: flex;
-    width: 40%;
+    width: 20%;
     height: 20%;
     background-color: white;
     border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2rem;
+}
+.frame div{
+    font-size: 5rem;
+    color: #478BB8;
 }
