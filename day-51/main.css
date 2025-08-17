@@ -39,3 +39,35 @@ span{
     text-align: center;
     display: block;
 }
+@keyframes move{
+    0%{
+        transform: translateY(30.5rem);
+    }
+    11%{
+        transform: translateY(23.7rem);
+    }
+    22%{
+        transform: translateY(16.9rem);
+    }
+    33%{
+        transform: translateY(10.1rem);
+    }
+    44%{
+        transform: translateY(3.3rem);
+    }
+    55%{
+        transform: translateY(-3.5rem);
+    }
+    66%{
+        transform: translateY(-10.3rem);
+    }
+    77%{
+        transform: translateY(-17.1rem);
+    }
+    88%{
+        transform: translateY(-23.9rem);
+    }
+    99%{
+        transform: translateY(-30.7rem);
+    }
+}
