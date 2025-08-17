@@ -43,6 +43,9 @@ body{
 .div2{
     animation: move 1000s steps(1) infinite;
 }
+.div1{
+    animation: move 10000s steps(1) infinite;
+}
 span{
     width: 100%;
     text-align: center;
