@@ -54,6 +54,22 @@ span{
     text-align: center;
     display: block;
 }
+.paus{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+}
+.paus::before{
+    width: 20px;
+    height: 100%;
+    background-color: #313C46;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
 @keyframes move{
     0%{
         transform: translateY(30.5rem);
