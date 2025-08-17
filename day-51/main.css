@@ -21,8 +21,8 @@ body{
 }
 .frame{
     display: flex;
-    width: 20%;
-    height: 20%;
+    width: 400px;
+    height: 5rem;
     background-color: white;
     border-radius: 5px;
     justify-content: space-between;
@@ -32,4 +32,10 @@ body{
 .frame div{
     font-size: 5rem;
     color: #478BB8;
+    transform: translateY(30.5rem);
+}
+span{
+    width: 100%;
+    text-align: center;
+    display: block;
 }
