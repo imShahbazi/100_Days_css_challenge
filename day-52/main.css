@@ -17,8 +17,29 @@ body{
 .ring {
     border-radius: 100%;
     border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 .ring1{
     width: 150px;
     height: 150px;
+}
+.circle{
+    position: absolute;
+    height: 100%;
+    width: 34px;
+}
+.circle::before,.circle::after{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: white;
+    border-radius: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+}
+.circle::after{
+    top: 100%;
 }
