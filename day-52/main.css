@@ -14,3 +14,11 @@ body{
     height: 100vh;
     background-color: #27ae60;
 }
+.ring {
+    border-radius: 100%;
+    border: 1px solid white;
+}
+.ring1{
+    width: 150px;
+    height: 150px;
+}
