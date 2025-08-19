@@ -16,7 +16,6 @@ body{
 }
 .ring {
     border-radius: 100%;
-    border: 1px solid white;
     display: flex;
     justify-content: center;
     position: relative;
@@ -30,7 +29,7 @@ body{
     height: 100%;
     width: 34px;
 }
-.circle::before,.circle::after{
+.circle::before{
     width: 100%;
     aspect-ratio: 1/1;
     background-color: white;
@@ -38,8 +37,23 @@ body{
     content: '';
     position: absolute;
     top: 0;
-    transform: translateY(-50%);
 }
 .circle::after{
-    top: 100%;
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: white;
+    border-radius: 100%;
+    content: '';
+    position: absolute;
+    bottom: 0;
+}
+.circle1-2{
+    transform: rotate(-90deg);
+}
+.circle1-3{
+    transform: rotate(-45deg);
+}
+
+.circle1-4{
+    transform: rotate(-135deg);
 }
