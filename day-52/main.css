@@ -65,6 +65,7 @@ body{
     content: '';
     position: absolute;
     top: 0;
+    transform: scale(0);
 }
 .circle::after{
     width: 100%;
@@ -74,6 +75,7 @@ body{
     content: '';
     position: absolute;
     bottom: 0;
+    transform: scale(0);
 }
 .circle1-2,.circle2-2,.circle3-2,.circle4-2{
     transform: rotate(-90deg);
@@ -167,4 +169,38 @@ body{
 }
 .circle8-32{
     transform: rotate(-174.375deg);
+}
+.circle1::before,.circle1::after{
+    animation: circle 5s infinite;
+}
+.circle2::before,.circle2::after{
+    animation: circle 5s infinite 1s;
+}
+.circle3::before,.circle3::after{
+    animation: circle 5s infinite 2s;
+}
+.circle4::before,.circle4::after{
+    animation: circle 5s infinite 3s;
+}
+.circle5::before,.circle5::after{
+    animation: circle 5s infinite 4s;
+}
+.circle6::before,.circle6::after{
+    animation: circle 5s infinite 5s;
+}
+.circle7::before,.circle7::after{
+    animation: circle 5s infinite 6s;
+}
+.circle8::before,.circle8::after{
+    animation: circle 5s infinite 7s;
+}
+@keyframes circle{
+    0%,100%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%,70%{
+        transform: scale(1);
+        opacity: 1;
+    }
 }
