@@ -48,6 +48,10 @@ body{
     width: 750px;
     height: 750px;
 }
+.ring8{
+    width: 850px;
+    height: 850px;
+}
 .circle{
     position: absolute;
     height: 100%;
