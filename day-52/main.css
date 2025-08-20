@@ -51,13 +51,25 @@ body{
     position: absolute;
     bottom: 0;
 }
-.circle1-2{
+.circle1-2,.circle2-2{
     transform: rotate(-90deg);
 }
-.circle1-3{
+.circle1-3,.circle2-3{
     transform: rotate(-45deg);
 }
 
-.circle1-4{
+.circle1-4,.circle2-4{
     transform: rotate(-135deg);
+}
+.circle2-5{
+    transform: rotate(-22.5deg);
+}
+.circle2-6{
+    transform: rotate(-67.5deg);
+}
+.circle2-7{
+    transform: rotate(-112.5deg);
+}
+.circle2-8{
+    transform: rotate(-157.5deg);
 }
