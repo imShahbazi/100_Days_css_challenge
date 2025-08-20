@@ -18,11 +18,15 @@ body{
     border-radius: 100%;
     display: flex;
     justify-content: center;
-    position: relative;
+    position: absolute;
 }
 .ring1{
     width: 150px;
     height: 150px;
+}
+.ring2{
+    width: 250px;
+    height: 250px;
 }
 .circle{
     position: absolute;
