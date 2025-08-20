@@ -40,6 +40,10 @@ body{
     width: 550px;
     height: 550px;
 }
+.ring6{
+    width: 650px;
+    height: 650px;
+}
 .circle{
     position: absolute;
     height: 100%;
