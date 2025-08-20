@@ -36,6 +36,10 @@ body{
     width: 450px;
     height: 450px;
 }
+.ring5{
+    width: 550px;
+    height: 550px;
+}
 .circle{
     position: absolute;
     height: 100%;
