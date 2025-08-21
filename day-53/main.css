@@ -22,10 +22,21 @@ body{
 }
 .frame input{
     width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
 }
 .frame input::-webkit-slider-runnable-track{
     background-color: #7AD100;
     border: none;
     border-radius: 999px;
-    height: 10px;
+    height: 5px;
+}
+.frame input::-webkit-slider-thumb{
+    border: 3px solid #7AD100;
+    -webkit-appearance: none;
+    width:34px;
+    height:34px;
+    border-radius: 100%;
+    background: white url("./img/slider-thumb.png") center center no-repeat;
+    transform: translateY(-43%);
 }
