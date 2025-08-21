@@ -23,3 +23,9 @@ body{
 .frame input{
     width: 100%;
 }
+.frame input::-webkit-slider-runnable-track{
+    background-color: #7AD100;
+    border: none;
+    border-radius: 999px;
+    height: 10px;
+}
