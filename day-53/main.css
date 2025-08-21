@@ -14,3 +14,12 @@ body{
     height: 100vh;
     background-color: #506172;
 }
+.frame{
+    background-color: white;
+    padding: 1rem;
+    width: 40%;
+    border-radius: 10px;
+}
+.frame input{
+    width: 100%;
+}
