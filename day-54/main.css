@@ -13,3 +13,9 @@ body{
     align-items: center;
     height: 100vh;
 }
+.frame{
+    background-color: #263A4D;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
