@@ -29,6 +29,9 @@ body{
     top: -40px;
 }
 .circle1{
+    background-color: #406384;
+}
+.circle1M{
     background-color: #263A4D;
 }
 .wave{
@@ -39,4 +42,8 @@ body{
 .wave1{
     background-color: #406384;
     height: 40%;
+}
+.wave2{
+    background-color: #5D90BF;
+    height: 25%;
 }
