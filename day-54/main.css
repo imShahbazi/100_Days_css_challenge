@@ -56,3 +56,11 @@ body{
     background-color: #7EB3E6;
     height: 10%;
 }
+@keyframes move{
+    0%,100%{
+        left: -100px;
+    }
+    50%{
+        left: 0;
+    }
+}
