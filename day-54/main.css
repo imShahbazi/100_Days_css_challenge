@@ -55,8 +55,9 @@ body{
 .wave3{
     background-color: #7EB3E6;
     height: 10%;
+    animation: move3 5s infinite linear;
 }
-@keyframes move{
+@keyframes move3{
     0%,100%{
         left: -100px;
     }
