@@ -36,6 +36,9 @@ body{
 .circleColor2{
     background-color: #5D90BF;
 }
+.circleColor3{
+    background-color: #7EB3E6;
+}
 .wave{
     position: absolute;
     bottom: 0;
@@ -48,4 +51,8 @@ body{
 .wave2{
     background-color: #5D90BF;
     height: 25%;
+}
+.wave3{
+    background-color: #7EB3E6;
+    height: 10%;
 }
