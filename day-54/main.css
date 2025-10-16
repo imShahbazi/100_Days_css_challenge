@@ -1,0 +1,77 @@
+/*
+date:23 August 2025
+author: Ali Shahbazi
+github: https://www.github.com/imShahbazi 
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.frame{
+    background-color: #263A4D;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    position: relative;
+    top: -40px;
+}
+.circleColor1{
+    background-color: #406384;
+}
+.circleColor1M{
+    background-color: #263A4D;
+}
+.circleColor2{
+    background-color: #5D90BF;
+}
+.circleColor3{
+    background-color: #7EB3E6;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+.wave1{
+    background-color: #406384;
+    height: 40%;
+    animation: move1 5s infinite linear;
+}
+.wave2{
+    background-color: #5D90BF;
+    height: 25%;
+    animation: move2 5s infinite linear;
+}
+.wave3{
+    background-color: #7EB3E6;
+    height: 10%;
+    animation: move1 5s infinite linear;
+}
+@keyframes move1{
+    0%,100%{
+        left: -100px;
+    }
+    50%{
+        left: 0;
+    }
+}
+@keyframes move2{
+        0%,100%{
+        left: 0px;
+    }
+    50%{
+        left: -100px;
+    }
+}
