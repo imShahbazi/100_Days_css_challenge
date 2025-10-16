@@ -23,16 +23,18 @@ body{
 .circle{
     width: 70px;
     height: 70px;
-    background-color: #406384;
     border-radius: 70px;
     position: relative;
     top: -40px;
 }
-.circle1{
+.circleColor1{
     background-color: #406384;
 }
-.circle1M{
+.circleColor1M{
     background-color: #263A4D;
+}
+.circleColor2{
+    background-color: #5D90BF;
 }
 .wave{
     position: absolute;
