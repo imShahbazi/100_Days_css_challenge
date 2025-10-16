@@ -18,4 +18,25 @@ body{
     width: 500px;
     height: 500px;
     position: relative;
+    overflow: hidden;
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    background-color: #406384;
+    border-radius: 70px;
+    position: relative;
+    top: -40px;
+}
+.circle1{
+    background-color: #263A4D;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+.wave1{
+    background-color: #406384;
+    height: 40%;
 }
