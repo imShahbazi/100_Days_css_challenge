@@ -47,21 +47,31 @@ body{
 .wave1{
     background-color: #406384;
     height: 40%;
+    animation: move1 5s infinite linear;
 }
 .wave2{
     background-color: #5D90BF;
     height: 25%;
+    animation: move2 5s infinite linear;
 }
 .wave3{
     background-color: #7EB3E6;
     height: 10%;
-    animation: move3 5s infinite linear;
+    animation: move1 5s infinite linear;
 }
-@keyframes move3{
+@keyframes move1{
     0%,100%{
         left: -100px;
     }
     50%{
         left: 0;
+    }
+}
+@keyframes move2{
+        0%,100%{
+        left: 0px;
+    }
+    50%{
+        left: -100px;
     }
 }
