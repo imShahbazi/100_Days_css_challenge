@@ -12,9 +12,15 @@ body{
 }
 .frame{
     background-color: white;
-    width: 40%;
+    width: 37%;
     min-width: 300px;
     aspect-ratio: 1/1;
     border-radius: 999px;
-    padding: 2px;
+    padding: 2%;
+}
+.background{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-image: linear-gradient(to right , #672b95,#ce2e5f);
+    border-radius: 999px;
 }
