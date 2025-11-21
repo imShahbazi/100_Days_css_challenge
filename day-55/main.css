@@ -8,4 +8,13 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #2B4147;
+    height: 100vh;
+}
+.frame{
+    background-color: white;
+    width: 40%;
+    min-width: 300px;
+    aspect-ratio: 1/1;
+    border-radius: 999px;
+    padding: 2px;
 }
