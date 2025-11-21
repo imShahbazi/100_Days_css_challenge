@@ -3,3 +3,9 @@ date:21 November 2025
 author: Ali Shahbazi
 github: https://www.github.com/imShahbazi   
 */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B4147;
+}
