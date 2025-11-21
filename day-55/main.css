@@ -69,6 +69,8 @@ body{
     justify-content: start;
     align-items: center;
     transform: rotate(40deg);
+    z-index: 20;
+    transition: 1s;
 }
 .degree div{
     background-color: #6C6C6C;
@@ -86,16 +88,41 @@ body{
     font-size: 2rem;
     color: #7a7a7a;
 }
-.data .temp{
-    color: #873183;
-    font-size: 8rem;
-    position: relative;
-    font-weight: bold;
-}
 span{
     font-size: 2rem;
     display: inline-block;
     position: absolute;
     top: 10px;
     font-weight: bold;
+}
+.data .temp{
+    color: #873183;
+    font-size: 8rem;
+    font-weight: bold;
+    transition: 1s;
+    position: relative;
+    left: 0;
+}
+.tempContainer{
+    position: relative;
+}
+.data .temp2{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    opacity: 0;
+    transform: scale(0);
+}
+.degree:hover{
+    transform: rotate(60deg);
+}
+.degree:hover~.data .tempContainer .temp2{
+    opacity: 1;
+    left: 0;
+    transform: scale(1);
+}
+.degree:hover~.data .tempContainer .temp1{
+    opacity: 0;
+    transform: scale(0);
+    left: -100%;
 }
