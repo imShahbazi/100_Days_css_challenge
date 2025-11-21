@@ -47,4 +47,22 @@ body{
     box-shadow: 0 10px 20px rgb(120,120,120);
     position: relative;
     z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.degree{
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: absolute;
+    border-radius: 999px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transform: rotate(40deg);
+}
+.degree div{
+    background-color: #6C6C6C;
+    width: 10%;
+    height: 5px;
 }
