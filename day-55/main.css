@@ -25,6 +25,10 @@ body{
     border-radius: 999px;
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 20px black;
 }
 .whiteArea{
     width: 70%;
@@ -34,4 +38,13 @@ body{
     bottom: 0;
     left: 50%;
     transform: translate(-50%,50%) rotate(45deg);
+}
+.info{
+    background-color: white;
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 999px;
+    box-shadow: 0 10px 20px rgb(120,120,120);
+    position: relative;
+    z-index: 10;
 }
