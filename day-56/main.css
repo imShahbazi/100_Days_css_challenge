@@ -13,6 +13,7 @@ body{
     align-items: center;
     background-color: #16A078;
     height: 100vh;
+    overflow: hidden;
 }
 .center{
     width: 100px;
