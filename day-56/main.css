@@ -31,25 +31,64 @@ body{
     transform-origin: 100% bottom;
     bottom: 45%;
     right: 45%;
+    z-index: 2;
+    scale: 1;
 }
 .leaf2{
-    transform: rotate(45deg);
+    rotate:45deg;
 }
 .leaf3{
-    transform: rotate(90deg);
+    rotate:90deg;
 }
 .leaf4{
-    transform: rotate(135deg);
+    rotate:135deg;
 }
 .leaf5{
-    transform: rotate(180deg);
+    rotate:180deg;
 }
 .leaf6{
-    transform: rotate(225deg);
+    rotate:225deg;
 }
 .leaf7{
-    transform: rotate(270deg);
+    rotate:270deg;
 }
 .leaf8{
-    transform: rotate(315deg);
+    rotate:315deg;
+}
+.bigLeaf{
+    position: absolute;
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    border-radius: 4px 180px;
+    transform-origin: 100% bottom;
+    bottom: 45%;
+    right: 45%;
+    opacity: 0.7;
+    z-index: 1;
+    scale: 1;
+}
+.bigLeaf1{
+    rotate:22.5deg
+}
+.bigLeaf2{
+    rotate:68deg
+}
+.bigLeaf3{
+    rotate:113deg
+}
+.bigLeaf4{
+    rotate:158deg
+}
+.bigLeaf5{
+    rotate:203deg
+}
+.bigLeaf6{
+    rotate:248deg
+}
+.bigLeaf7{
+    rotate:293deg
+}
+.bigLeaf8{
+    rotate:338deg
 }
