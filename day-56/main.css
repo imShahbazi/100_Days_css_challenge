@@ -18,6 +18,10 @@ body{
     width: 100px;
     height: 100px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 8s infinite;
 }
 .leaf{
     position: absolute;
@@ -26,10 +30,11 @@ body{
     height: 100px;
     border-radius: 8px 200px;
     transform-origin: 100% bottom;
-    bottom: 45%;
-    right: 45%;
+    bottom: 50%;
+    right: 50%;
     z-index: 2;
     scale: 1;
+    animation: big 8s infinite;
 }
 .leaf2{
     rotate:45deg;
@@ -59,11 +64,12 @@ body{
     height: 180px;
     border-radius: 4px 180px;
     transform-origin: 100% bottom;
-    bottom: 45%;
-    right: 45%;
+    bottom: 50%;
+    right: 50%;
     opacity: 0.7;
     z-index: 1;
     scale: 0;
+    animation: bigLeaf 8s infinite;
 }
 .bigLeaf1{
     rotate:22.5deg
@@ -96,6 +102,32 @@ body{
     position: absolute;
     z-index: 10;
     border-radius: 999px;
-    right: 21%;
-    bottom: 21%;
+    animation: big 8s infinite;
+}
+@keyframes big{
+    0%,100%{
+        scale: 1;
+    }
+    50%,70%{
+        scale: 2;
+    }
+}
+@keyframes bigLeaf {
+    0%,100%{
+        scale: 0;
+    }
+    50%,70%{
+        scale: 2;
+    }
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    50%,70%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
