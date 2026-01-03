@@ -9,3 +9,12 @@ body{
     background-color: #2c3e50;
     height: 100vh;
 }
+.frame{
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    width: 15%;
+    height: 40%;
+    background-color: white;
+    transform: rotateX(-40deg) rotateY(-40deg);
+    position: relative;
+}
