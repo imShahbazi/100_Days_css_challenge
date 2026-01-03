@@ -12,9 +12,14 @@ body{
 .frame{
     perspective: 1000px;
     transform-style: preserve-3d;
-    width: 15%;
-    height: 40%;
-    background-color: white;
+    width: 160px;
+    height: 280px;
     transform: rotateX(-40deg) rotateY(-40deg);
     position: relative;
+}
+.side{
+    border-style: solid;
+    border-width: 0 80px 138.56px 80px;
+    border-color: transparent transparent white transparent;
+    position: absolute;
 }
