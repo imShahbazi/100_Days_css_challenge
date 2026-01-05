@@ -9,20 +9,109 @@ github: https://www.github.com/imShahbazi
 }
 body{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #D33526;
     overflow: hidden;
 }
+.frame{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+}
 .circle{
     aspect-ratio: 1/1;
     background-color: white;
-    border-radius: 100%;
-    transform-style: preserve-3d;
-    transform: rotateX(-70deg);
+    border-radius: 999px;
+    position: absolute;
+    border: 2px solid #D33526;
 }
 .circle1{
-    width: 10%;
+    width: 140px;
+    transform: rotateX(70deg) translateY(-400px);
+    z-index: 50;
+}
+.circle2{
+    width: 220px;
+    z-index: 49;
+    transform: rotateX(70deg) translateY(-350px);
+}
+.circle3{
+    width: 290px;
+    z-index: 48;
+    transform: rotateX(70deg) translateY(-300px);
+}
+.circle4{
+    width: 350px;
+    z-index: 47;
+    transform: rotateX(70deg) translateY(-250px);
+}
+.circle5{
+    width: 400px;
+    z-index: 46;
+    transform: rotateX(70deg) translateY(-200px);
+}
+.circle6{
+    width: 440px;
+    z-index: 45;
+    transform: rotateX(70deg) translateY(-150px);
+}
+.circle7{
+    width: 470px;
+    z-index: 44;
+    transform: rotateX(70deg) translateY(-100px);
+}
+.circle8{
+    width: 490px;
+    z-index: 43;
+    transform: rotateX(70deg) translateY(-50px);
+}
+.circle9{
+    width: 500px;
+    z-index: 42;
+    transform: rotateX(70deg) translateY(0);
+}
+.circle10{
+    width: 490px;
+    z-index: 41;
+    transform: rotateX(70deg) translateY(50px);
+}
+.circle11{
+    width: 470px;
+    z-index: 40;
+    transform: rotateX(70deg) translateY(100px);
+}
+.circle12{
+    width: 440px;
+    z-index: 39;
+    transform: rotateX(70deg) translateY(150px);
+}
+.circle13{
+    width: 400px;
+    z-index: 38;
+    transform: rotateX(70deg) translateY(200px);
+}
+.circle14{
+    width: 350px;
+    z-index: 37;
+    transform: rotateX(70deg) translateY(250px);
+}
+.circle15{
+    width: 290px;
+    z-index: 36;
+    transform: rotateX(70deg) translateY(300px);
+}
+.circle16{
+    width: 220px;
+    z-index: 35;
+    transform: rotateX(70deg) translateY(350px);
+}
+.circle17{
+    width: 140px;
+    transform: rotateX(70deg) translateY(400px);
+    z-index: 34;
 }
