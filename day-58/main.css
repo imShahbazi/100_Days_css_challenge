@@ -9,9 +9,20 @@ github: https://www.github.com/imShahbazi
 }
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #D33526;
     overflow: hidden;
+}
+.circle{
+    aspect-ratio: 1/1;
+    background-color: white;
+    border-radius: 100%;
+    transform-style: preserve-3d;
+    transform: rotateX(-70deg);
+}
+.circle1{
+    width: 10%;
 }
