@@ -17,7 +17,7 @@ body{
 }
 .frame{
     position: relative;
-    width: 100%;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,73 +32,73 @@ body{
 }
  .circle1{
     width: 140px;
-    animation: cirlce1 10s infinite;
+    animation: cirlce1 7s infinite;
 }
 .circle2{
     width: 220px;
-    animation: cirlce2 10s infinite;
+    animation: cirlce2 7s infinite;
 }
 .circle3{
     width: 290px;
-    animation: cirlce3 10s infinite;
+    animation: cirlce3 7s infinite;
 }
 .circle4{
     width: 350px;
-    animation: cirlce4 10s infinite;
+    animation: cirlce4 7s infinite;
 }
 .circle5{
     width: 400px;
-    animation: cirlce5 10s infinite;
+    animation: cirlce5 7s infinite;
 }
 .circle6{
     width: 440px;
-    animation: cirlce6 10s infinite;
+    animation: cirlce6 7s infinite;
 }
 .circle7{
     width: 470px;
-    animation: cirlce7 10s infinite;
+    animation: cirlce7 7s infinite;
 }
 .circle8{
     width: 490px;
-    animation: cirlce8 10s infinite;
+    animation: cirlce8 7s infinite;
 }
 .circle9{
     width: 500px;
     z-index: 42;
     transform: rotateX(70deg) translateY(0);
-    animation: circle9 10s infinite;
+    animation: circle9 7s infinite;
 }
 .circle10{
     width: 490px;
-    animation: circle10 10s infinite;
+    animation: circle10 7s infinite;
 }
 .circle11{
     width: 470px;
-    animation: circle11 10s infinite;
+    animation: circle11 7s infinite;
 }
 .circle12{
     width: 440px;
-    animation: circle12 10s infinite;
+    animation: circle12 7s infinite;
 }
 .circle13{
     width: 400px;
-    animation: circle13 10s infinite;
+    animation: circle13 7s infinite;
 }
 .circle14{
     width: 350px;
-    animation: circle14 10s infinite;
+    animation: circle14 7s infinite;
 }
 .circle15{
     width: 290px;
-    animation: circle15 10s infinite;
+    animation: circle15 7s infinite;
 }
 .circle16{
     width: 220px;
-    animation: circle16 10s infinite;
+    animation: circle16 7s infinite;
 }
 .circle17{
     width: 140px;
-    animation: circle17 10s infinite;
+    animation: circle17 7s infinite;
 }
  @keyframes circle9{
     0%,100%{
